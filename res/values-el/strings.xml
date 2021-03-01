@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string name="app_name">EPG</string>
+<string name="channel_list_name">Όνομα καναλιού</string>
+<string name="str_loading_title">Φόρτωση δεδομένων ...</string>
+<string name="str_bottom_record">Εγγραφή</string>
+<string name="str_bottom_reminder">Υπενθύμιση</string>
+<string name="str_bottom_playing">Αναπαραγωγή</string>
+<string name="str_bottom_recording">Έγινε εγγραφή</string>
+<string name="str_bottom_reminding">Υπενθύμιση</string>
+<string name="str_pick_title">Εγγραφή</string>
+<string name="str_pick_month">Δευτ.</string>
+<string name="str_pick_day">Ημέρα</string>
+<string name="str_pick_hour">Ώρα</string>
+<string name="str_pick_minute">λεπτά</string>
+<string name="str_pick_confirm">Πατήστε OK για επιβεβαίωση</string>
+<string name="str_pick_cancel">Ακυρώθηκε!</string>
+<string name="str_pick_success">Επιτυχία!</string>
+<string name="str_pick_max">Η ζητούμενη προσθήκη προγραμμάτων υπερβαίνει το μέγιστο όριο!</string>
+<string name="str_pick_past">Πέτυχε!</string>
+<string name="str_pick_fail">Απέτυχε!</string>
+<string name="str_pick_insert_usb">Ο δίσκος δεν είναι έτοιμος! Εισαγάγετε τη συσκευή USB!</string>
+<string name="str_main_no_data">Δεν υπάρχουν δεδομένα προγράμματος, δεν είναι δυνατή η εγγραφή</string>
+<string name="str_pick_start_time_error">Σφάλμα ώρας έναρξης! Η ώρα τώρα είναι πριν από την τρέχουσα ώρα</string>
+<string name="str_pick_start_time_conflict">Διένεξη ώρας!</string>
+<string name="str_pick_end_time_error">Σφάλμα χρόνου λήξης! Η ώρα τώρα είναι μετά την ώρα λήξης</string>
+<string name="epg_bottom_prev_day">Προηγούμενη ημέρα</string>
+<string name="epg_bottom_next_day">Επόμ. μέρα</string>
+<string name="epg_bottom_view_detail">Εμφάνιση λεπτομερειών</string>
+<string name="epg_bottom_type_filter">Τύπος φίλτρου</string>
+<string name="epg_bottom_prev_page">Σελίδα επάνω</string>
+<string name="epg_bottom_next_page">Σελίδα κάτω</string>
+<string name="epg_bottom_ENTER">ENTER</string>
+<string name="epg_bottom_0">0</string>
+<string name="epg_rating_unclassified">Χωρίς ταξινόμηση</string>
+<string name="epg_info_program_type">Καμία</string>
+<string name="epg_password">Κωδικός πρόσβασης</string>
+<string name="epg_password_message">Ο κωδικός πρόσβασης είναι λάθος</string>
+<string name="epg_retrieving_show">Ανάκτηση δεδομένων...</string>
+<string name="nav_epg_January">Ιανουάριος</string>
+<string name="nav_epg_February">Φεβρουάριος</string>
+<string name="nav_epg_March">Μάρτιος</string>
+<string name="nav_epg_April">Απρίλιος</string>
+<string name="nav_epg_May">Μαι</string>
+<string name="nav_epg_June">Ιούνιος</string>
+<string name="nav_epg_July">Ιούλιος</string>
+<string name="nav_epg_August">Αύγουστος</string>
+<string name="nav_epg_September">Σεπτέμβριος</string>
+<string name="nav_epg_October">Οκτώβριος</string>
+<string name="nav_epg_November">Νοέμβριος</string>
+<string name="nav_epg_December">Δεκέμβριος</string>
+<string name="nav_epg_Jan">Ιαν</string>
+<string name="nav_epg_Feb">Φεβ</string>
+<string name="nav_epg_Mar">Μαρ</string>
+<string name="nav_epg_Apr">Απρ</string>
+<string name="nav_epg_may">Μαι</string>
+<string name="nav_epg_Jun">Ιουν</string>
+<string name="nav_epg_Jul">Ιουλ</string>
+<string name="nav_epg_Aug">Αυγ</string>
+<string name="nav_epg_Sep">Σεπ</string>
+<string name="nav_epg_Oct">Οκτ</string>
+<string name="nav_epg_Nov">Νοέμ.</string>
+<string name="nav_epg_Dec">Δεκ</string>
+<string name="nav_epg_Sunday">Κυριακή</string>
+<string name="nav_epg_Monday">Δευτέρα</string>
+<string name="nav_epg_Tuesday">Τρίτη</string>
+<string name="nav_epg_Wednesday">Τετάρτη</string>
+<string name="nav_epg_Thursday">Πέμπτη</string>
+<string name="nav_epg_Friday">Παρασκευή</string>
+<string name="nav_epg_Saturday">Σάββατο</string>
+<string name="nav_epg_Sun">Κυριακή</string>
+<string name="nav_epg_Mon">Δευτ.</string>
+<string name="nav_epg_Tue">Τρίτη</string>
+<string name="nav_epg_Wed">Τετάρ.</string>
+<string name="nav_epg_Thur">Πέμπτη</string>
+<string name="nav_epg_Fri">Παρασ.</string>
+<string name="nav_epg_Sat">Σάββ.</string>
+<string name="nav_MOVIE">Ταινία/Δράμα</string>
+<string name="nav_NEWS">Νέα/Επικαιρότητα</string>
+<string name="nav_SHOW">Σόου/Τηλεπαιχνίδια</string>
+<string name="nav_SPORTS">Sports</string>
+<string name="nav_Sports">αθλητισμός (γενικά)</string>
+<string name="nav_CHILDRENS">παιδικά\ /νεανικά προγράμματα</string>
+<string name="nav_MUSIC">Μουσική/Μπαλέτο/Χορός</string>
+<string name="nav_ARTS">Τέχνες/Πολιτισ. (χωρίς μουσική)</string>
+<string name="nav_SOCIAL">Κοινωνικά/Πολιτικά/Οικονομικά</string>
+<string name="nav_EDUCATION">Εκπαίδευση/Επιστήμη/Επικαιρότητα</string>
+<string name="nav_LEISURE">Χόμπυ</string>
+<string name="nav_SPECIAL">Ειδικά χαρακτηριστικά</string>
+<string name="nav_CHILDREN">ΠΑΙΔΙΑ</string>
+<string name="nav_EROTIC">ΕΡΩΤΙΚΟ</string>
+<string name="nav_RA_TE_SA_PR">RA_TE_SA_PR</string>
+<string name="nav_DEBATE_INTERVIEW">DEBATE_INTERVIEW</string>
+<string name="nav_OTHER">ΆΛΛΟ</string>
+<string name="nav_ENTERTAINMENT">ΨΥΧΑΓΩΓΊΑ</string>
+<string name="nav_CURRENT_AFFAIRS">ΕΠΙΚΑΙΡΟΤΗΤΑ</string>
+<string name="nav_INFOTAINMENT">ΨΥΧΑΓΩΓΙΑ ΚΑΙ ΕΝΗΜΕΡΩΣΗ</string>
+<string name="nav_COMEDY">ΚΩΜΩΔΊΑ</string>
+<string name="nav_DRAMA">ΔΡΑΜΑ</string>
+<string name="nav_DOCUMENTARY">ΝΤΟΚΙΜΑΝΤΈΡ</string>
+<string name="nav_NEWS_AND_FACTUAL">NEWS AND FACTUAL</string>
+<string name="nav_SPORT">ΑΘΛΗΤΙΚΆ</string>
+<string name="nav_LIFESTYLE">LIFESTYLE</string>
+<string name="nav_SOAP_OPERA">ΣΑΠΟΥΝΟΠΕΡΑ</string>
+<string name="nav_MINI_SERIES">ΜΙΝΙ_ΣΕΡΙΕΣ</string>
+<string name="nav_SERIES">ΣΕΙΡΆ</string>
+<string name="nav_VARIETY">ΠΟΙΚΙΛΊΑ</string>
+<string name="nav_REALITY_SHOW">ΡΙΑΛΙΤΙ</string>
+<string name="nav_INFORMATION">ΠΛΗΡΟΦΟΡΙΕΣ</string>
+<string name="nav_COMICAL">ΚΩΜΙΚΟ</string>
+<string name="nav_Drama">ταινίες/δράμα (γενικά)</string>
+<string name="nav_Detective">αστυνομικά/θρίλερ</string>
+<string name="nav_Adventure">περιπέτεια/γουέστερν/πολεμικά</string>
+<string name="nav_Science_Fiction">επιστημονική φαντασία/φανταστικά/τρόμου</string>
+<string name="nav_Comedy">κωμωδία</string>
+<string name="nav_Soap">σαπουνόπερες/μελόδραμα/λαογραφικό</string>
+<string name="nav_Romance">ειδύλλιο</string>
+<string name="nav_Serious">σοβαρή/κλασική/θρησκευτική/ιστορική ταινία/δράμα</string>
+<string name="nav_Serious_Music">σοβαρή μουσική/κλασσική μουσική</string>
+<string name="nav_Adult_Movie">για ενήλικες/δράμα</string>
+<string name="nav_Current_Affairs">νέα/επικαιρότητα (γενικά)</string>
+<string name="nav_Weather_Report">νέα/καιρικές συνθήκες</string>
+<string name="nav_News_Magazine">ενημερωτικό μαγκαζίνο</string>
+<string name="nav_Documentary">ντοκιμαντέρ</string>
+<string name="nav_Discussion">συζήτηση/συνέντευξη/αντιπαράθεση</string>
+<string name="nav_News">Νέα</string>
+<string name="nav_Report">Αναφορά</string>
+<string name="nav_Biography">Βιογραφία</string>
+<string name="nav_Show">σόου/τηλεπαιχνίδια (γενικά)</string>
+<string name="nav_Game_Show">τηλεπαιχνίδια/κουίζ/διαγωνισμοί</string>
+<string name="nav_Variety_Show">βαριετέ</string>
+<string name="nav_Talk_Show">τοκ σόου</string>
+<string name="nav_Special_Events">ειδικές εκδηλώσεις (Ολυμπιακοί αγώνες, Παγκόσμιο πρωτάθλημα, κ.λπ.)</string>
+<string name="nav_Sports_Magazines">αθλητικά περιοδικά</string>
+<string name="nav_Football">αμερικάνικο ποδόσφαιρο/ποδόσφαιρο</string>
+<string name="nav_Tennis">τένις/σκουός</string>
+<string name="nav_Team_Sports">ομαδικά αθλήματα (εκτός από Αμερικάνικο ποδόσφαιρο)</string>
+<string name="nav_Athletics">αθλητισμός</string>
+<string name="nav_Motor_Sport">μηχανοκίνητα σπορ</string>
+<string name="nav_Water_Sport">θαλάσσια σπορ</string>
+<string name="nav_Winter_Sport">χειμερινά σπορ</string>
+<string name="nav_Equestrian">ιππασία</string>
+<string name="nav_Martial_Sports">πολεμικά αθλήματα</string>
+<string name="nav_Children">παιδικά\ /νεανικά προγράμματα</string>
+<string name="nav_Preschool_children">προσχολικά\παιδικά προγράμματα</string>
+<string name="nav_Entertainment_for_6_to_14">ψυχαγωγικά προγράμματα για ηλικίες 6 έως 14</string>
+<string name="nav_Entertainment_for_10_to_16">ψυχαγωγικά προγράμματα για ηλικίες 10 έως 16</string>
+<string name="nav_Informational">ενημερωτικά/εκπαιδευτικά/σχολικά προγράμματα</string>
+<string name="nav_Cartoons">κινούμενα σχέδια/κουκλοθέατρο</string>
+<string name="nav_Music">μουσική/μπαλέτο/χορός (γενικά)</string>
+<string name="nav_Rock">ροκ/ποπ</string>
+<string name="nav_Folk">λαογραφική/παραδοσιακή μουσική</string>
+<string name="nav_Jazz">τζαζ</string>
+<string name="nav_Musical">μιούζικαλ/όπερα</string>
+<string name="nav_Ballet">μπαλέτο</string>
+<string name="nav_Arts">τέχνες/πολιτισ. (χωρίς μουσική)</string>
+<string name="nav_Performing_Arts">ερμηνευτικές τέχνες</string>
+<string name="nav_Fine_Arts">καλές τέχνες</string>
+<string name="nav_Religion">θρησκεία</string>
+<string name="nav_Popular_culture">δημοφιλή κουλτούρα/παραδοσιακές τέχνες</string>
+<string name="nav_Literature">λογοτεχνία</string>
+<string name="nav_Film">ταινίες/κινηματογράφος</string>
+<string name="nav_Experimental">πειραματικές ταινίες/βίντεο</string>
+<string name="nav_Broadcasting">μεταδόσεις/τύπος</string>
+<string name="nav_Live_Broadcast">ζωντανη μεταδοση</string>
+<string name="nav_New_Media">νέα μέσα</string>
+<string name="nav_Arts_magazines">περιοδικά τέχνης</string>
+<string name="nav_Fashion">μόδα</string>
+<string name="nav_Reject">Απόρριψη</string>
+<string name="nav_Social">κοινωνικά/πολιτικά ζητήματα/οικονομικά (γενικά)</string>
+<string name="nav_Magazines">περιοδικά/ρεπορτάζ/ντοκιμαντέρ</string>
+<string name="nav_Economics">οικονομικές/κοινωνικές συμβουλές</string>
+<string name="nav_Remarkable_people">αξιόλογα άτομα</string>
+<string name="nav_Education">εκπαίδευση/επιστήμη/επίκαιρα θέματα (γενικά)</string>
+<string name="nav_Nature">φύση/ζώα/περιβάλλον</string>
+<string name="nav_Technology">τεχνολογία/φυσικές επιστήμες</string>
+<string name="nav_Medicine">ιατρική/φυσιολογία/ψυχολογία</string>
+<string name="nav_Foreign_Countries">ξένες χώρες/αποστολές</string>
+<string name="nav_Social_sciences">κοινωνικές/πνευματικές επιστήμες</string>
+<string name="nav_Further_Education">περαιτέρω εκπαίδευση</string>
+<string name="nav_Languages">γλώσσεσ</string>
+<string name="nav_Educative">Εκπαιδευτικό</string>
+<string name="nav_Soap_opera">Σαπουνόπερα</string>
+<string name="nav_Miniseries">Mini-σειρές</string>
+<string name="nav_Series">Σειρά</string>
+<string name="nav_Auditorium">Αίθουσα συναυλιών</string>
+<string name="nav_Making_of">Κατασκευές</string>
+<string name="nav_Feminine">Για γυναίκες</string>
+<string name="nav_Game_show">Τηλεπαιχνίδι</string>
+<string name="nav_Reality_show">Ριάλιτι</string>
+<string name="nav_Cooking">Μαγειρική</string>
+<string name="nav_Country">Χώρα</string>
+<string name="nav_Health">Υγεία</string>
+<string name="nav_Travel">Ταξίδια</string>
+<string name="nav_Comical">Κωμικο</string>
+<string name="nav_Erotic">Ερωτικο</string>
+<string name="nav_Movie">Ταινία</string>
+<string name="nav_Raffle">Λοταρία</string>
+<string name="nav_Television_sales">Τηλεπωλήσεις</string>
+<string name="nav_Prizing">Βραβεία</string>
+<string name="nav_Interview">Συνέντευξη</string>
+<string name="nav_Adult_cartoon">Κινούμενα σχέδια ενηλίκων</string>
+<string name="nav_Interactive">Διαδραστικό</string>
+<string name="nav_Policy">Πολιτική</string>
+<string name="nav_Leisure_Hobbies">ελεύθερος χρόνος χόμπι (γενικά)</string>
+<string name="nav_Tourism">τουρισμός/ταξίδια</string>
+<string name="nav_Handicraft">χειροτεχνιεσ</string>
+<string name="nav_Motoring">αυτοκινητο/μοτοσυκλετα</string>
+<string name="nav_Fitness_and_Health">φυσική κατάσταση και υγεία</string>
+<string name="nav_Advertisement">διαφήμιση/αγορές</string>
+<string name="nav_Gardening">κηπουρική</string>
+<string name="nav_Original_language">αρχικη γλωσσα</string>
+<string name="nav_Black_and_White">Ασπρόμαυρη</string>
+<string name="nav_Unpublished">Δεν έχει δημοσιευθεί</string>
+<string name="nav_plano_stereoscopic">επίπεδη στερεοσκοπική</string>
+<string name="nav_local_or_regional">τοπικά ή περιφερειακά</string>
+<string name="nav_Martial_Sport">Πολεμικά αθλήματα</string>
+<string name="nav_Entertainment_for_10_to">Ψυχαγωγία για 10 έως...</string>
+<string name="nav_UNKNOW">ΆΓΝΩΣ.</string>
+<string name="nav_MONO">Μονοφ.</string>
+<string name="nav_STEREO">Στερεοφ.</string>
+<string name="nav_SAP">SAP</string>
+<string name="nav_DUAL1">Διπλό1</string>
+<string name="nav_DUAL2">Διπλό2</string>
+<string name="nav_NICAM_MONO">Nicam Μονοφ.</string>
+<string name="nav_NICAM_STEREO">Nicam Στερεοφ.</string>
+<string name="nav_NICAM_DUAL1">Nicam Dual1</string>
+<string name="nav_NICAM_DUAL2">Nicam Dual2</string>
+<string name="nav_FM_MONO">FM Mono</string>
+<string name="nav_FM_STEREO">FM Stereo</string>
+<string name="nav_Mono">Μονοφ.</string>
+<string name="nav_Dual_Mono">Dual Mono</string>
+<string name="nav_Stereo">Στερεοφ.</string>
+<string name="nav_Surround_2CH">Surround 2CH</string>
+<string name="nav_Surround">Surround</string>
+<string name="nav_3CH">3CH</string>
+<string name="nav_4CH">4CH</string>
+<string name="nav_5_1CH">5.1CH</string>
+<string name="nav_7_1CH">7.1CH</string>
+<string name="nav_Dual__Mono">Dual_Mono</string>
+<string name="nav_Surround__2CH">Surround_2CH</string>
+<string name="nav_Sunday">Κυριακή</string>
+<string name="nav_Monday">Δευτέρα</string>
+<string name="nav_Tuesday">Τρίτη</string>
+<string name="nav_Wednesday">Τετάρτη</string>
+<string name="nav_Thursday">Πέμπτη</string>
+<string name="nav_Friday">Παρασκευή</string>
+<string name="nav_Saturday">Σάββατο</string>
+<string name="nav_Childrens">Παιδικά</string>
+<string name="nav_epg_no_title">(Χωρίς τίτλο)</string>
+<string name="nav_epg_unclassified">Χωρίς ταξινόμηση</string>
+<string name="nav_epg_unsupport">ΔΕΝ ΥΠΟΣΤΗΡΙΖΕΤΑΙ</string>
+<string name="nav_epg_genre_type">Είδος: </string>
+<string name="nav_epg_no_program_data">Δεν υπάρχουν πληροφορίες προγράμματος.</string>
+<string name="menu_arrays_No_Block">Κανένας αποκλεισμός</string>
+<string name="menu_arrays_Block_R_and_above">Αποκλεισμός R και άνω</string>
+<string name="menu_arrays_Block_AV_and_above">Αποκλεισμός AV και άνω</string>
+<string name="menu_arrays_Block_MA_and_above">Αποκλεισμός ΜΑ και άνω</string>
+<string name="menu_arrays_Block_M_and_above">Αποκλεισμός Μ και άνω</string>
+<string name="menu_arrays_Block_PG_and_above">Αποκλεισμός PG και άνω</string>
+<string name="menu_arrays_Block_G_and_above">Αποκλεισμός G και άνω</string>
+<string name="menu_arrays_Block_All">Αποκλεισμοσ Ολων</string>
+<string-array name="nav_epg_filter_type">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string-array name="nav_epg_filter_type_AUS">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_CURRENT_AFFAIRS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_INFOTAINMENT</item>
+<item>@string/nav_SPECIAL</item>
+<item>@string/nav_COMEDY</item>
+<item>@string/nav_DRAMA</item>
+<item>@string/nav_DOCUMENTARY</item>
+</string-array>
+<string-array name="nav_epg_filter_type_UK">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS_AND_FACTUAL</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORT</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LIFESTYLE</item>
+<item>@string/nav_DRAMA</item>
+</string-array>
+<string-array name="nav_epg_filter_sa_type">
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_SOAP_OPERA</item>
+<item>@string/nav_MINI_SERIES</item>
+<item>@string/nav_SERIES</item>
+<item>@string/nav_VARIETY</item>
+<item>@string/nav_REALITY_SHOW</item>
+<item>@string/nav_INFORMATION</item>
+<item>@string/nav_COMICAL</item>
+<item>@string/nav_CHILDREN</item>
+<item>@string/nav_EROTIC</item>
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_RA_TE_SA_PR</item>
+<item>@string/nav_DEBATE_INTERVIEW</item>
+<item>@string/nav_OTHER</item>
+</string-array>
+<string-array name="nav_epg_subtype_movie">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_news">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_news">
+<item>@string/nav_News</item>
+<item>@string/nav_Report</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Biography</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sports">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sports</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_sports">
+<item>@string/nav_Sports</item>
+</string-array>
+<string-array name="nav_epg_subtype_children">
+<item>@string/nav_Children</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to_16</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string-array name="nav_epg_subtype_music">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious_Music</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string-array name="nav_epg_subtype_arts">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string-array name="nav_epg_subtype_social">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string-array name="nav_epg_subtype_education">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_education">
+<item>@string/nav_Educative</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_soap_opera">
+<item>@string/nav_Soap_opera</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_mini_series">
+<item>@string/nav_Miniseries</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_series">
+<item>@string/nav_Series</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_variety">
+<item>@string/nav_Auditorium</item>
+<item>@string/nav_Show</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Making_of</item>
+<item>@string/nav_Feminine</item>
+<item>@string/nav_Game_show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_reality_show">
+<item>@string/nav_Reality_show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_information">
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Fashion</item>
+<item>@string/nav_Country</item>
+<item>@string/nav_Health</item>
+<item>@string/nav_Travel</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_comical">
+<item>@string/nav_Comical</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_children">
+<item>@string/nav_Children</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_erotic">
+<item>@string/nav_Erotic</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_movie">
+<item>@string/nav_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+<item>@string/nav_Raffle</item>
+<item>@string/nav_Television_sales</item>
+<item>@string/nav_Prizing</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>@string/nav_Discussion</item>
+<item>@string/nav_Interview</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_other">
+<item>@string/nav_Adult_cartoon</item>
+<item>@string/nav_Interactive</item>
+<item>@string/nav_Policy</item>
+<item>@string/nav_Religion</item>
+</string-array>
+<string-array name="nav_epg_subtype_leisure">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string-array name="nav_epg_subtype_special">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+<item>@string/nav_plano_stereoscopic</item>
+<item>@string/nav_local_or_regional</item>
+</string-array>
+<string-array name="nav_epg_filter_type_cn">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string-array name="nav_epg_subtype_movie_cn">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_news_cn">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string-array name="nav_epg_subtype_show_cn">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sports_cn">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sport</item>
+</string-array>
+<string-array name="nav_epg_subtype_children_cn">
+<item>@string/nav_Childrens</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string-array name="nav_epg_subtype_music_cn">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string-array name="nav_epg_subtype_arts_cn">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string-array name="nav_epg_subtype_social_cn">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string-array name="nav_epg_subtype_education_cn">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string-array name="nav_epg_subtype_leisure_cn">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string-array name="nav_epg_subtype_special_cn">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+</string-array>
+<string-array name="array_level_dvb_lock">
+<item>Απενεργ.</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+<item>12</item>
+<item>13</item>
+<item>14</item>
+<item>15</item>
+<item>16</item>
+<item>17</item>
+<item>18</item>
+</string-array>
+<string-array name="array_level_th_lock">
+<item>Απενεργ.</item>
+<item>P</item>
+<item>C</item>
+<item>G</item>
+<item>PG13</item>
+<item>PG18</item>
+<item>X</item>
+</string-array>
+</resources>

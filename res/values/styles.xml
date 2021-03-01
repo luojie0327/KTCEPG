@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="PickView">
+        <item name="android:layout_width">@dimen/pick_pv_w</item>
+        <item name="android:layout_height">@dimen/pick_pv_h</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="mMaxTextSize">53.3dp</item>
+        <item name="mMinTextSize">41.3dp</item>
+        <item name="mCenterTextSize">28dp</item>
+        <item name="mTextSize">20dp</item>
+        <item name="mMaxTextAlpha">255</item>
+        <item name="mMinTextAlpha">120</item>
+    </style>
+
+    <style name="PickViewText">
+        <item name="android:layout_width">@dimen/pick_pv_w</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_pick_month</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">29dp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="667dp"
+    android:layout_height="367dp"
+    android:layout_gravity="center"
+    android:background="@mipmap/pick_background">
+    
+    <RelativeLayout
+        android:id="@+id/rl_pick_title"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@mipmap/pick_title_background">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/str_pick_title"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/im_pick_title_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_pick_title"
+        android:src="@mipmap/pick_title_line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_below="@+id/im_pick_title_line">
+
+        <RelativeLayout
+            android:id="@+id/rl_pick_start_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/pick_margin">
+            <TextView
+                android:id="@+id/tv_pick_start_day"
+                style="@style/PickViewText"
+                android:text="@string/str_pick_day"/>
+
+            <com.ktc.epg.view.PickerView
+                android:id="@+id/start_pv_day"
+                style="@style/PickView"
+                android:layout_below="@+id/tv_pick_start_day" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_pick_start_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/rl_pick_start_day">
+
+            <TextView
+                android:id="@+id/tv_pick_start_month"
+                style="@style/PickViewText"
+                android:text="@string/str_pick_month"/>
+
+            <com.ktc.epg.view.PickerView
+                android:id="@+id/start_pv_month"
+                style="@style/PickView"
+                android:layout_below="@+id/tv_pick_start_month" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_pick_start_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/rl_pick_start_month"
+            android:layout_marginStart="@dimen/pick_margin">
+            <TextView
+                android:id="@+id/tv_pick_start_hour"
+                style="@style/PickViewText"
+                android:text="@string/str_pick_hour"/>
+
+            <com.ktc.epg.view.PickerView
+                android:id="@+id/start_pv_hour"
+                style="@style/PickView"
+                android:layout_below="@+id/tv_pick_start_hour" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_pick_start_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/rl_pick_start_hour"
+            android:layout_marginStart="@dimen/pick_margin">
+            <TextView
+                android:id="@+id/tv_pick_start_minute"
+              style="@style/PickViewText"
+                android:text="@string/str_pick_minute"/>
+
+            <com.ktc.epg.view.PickerView
+                android:id="@+id/start_pv_minute"
+                style="@style/PickView"
+                android:layout_below="@+id/tv_pick_start_minute" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/im_pick_center_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/rl_pick_start_minute"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="150dp"
+            android:src="@mipmap/pick_center_line"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_pick_end_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/im_pick_center_line"
+            android:layout_marginStart="@dimen/pick_margin">
+            <TextView
+                android:id="@+id/tv_pick_end_day"
+                style="@style/PickViewText"
+                android:text="@string/str_pick_day"/>
+
+            <com.ktc.epg.view.PickerView
+                android:id="@+id/end_pv_day"
+                style="@style/PickView"
+                android:layout_below="@+id/tv_pick_end_day" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_pick_end_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/rl_pick_end_day"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:id="@+id/tv_pick_end_month"
+                style="@style/PickViewText"
+                android:text="@string/str_pick_month"/>
+
+            <com.ktc.epg.view.PickerView
+                android:id="@+id/end_pv_month"
+                style="@style/PickView"
+                android:layout_below="@+id/tv_pick_end_month" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_pick_end_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/rl_pick_end_month"
+            android:layout_marginStart="@dimen/pick_margin">
+            <TextView
+                android:id="@+id/tv_pick_end_hour"
+               style="@style/PickViewText"
+                android:text="@string/str_pick_hour"/>
+
+            <com.ktc.epg.view.PickerView
+                android:id="@+id/end_pv_hour"
+                style="@style/PickView"
+                android:layout_below="@+id/tv_pick_end_hour" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_pick_end_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/rl_pick_end_hour"
+            android:layout_marginStart="@dimen/pick_margin">
+            <TextView
+                android:id="@+id/tv_pick_end_minute"
+                style="@style/PickViewText"
+                android:text="@string/str_pick_minute"/>
+
+            <com.ktc.epg.view.PickerView
+                android:id="@+id/end_pv_minute"
+                style="@style/PickView"
+                android:layout_below="@+id/tv_pick_end_minute" />
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_pick_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/im_pick_bottom_left_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pick_bottom_line"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/tv_pick_bottom_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_toEndOf="@id/im_pick_bottom_left_line"
+            android:layout_marginStart="27dp"
+            android:text="@string/str_pick_confirm"/>
+
+        <ImageView
+            android:id="@+id/im_pick_bottom_right_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pick_bottom_line"
+            android:layout_toEndOf="@id/tv_pick_bottom_confirm"
+            android:layout_marginStart="27dp"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

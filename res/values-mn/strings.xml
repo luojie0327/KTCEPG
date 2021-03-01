@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string name="nav_Show">Шоу/Тоглоомын шоу</string>
+<string name="nav_Surround__2CH">Эргэнтойрон_2Суваг</string>
+<string name="nav_Cartoons">Хүүхэлдэйн кино</string>
+<string name="nav_Motoring">моторт</string>
+<string name="nav_epg_Nov">11 сар</string>
+<string name="nav_Education">Боловсрол/Шинлэх Ухаан/Бодит Сэдэв</string>
+<string name="nav_Comedy">Инээдмийн жүжиг</string>
+<string name="nav_Documentary">Баримтат</string>
+<string name="nav_VARIETY">Төрөл</string>
+<string name="str_pick_start_time_error">Асаах цагийн алдаа! Одоо байгаа цагаас өмнө тохируулагдсан байна!</string>
+<string name="nav_epg_Thursday">Пүрэв</string>
+<string name="nav_Magazines">Сэтгүүл/Тайлан/Баримт</string>
+<string name="nav_Tourism">Жуулчлал/аялал</string>
+<string name="epg_bottom_next_page">Хуудас доошлуулах</string>
+<string name="nav_SHOW">Шоу/Тоглоомын шоу</string>
+<string name="nav_Mono">Нэг</string>
+<string name="nav_epg_October">10 сар</string>
+<string name="nav_epg_Aug">8 сар</string>
+<string name="nav_epg_subtype_sa_education">@string/nav_Educative</string>
+<string name="str_bottom_playing">Тоглож байна</string>
+<string name="nav_Preschool_children">Цэцэрлэгийн хүүхдийн хөтөлбөр</string>
+<string name="str_loading_title">Мэдээлэл ачааллаж байна</string>
+<string name="str_pick_cancel">Цуцлагдсан!</string>
+<string name="str_pick_success">Амжилт!</string>
+<string name="str_pick_max">Хүсэлтийн хуваарийн зөвшөөрөгдсөн дээд хэмжээнээс хэтрэв!</string>
+<string name="str_pick_past">Өнгөрсөн!</string>
+<string name="str_pick_fail">Амжилтгүй боллоо!</string>
+<string name="str_pick_insert_usb">Диск бэлэн биш байна! USB төхөөрөмжийг оруулна уу!</string>
+<string name="str_main_no_data">Хөтөлбөрийн өгөгдөл байхгүй, бичлэг хийх боломжгүй</string>
+<string name="nav_epg_April">4 сар</string>
+<string name="nav_SPECIAL">Тусгай тэмдгүүд</string>
+<string name="nav_News">Мэдээ</string>
+<string name="nav_NICAM_STEREO">NICAM СТЕРЕО</string>
+<string name="nav_Tuesday">Мягмар</string>
+<string name="nav_5_1CH">5.1 Сув</string>
+<string name="nav_Nature">Байгаль/Амьтан/Орчин</string>
+<string name="nav_Reject">Цуцлах</string>
+<string name="nav_epg_subtype_sa_series">@string/nav_Series</string>
+<string name="nav_Discussion">Хэлцэл/Ярилцлага/Мэтгэлцээн</string>
+<string name="nav_Fine_Arts">Дүрслэх урлага</string>
+<string name="nav_Tennis">Тэннис/бөмбөг</string>
+<string name="nav_Weather_Report">Мэдээ/Цаг уурын мэдэгдэл</string>
+<string name="nav_epg_subtype_sa_reality_show">@string/nav_Reality_show</string>
+<string name="nav_Health">Эрүүл мэнд</string>
+<string name="str_pick_end_time_error">Дуусах цагийн алдаа! Одооны цагаас өмнө тохируулагдсан байна</string>
+<string name="nav_Reality_show">Бодит Шоу</string>
+<string name="nav_Interactive">Харилцан үйлдэлтэй</string>
+<string name="nav_Popular_culture">Алдартай хэв маяг/уламжлалт урлаг</string>
+<string name="nav_CHILDREN">Хүүхэд</string>
+<string name="nav_Erotic">Эротик</string>
+<string name="nav_epg_Jun">6 сар</string>
+<string name="nav_Thursday">Пүрэв</string>
+<string name="nav_epg_Jul">7 сар</string>
+<string name="nav_NEWS_AND_FACTUAL">Мэдээ ба фактууд</string>
+<string name="nav_Unpublished">Зарлагдаагүй</string>
+<string name="nav_Stereo">Стерео</string>
+<string name="nav_Team_Sports">Багийн спорт (хөл бөмбөг оруулалгүй)</string>
+<string name="nav_epg_subtype_sa_erotic">@string/nav_Erotic</string>
+<string name="nav_Further_Education">Цаашдийн боловсрол</string>
+<string name="epg_retrieving_show">Мэдээлэл хүлээн авч байна...</string>
+<string name="nav_epg_January">1 сар</string>
+<string name="nav_REALITY_SHOW">Бодит_шоу</string>
+<string name="nav_Surround_2CH">Эргэнтойрон_2Суваг</string>
+<string name="str_pick_minute">минут</string>
+<string name="nav_Policy">Бодлого</string>
+<string name="nav_Romance">роман</string>
+<string name="nav_CURRENT_AFFAIRS">Одоогийн ажил</string>
+<string name="nav_Arts_magazines">Урлагын сэтгүүл</string>
+<string name="epg_bottom_prev_day">Өмнөх өдөр</string>
+<string name="nav_epg_August">8 сар</string>
+<string name="app_name">EPG</string>
+<string name="nav_Dual__Mono">Хос_Ганц</string>
+<string name="nav_Sunday">Ням</string>
+<string name="nav_ENTERTAINMENT">Үзвэр Зугаа</string>
+<string name="nav_Cooking">Хоолны жор</string>
+<string name="nav_Musical">Найрал/Дуурь</string>
+<string name="nav_NICAM_MONO">NICAM МОНО</string>
+<string name="epg_bottom_ENTER">Нэвтрэх</string>
+<string name="nav_Advertisement">Суртачилгаа/худалдаа</string>
+<string name="epg_bottom_0">0</string>
+<string name="nav_Soap_opera">Савангийн дуурь</string>
+<string name="str_pick_hour">Цаг</string>
+<string name="nav_epg_Sep">9 сар</string>
+<string name="nav_Water_Sport">Усан спорт</string>
+<string name="nav_Sports">Спорт (ерөнхий)</string>
+<string name="nav_Surround">Эргэн тойрон</string>
+<string name="nav_Literature">Уран зохиол</string>
+<string name="nav_Game_show">Тоглоомын шоу</string>
+<string name="nav_Handicraft">Гар урлал</string>
+<string name="nav_Social">Нийгэм/Улс Төр/Асуудал/Эдийн Засаг</string>
+<string name="epg_bottom_type_filter">Төрлийн шүүлтүүр</string>
+<string name="nav_epg_subtype_sa_children">@string/nav_Children</string>
+<string name="nav_epg_Sun">Нар</string>
+<string name="nav_Movie">Кино</string>
+<string name="nav_Comical">Хошин шог</string>
+<string name="nav_LEISURE">Чөлөөт Цаг Хобби</string>
+<string name="nav_Arts">Урлаг/Соёл (дуу хөгжимгүй)</string>
+<string name="nav_Serious_Music">Гүн хөгжим/Сонгодог хөгжим</string>
+<string name="nav_OTHER">Бусад</string>
+<string name="nav_MOVIE">Кино/Драм</string>
+<string name="str_pick_title">Бичлэг хийх</string>
+<string name="nav_Television_sales">Зурагтын Худалдаа</string>
+<string name="nav_epg_June">6 сар</string>
+<string name="nav_epg_Saturday">Бямба</string>
+<string name="nav_Football">Америк хөл бөмбөг/ хөл бөмбөг</string>
+<string name="nav_Martial_Sports">Тулааны спорт</string>
+<string name="str_pick_day">Өдөр</string>
+<string name="nav_NICAM_DUAL2">Никам Хос2</string>
+<string name="nav_NICAM_DUAL1">Никам Хос1</string>
+<string name="nav_Detective">мөрдөгч/триллер</string>
+<string name="nav_Friday">Баасан</string>
+<string name="nav_epg_Apr">4 сар</string>
+<string name="nav_Children">Хүүхэд/залуучуудын хөтөлбөр</string>
+<string name="nav_epg_December">12 сар</string>
+<string name="nav_COMEDY">Инээдмийн жүжиг</string>
+<string name="nav_Variety_Show">Олон төрлийн шоу</string>
+<string name="nav_ARTS">Урлаг/Соёл (дуу хөгжимгүй)</string>
+<string name="nav_epg_no_title">Гарчиг байхгүй</string>
+<string name="epg_password">Нууц үг</string>
+<string name="nav_epg_February">2 сар</string>
+<string name="nav_DUAL2">Хос2</string>
+<string name="nav_Serious">гүн/сонгодог/шашны/түүхэн кино/драма</string>
+<string name="nav_DUAL1">Хос1</string>
+<string name="nav_Jazz">Жаз</string>
+<string name="nav_epg_Jan">1 сар</string>
+<string name="nav_MONO">Моно</string>
+<string name="nav_epg_March">3 сар</string>
+<string name="nav_Gardening">Цэцэрлэг</string>
+<string name="nav_Wednesday">Лхагва</string>
+<string name="nav_DEBATE_INTERVIEW">Мэтгэлцээн_Ярилцлага</string>
+<string name="nav_NEWS">Одоогийн шинэ үйл явдлууд</string>
+<string name="nav_Country">Улс</string>
+<string name="nav_epg_Tue">Мягмар</string>
+<string name="nav_Leisure_Hobbies">Чөлөөт цагийн хобби ( ерөнхий )</string>
+<string name="nav_SOCIAL">Нийгэм/Улс Төр/Асуудал/Эдийн Засаг</string>
+<string name="nav_epg_Dec">12 сар</string>
+<string name="str_bottom_reminding">Сануулга</string>
+<string name="nav_FM_STEREO">ФМ стерео</string>
+<string name="nav_epg_Tuesday">Мягмар</string>
+<string name="nav_epg_Thur">Пүр</string>
+<string name="nav_epg_Sunday">Ням</string>
+<string name="nav_Languages">Хэл</string>
+<string name="nav_Dual_Mono">Хос Дан</string>
+<string name="nav_epg_subtype_sa_sports">@string/nav_Sports</string>
+<string name="str_pick_confirm">Баталгаажуулах бол ОК дарна уу</string>
+<string name="nav_epg_Sat">Бям</string>
+<string name="nav_epg_July">7 сар</string>
+<string name="nav_Making_of">Хийх нь</string>
+<string name="nav_epg_no_program_data">(Хөтөлбөрийн мэдээ байхгүй.)</string>
+<string name="nav_Informational">Мэдээллийн/боловсролын/ сургуулийн хөтөлбөрүүд</string>
+<string name="nav_SPORTS">Спортууд</string>
+<string name="nav_Childrens">Хүүхдийн</string>
+<string name="nav_Social_sciences">нийгмийн/оюун санааны шинжлэх ухаан </string>
+<string name="nav_epg_Friday">Баасан</string>
+<string name="nav_epg_Monday">Даваа</string>
+<string name="nav_Feminine">Эмэгтэйлэг</string>
+<string name="nav_DOCUMENTARY">Баримтат</string>
+<string name="nav_Broadcasting">Нэвтрүүлэг/хэвлэл</string>
+<string name="nav_7_1CH">7.1 Сув</string>
+<string name="epg_password_message">Нууц үг буруу</string>
+<string name="nav_epg_subtype_sa_comical">@string/nav_Comical</string>
+<string name="nav_Fitness_and_Health">Дасгал болон эрүүл мэнд</string>
+<string name="nav_COMICAL">Хошин шог</string>
+<string name="nav_Series">Цуврал</string>
+<string name="nav_MINI_SERIES">Жижиг_цувралууд</string>
+<string name="nav_Equestrian">Морьт</string>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>@string/nav_Discussion</item>
+<item>@string/nav_Interview</item>
+</string-array>
+<string name="nav_epg_unclassified">Ангилагдаагүй</string>
+<string name="nav_Economics">Эдийн засгийн/Нийгмийн зөвөлгөө</string>
+<string name="nav_Miniseries">Жижиг_цувралууд</string>
+<string name="nav_Ballet">Баллет</string>
+<string name="nav_Fashion">Загвар</string>
+<string name="nav_epg_Wednesday">Лхагва</string>
+<string name="nav_Travel">Аялал</string>
+<string name="nav_Live_Broadcast">Шууд дамжуулалт</string>
+<string name="nav_epg_may">5 сар</string>
+<string name="nav_Game_Show">Тоглоомын шоу/таавар/тэмцээн</string>
+<string name="nav_Educative">Сургамжит</string>
+<string name="nav_plano_stereoscopic">Төлөвлгөөт-стереохайлт</string>
+<string name="epg_rating_unclassified">Ангилагдаагүй</string>
+<string name="nav_epg_Feb">2 сар</string>
+<string name="nav_Special_Events">Тусгай хөтөлбөр( Олимпын тэмцээн, Дэлхийн авраг, гм. )</string>
+<string name="nav_SERIES">Цуврал</string>
+<string name="nav_4CH">4Сув</string>
+<string name="nav_epg_subtype_sa_mini_series">@string/nav_Miniseries</string>
+<string name="nav_EDUCATION">Боловсрол/Шинлэх Ухаан/Бодит Сэдэв</string>
+<string name="nav_Saturday">Бямба</string>
+<string name="nav_epg_genre_type">Төрөл:</string>
+<string name="nav_Entertainment_for_10_to">Хөгжөөнт 10 болон ...</string>
+<string name="nav_Science_Fiction">Шинжлэх ухааны уран зөгнөл / уран зөгнөл / аймшиг</string>
+<string name="nav_Folk">ардын / уламжлалт хөгжим</string>
+<string name="nav_UNKNOW">Мэдэгдэхгүй</string>
+<string name="nav_Performing_Arts">Урлагийн тоглолт</string>
+<string name="nav_INFOTAINMENT">Мэдээлэл зугаацал</string>
+<string name="nav_epg_May">5 сар</string>
+<string name="nav_Current_Affairs">Мэдээ/ одоогийн үйл ажиллагаа</string>
+<string name="str_pick_month">Дав</string>
+<string name="nav_Athletics">Атлет</string>
+<string name="nav_epg_Mar">3 сар</string>
+<string name="nav_Music">Дуу/баллет/бүжиг (ерөнхий)</string>
+<string name="nav_Adult_Movie">Насанд хүрэгсдийн кино/ драма</string>
+<string name="nav_epg_Wed">Лхаг</string>
+<string name="epg_bottom_next_day">Дараагийн өдөр</string>
+<string name="nav_Original_language">Үндсэн хэл</string>
+<string name="str_bottom_recording">Хуулагдсан</string>
+<string name="nav_STEREO">Стерео</string>
+<string name="nav_Adventure">Адал явдал/Барууны/Дайн</string>
+<string name="nav_Raffle">Сугалаа</string>
+<string name="nav_Medicine">Ангаах/Физиолог/Сэтгэлсудлал</string>
+<string name="str_bottom_record">Бичлэг хийх</string>
+<string name="nav_SPORT">Спорт</string>
+<string name="nav_RA_TE_SA_PR">RA_TE_SA_PR</string>
+<string name="nav_EROTIC">ЭРОТИК</string>
+<string name="nav_Report">Тайлан</string>
+<string name="nav_Religion">Шашин</string>
+<string name="nav_Sports_Magazines">Спорт сэтгүүл</string>
+<string name="nav_Rock">Рок/Поп</string>
+<string name="nav_Entertainment_for_10_to_16">10-аас 16 насны хөгжөөнт нэвтрүүлэг</string>
+<string name="nav_Motor_Sport">Мото спорт</string>
+<string name="nav_Monday">Даваа</string>
+<string name="nav_3CH">3Сув</string>
+<string name="str_bottom_reminder">Сануулах</string>
+<string name="nav_Technology">Технологи/ Байгалийн шинжлэх ухаан</string>
+<string name="nav_Martial_Sport">Тулааны спорт</string>
+<string name="nav_epg_subtype_sa_soap_opera">@string/nav_Soap_opera</string>
+<string name="nav_New_Media">Шинэ хэвлэл мэдээлэл </string>
+<string name="nav_MUSIC">Хөгжим/Балет/Бүжиг</string>
+<string name="nav_Talk_Show">Ярилцлага шоу</string>
+<string name="nav_SAP">SAP</string>
+<string name="epg_bottom_prev_page">Хуудас дээшлүүлэх</string>
+<string name="nav_INFORMATION">Мэдээлэл </string>
+<string name="nav_Prizing">Урамшуулал</string>
+<string name="nav_epg_Oct">10 сар</string>
+<string name="nav_Winter_Sport">Өвлийн спорт</string>
+<string name="nav_epg_Fri">Ба</string>
+<string name="nav_SOAP_OPERA">Савангийн дуурь</string>
+<string name="nav_LIFESTYLE">Амьдралын хэв маяг</string>
+<string name="nav_Drama">Кино/драма (ерөнхий)</string>
+<string name="nav_Foreign_Countries">Гадаад улс/ экспедиц</string>
+<string name="nav_Remarkable_people">Гайхалтай хүмүүс</string>
+<string name="nav_epg_Mon">Дав</string>
+<string name="nav_FM_MONO">ФМ моно</string>
+<string name="nav_News_Magazine">Мэдээний сэтгүүл</string>
+<string name="nav_Adult_cartoon">Насанд хүрэгсдийн хүүхэлдэй</string>
+<string name="nav_Black_and_White">Хар цагаан</string>
+<string name="channel_list_name">Сувгийн Нэр</string>
+<string name="nav_CHILDRENS">Хүүхэд/залуучуудыг хөтөлбөр</string>
+<string name="nav_local_or_regional">Орно нутгийн эсвэл бүс нутгийн</string>
+<string name="epg_bottom_view_detail">Дэлгэрэнгүйг харах</string>
+<string name="nav_Entertainment_for_6_to_14">6-аас 14 насны хөгжөөнт нэвтрүүлэг</string>
+<string name="nav_epg_September">9 сар</string>
+<string name="nav_Biography">Намтар</string>
+<string name="epg_info_program_type">Үгүй</string>
+<string name="nav_DRAMA">Драма</string>
+<string name="nav_Interview">Ярилцлага</string>
+<string name="nav_Film">Кино/кино театр</string>
+<string name="nav_Auditorium">үзэгч</string>
+<string name="nav_Soap">Савангийн дуурь/мелодрама/ардын аман зохиол</string>
+<string name="nav_Experimental">Туршилтат кино/бичлэг</string>
+<string name="nav_epg_November">11 сар</string>
+<string name="menu_arrays_Block_All">Бүгдийг блоклох</string>
+<string name="menu_arrays_No_Block">Блок байхгүй</string>
+<string name="menu_arrays_Block_R_and_above">R ба түүнээс дээш хэсгийг хаах</string>
+<string name="menu_arrays_Block_AV_and_above">AV ба дээрхийг блоклох</string>
+<string name="menu_arrays_Block_MA_and_above">MA ба дээрхийг блоклох</string>
+<string name="menu_arrays_Block_M_and_above">M ба түүнээс дээш хэсгийг хаах</string>
+<string name="menu_arrays_Block_PG_and_above">PG ба түүнээс дээш хэсгийг хаах</string>
+<string name="menu_arrays_Block_G_and_above">G ба дээрхийг хаах</string>
+
+<string-array name="nav_epg_filter_type">
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_NEWS</item>
+        <item>@string/nav_SHOW</item>
+        <item>@string/nav_SPORTS</item>
+        <item>@string/nav_CHILDRENS</item>
+        <item>@string/nav_MUSIC</item>
+        <item>@string/nav_ARTS</item>
+        <item>@string/nav_SOCIAL</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_LEISURE</item>
+        <item>@string/nav_SPECIAL</item>
+    </string-array>
+
+    <string-array name="nav_epg_filter_type_AUS">
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_NEWS</item>
+        <item>@string/nav_ENTERTAINMENT</item>
+        <item>@string/nav_SPORTS</item>
+        <item>@string/nav_CHILDRENS</item>
+        <item>@string/nav_MUSIC</item>
+        <item>@string/nav_ARTS</item>
+        <item>@string/nav_CURRENT_AFFAIRS</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_INFOTAINMENT</item>
+        <item>@string/nav_SPECIAL</item>
+        <item>@string/nav_COMEDY</item>
+        <item>@string/nav_DRAMA</item>
+        <item>@string/nav_DOCUMENTARY</item>
+    </string-array>
+
+    <string-array name="nav_epg_filter_type_UK">
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_NEWS_AND_FACTUAL</item>
+        <item>@string/nav_ENTERTAINMENT</item>
+        <item>@string/nav_SPORT</item>
+        <item>@string/nav_CHILDRENS</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_LIFESTYLE</item>
+        <item>@string/nav_DRAMA</item>
+    </string-array>
+
+    <string-array name="nav_epg_filter_sa_type">
+        <item>@string/nav_NEWS</item>
+        <item>@string/nav_SPORTS</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_SOAP_OPERA</item>
+        <item>@string/nav_MINI_SERIES</item>
+        <item>@string/nav_SERIES</item>
+        <item>@string/nav_VARIETY</item>
+        <item>@string/nav_REALITY_SHOW</item>
+        <item>@string/nav_INFORMATION</item>
+        <item>@string/nav_COMICAL</item>
+        <item>@string/nav_CHILDREN</item>
+        <item>@string/nav_EROTIC</item>
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_RA_TE_SA_PR</item>
+        <item>@string/nav_DEBATE_INTERVIEW</item>
+        <item>@string/nav_OTHER</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_movie">
+        <item>@string/nav_Drama</item>
+        <item>@string/nav_Detective</item>
+        <item>@string/nav_Adventure</item>
+        <item>@string/nav_Science_Fiction</item>
+        <item>@string/nav_Comedy</item>
+        <item>@string/nav_Soap</item>
+        <item>@string/nav_Romance</item>
+        <item>@string/nav_Serious</item>
+        <item>@string/nav_Adult_Movie</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_news">
+        <item>@string/nav_Current_Affairs</item>
+        <item>@string/nav_Weather_Report</item>
+        <item>@string/nav_News_Magazine</item>
+        <item>@string/nav_Documentary</item>
+        <item>@string/nav_Discussion</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_news">
+        <item>@string/nav_News</item>
+        <item>@string/nav_Report</item>
+        <item>@string/nav_Documentary</item>
+        <item>@string/nav_Biography</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show">
+        <item>@string/nav_Show</item>
+        <item>@string/nav_Game_Show</item>
+        <item>@string/nav_Variety_Show</item>
+        <item>@string/nav_Talk_Show</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_sports">
+        <item>@string/nav_Sports</item>
+        <item>@string/nav_Special_Events</item>
+        <item>@string/nav_Sports_Magazines</item>
+        <item>@string/nav_Football</item>
+        <item>@string/nav_Tennis</item>
+        <item>@string/nav_Team_Sports</item>
+        <item>@string/nav_Athletics</item>
+        <item>@string/nav_Motor_Sport</item>
+        <item>@string/nav_Water_Sport</item>
+        <item>@string/nav_Winter_Sport</item>
+        <item>@string/nav_Equestrian</item>
+        <item>@string/nav_Martial_Sports</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_sports">
+        <item>@string/nav_Sports</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_children">
+        <item>@string/nav_Children</item>
+        <item>@string/nav_Preschool_children</item>
+        <item>@string/nav_Entertainment_for_6_to_14</item>
+        <item>@string/nav_Entertainment_for_10_to_16</item>
+        <item>@string/nav_Informational</item>
+        <item>@string/nav_Cartoons</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_music">
+        <item>@string/nav_Music</item>
+        <item>@string/nav_Rock</item>
+        <item>@string/nav_Serious_Music</item>
+        <item>@string/nav_Folk</item>
+        <item>@string/nav_Jazz</item>
+        <item>@string/nav_Musical</item>
+        <item>@string/nav_Ballet</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_arts">
+        <item>@string/nav_Arts</item>
+        <item>@string/nav_Performing_Arts</item>
+        <item>@string/nav_Fine_Arts</item>
+        <item>@string/nav_Religion</item>
+        <item>@string/nav_Popular_culture</item>
+        <item>@string/nav_Literature</item>
+        <item>@string/nav_Film</item>
+        <item>@string/nav_Experimental</item>
+        <item>@string/nav_Broadcasting</item>
+        <item>@string/nav_New_Media</item>
+        <item>@string/nav_Arts_magazines</item>
+        <item>@string/nav_Fashion</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_social">
+        <item>@string/nav_Social</item>
+        <item>@string/nav_Magazines</item>
+        <item>@string/nav_Economics</item>
+        <item>@string/nav_Remarkable_people</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_education">
+        <item>@string/nav_Education</item>
+        <item>@string/nav_Nature</item>
+        <item>@string/nav_Technology</item>
+        <item>@string/nav_Medicine</item>
+        <item>@string/nav_Foreign_Countries</item>
+        <item>@string/nav_Social_sciences</item>
+        <item>@string/nav_Further_Education</item>
+        <item>@string/nav_Languages</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_education">
+        <item>@string/nav_Educative</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_soap_opera">
+        <item>@string/nav_Soap_opera</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_sa_mini_series">
+        <item>@string/nav_Miniseries</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_sa_series">
+        <item>@string/nav_Series</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_variety">
+        <item>@string/nav_Auditorium</item>
+        <item>@string/nav_Show</item>
+        <item>@string/nav_Musical</item>
+        <item>@string/nav_Making_of</item>
+        <item>@string/nav_Feminine</item>
+        <item>@string/nav_Game_show</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_reality_show">
+        <item>@string/nav_Reality_show</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_information">
+        <item>@string/nav_Cooking</item>
+        <item>@string/nav_Fashion</item>
+        <item>@string/nav_Country</item>
+        <item>@string/nav_Health</item>
+        <item>@string/nav_Travel</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_comical">
+        <item>@string/nav_Comical</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_children">
+        <item>@string/nav_Children</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_erotic">
+        <item>@string/nav_Erotic</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_movie">
+        <item>@string/nav_Movie</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+        <item>@string/nav_Raffle</item>
+        <item>@string/nav_Television_sales</item>
+        <item>@string/nav_Prizing</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_other">
+        <item>@string/nav_Adult_cartoon</item>
+        <item>@string/nav_Interactive</item>
+        <item>@string/nav_Policy</item>
+        <item>@string/nav_Religion</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_leisure">
+        <item>@string/nav_Leisure_Hobbies</item>
+        <item>@string/nav_Tourism</item>
+        <item>@string/nav_Handicraft</item>
+        <item>@string/nav_Motoring</item>
+        <item>@string/nav_Fitness_and_Health</item>
+        <item>@string/nav_Cooking</item>
+        <item>@string/nav_Advertisement</item>
+        <item>@string/nav_Gardening</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_special">
+        <item>@string/nav_Original_language</item>
+        <item>@string/nav_Black_and_White</item>
+        <item>@string/nav_Unpublished</item>
+        <item>@string/nav_Live_Broadcast</item>
+        <item>@string/nav_plano_stereoscopic</item>
+        <item>@string/nav_local_or_regional</item>
+    </string-array>
+
+    <string-array name="nav_epg_filter_type_cn">
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_NEWS</item>
+        <item>@string/nav_SHOW</item>
+        <item>@string/nav_SPORTS</item>
+        <item>@string/nav_CHILDRENS</item>
+        <item>@string/nav_MUSIC</item>
+        <item>@string/nav_ARTS</item>
+        <item>@string/nav_SOCIAL</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_LEISURE</item>
+        <item>@string/nav_SPECIAL</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_movie_cn">
+        <item>@string/nav_Drama</item>
+        <item>@string/nav_Detective</item>
+        <item>@string/nav_Adventure</item>
+        <item>@string/nav_Science_Fiction</item>
+        <item>@string/nav_Comedy</item>
+        <item>@string/nav_Soap</item>
+        <item>@string/nav_Romance</item>
+        <item>@string/nav_Serious</item>
+        <item>@string/nav_Adult_Movie</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_news_cn">
+        <item>@string/nav_Current_Affairs</item>
+        <item>@string/nav_Weather_Report</item>
+        <item>@string/nav_News_Magazine</item>
+        <item>@string/nav_Documentary</item>
+        <item>@string/nav_Discussion</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show_cn">
+        <item>@string/nav_Show</item>
+        <item>@string/nav_Game_Show</item>
+        <item>@string/nav_Variety_Show</item>
+        <item>@string/nav_Talk_Show</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_sports_cn">
+        <item>@string/nav_Sports</item>
+        <item>@string/nav_Special_Events</item>
+        <item>@string/nav_Sports_Magazines</item>
+        <item>@string/nav_Football</item>
+        <item>@string/nav_Tennis</item>
+        <item>@string/nav_Team_Sports</item>
+        <item>@string/nav_Athletics</item>
+        <item>@string/nav_Motor_Sport</item>
+        <item>@string/nav_Water_Sport</item>
+        <item>@string/nav_Winter_Sport</item>
+        <item>@string/nav_Equestrian</item>
+        <item>@string/nav_Martial_Sport</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_children_cn">
+        <item>@string/nav_Childrens</item>
+        <item>@string/nav_Preschool_children</item>
+        <item>@string/nav_Entertainment_for_6_to_14</item>
+        <item>@string/nav_Entertainment_for_10_to</item>
+        <item>@string/nav_Informational</item>
+        <item>@string/nav_Cartoons</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_music_cn">
+        <item>@string/nav_Music</item>
+        <item>@string/nav_Rock</item>
+        <item>@string/nav_Serious</item>
+        <item>@string/nav_Folk</item>
+        <item>@string/nav_Jazz</item>
+        <item>@string/nav_Musical</item>
+        <item>@string/nav_Ballet</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_arts_cn">
+        <item>@string/nav_Arts</item>
+        <item>@string/nav_Performing_Arts</item>
+        <item>@string/nav_Fine_Arts</item>
+        <item>@string/nav_Religion</item>
+        <item>@string/nav_Popular_culture</item>
+        <item>@string/nav_Literature</item>
+        <item>@string/nav_Film</item>
+        <item>@string/nav_Experimental</item>
+        <item>@string/nav_Broadcasting</item>
+        <item>@string/nav_New_Media</item>
+        <item>@string/nav_Arts_magazines</item>
+        <item>@string/nav_Fashion</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_social_cn">
+        <item>@string/nav_Social</item>
+        <item>@string/nav_Magazines</item>
+        <item>@string/nav_Economics</item>
+        <item>@string/nav_Remarkable_people</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_education_cn">
+        <item>@string/nav_Education</item>
+        <item>@string/nav_Nature</item>
+        <item>@string/nav_Technology</item>
+        <item>@string/nav_Medicine</item>
+        <item>@string/nav_Foreign_Countries</item>
+        <item>@string/nav_Social_sciences</item>
+        <item>@string/nav_Further_Education</item>
+        <item>@string/nav_Languages</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_leisure_cn">
+        <item>@string/nav_Leisure_Hobbies</item>
+        <item>@string/nav_Tourism</item>
+        <item>@string/nav_Handicraft</item>
+        <item>@string/nav_Motoring</item>
+        <item>@string/nav_Fitness_and_Health</item>
+        <item>@string/nav_Cooking</item>
+        <item>@string/nav_Advertisement</item>
+        <item>@string/nav_Gardening</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_special_cn">
+        <item>@string/nav_Original_language</item>
+        <item>@string/nav_Black_and_White</item>
+        <item>@string/nav_Unpublished</item>
+        <item>@string/nav_Live_Broadcast</item>
+    </string-array>
+
+
+    <string-array name="array_level_dvb_lock">
+        <item>Off</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="array_level_th_lock">
+        <item>Off</item>
+        <item>P</item>
+        <item>C</item>
+        <item>G</item>
+        <item>PG13</item>
+        <item>PG18</item>
+        <item>X</item>
+    </string-array>
+
+    <string-array name="array_level_au_lock">
+        <item>@string/menu_arrays_No_Block</item>
+        <item>@string/menu_arrays_Block_R_and_above</item>
+        <item>@string/menu_arrays_Block_AV_and_above</item>
+        <item>@string/menu_arrays_Block_MA_and_above</item>
+        <item>@string/menu_arrays_Block_M_and_above</item>
+        <item>@string/menu_arrays_Block_PG_and_above</item>
+        <item>@string/menu_arrays_Block_G_and_above</item>
+        <item>@string/menu_arrays_Block_All</item>
+    </string-array>
+</resources>

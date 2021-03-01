@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/head_background">
+    
+    <RelativeLayout
+        android:id="@+id/rl_time"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="53dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_head_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_head_time"
+            />
+        <TextView
+            android:id="@+id/tv_head_am"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tv_head_time"
+            android:layout_alignBaseline="@id/tv_head_time"
+            android:paddingLeft="@dimen/padding_size"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_head_am"
+            />
+
+        <TextView
+            android:id="@+id/tv_head_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:paddingTop="11dp"
+            android:layout_below="@+id/tv_head_time"
+            android:textSize="@dimen/text_size_head_am"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/im_head_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rl_time"
+        android:src="@mipmap/head_line"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_toRightOf="@id/im_head_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="47dp"
+        android:paddingTop="20dp">
+        <TextView
+            android:id="@+id/tv_content_channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_head_name"/>
+        <TextView
+            android:id="@+id/tv_content_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_content_channel_name"
+            android:layout_marginStart="53dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_head_name"/>
+        <TextView
+            android:id="@+id/tv_content_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:layout_toRightOf="@id/tv_content_time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_head_name"/>
+        <TextView
+            android:id="@+id/tv_content_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginStart="53dp"
+            android:singleLine="true"
+            android:layout_below="@id/tv_content_channel_name"
+            android:textSize="@dimen/text_size_head_name"/>
+
+        <TextView
+            android:id="@+id/tv_content_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_content_genre"
+            android:layout_marginStart="47dp"
+            android:textSize="@dimen/text_size_head_am"
+            android:textColor="@color/white"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string-array name="nav_epg_filter_type_UK">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS_AND_FACTUAL</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORT</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LIFESTYLE</item>
+<item>@string/nav_DRAMA</item>
+</string-array>
+<string name="nav_Show">shfaqje/shfaqje lojërash (e përgjithshme)</string>
+<string name="nav_Surround__2CH">Cilësime rrethuese_2CH</string>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+<item>@string/nav_Raffle</item>
+<item>@string/nav_Television_sales</item>
+<item>@string/nav_Prizing</item>
+</string-array>
+<string name="nav_Cartoons">filma vizatimorë/kukulla</string>
+<string name="nav_Motoring">gara automobilistike</string>
+<string name="nav_epg_Nov">Nëntor</string>
+<string name="nav_Education">arsim/shkencë/tema faktike (të përgjithshme)</string>
+<string name="nav_Comedy">komedi</string>
+<string name="nav_Documentary">dokumentar</string>
+<string name="nav_VARIETY">VARIETE</string>
+<string name="str_pick_start_time_error">Gabim në kohën e fillimit! Ora është tani para kohës aktuale</string>
+<string name="str_pick_success">Sukses!</string>
+<string name="nav_epg_Thursday">E enjte</string>
+<string name="menu_arrays_Block_MA_and_above">Blloko MA dhe sipër</string>
+<string name="nav_Magazines">revista/raporte/dokumentar</string>
+<string-array name="nav_epg_subtype_social_cn">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string name="nav_Tourism">turizm/udhëtime</string>
+<string name="epg_bottom_next_page">Faqja poshtë</string>
+<string name="nav_SHOW">Shfaqje/shfaqje lojërash</string>
+<string name="nav_Mono">Mono</string>
+<string name="nav_epg_October">Tetor</string>
+<string-array name="nav_epg_subtype_movie">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string name="nav_epg_Aug">Gusht</string>
+<string-array name="nav_epg_subtype_news_cn">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string name="nav_epg_subtype_sa_education">@string/nav_Educative</string>
+<string-array name="nav_epg_subtype_sa_variety">
+<item>@string/nav_Auditorium</item>
+<item>@string/nav_Show</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Making_of</item>
+<item>@string/nav_Feminine</item>
+<item>@string/nav_Game_show</item>
+</string-array>
+<string name="str_pick_past">Ka kaluar!</string>
+<string name="menu_arrays_Block_M_and_above">Blloko M dhe sipër</string>
+<string name="str_bottom_playing">Po riprodhohet</string>
+<string name="nav_Preschool_children">programe për fëmijë parashkollorë</string>
+<string name="str_loading_title">Po ngarkohen të dhënat...</string>
+<string name="nav_epg_April">Prill</string>
+<string name="nav_SPECIAL">Karakteristika të veçanta</string>
+<string name="nav_News">Lajme</string>
+<string name="nav_NICAM_STEREO">Nicam Stereo</string>
+<string name="nav_Tuesday">E martë</string>
+<string name="nav_5_1CH">5.1CH</string>
+<string name="nav_Nature">natyrë/kafshë/mjedis</string>
+<string name="nav_Reject">Refuzo</string>
+<string name="str_pick_start_time_conflict">Konflikt kohor!</string>
+<string name="nav_epg_subtype_sa_series">@string/nav_Series</string>
+<string name="nav_Discussion">diskutime/intervista/debat</string>
+<string name="nav_Fine_Arts">arte të bukura</string>
+<string name="nav_Tennis">tenis/skvosh</string>
+<string name="str_main_no_data">Nuk ka të dhëna programi, nuk mund të regjistrojë</string>
+<string name="nav_Weather_Report">lajme/raporti_i_motit</string>
+<string name="nav_epg_subtype_sa_reality_show">@string/nav_Reality_show</string>
+<string name="nav_Health">Shëndet</string>
+<string name="str_pick_cancel">Anuluar!</string>
+<string name="str_pick_end_time_error">Gabim në kohën e mbarimit! Ora është tani pas kohës së mbarimit</string>
+<string name="nav_epg_unsupport">NUK MBESHTETET</string>
+<string-array name="nav_epg_subtype_show_cn">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string name="nav_Reality_show">Shfaqje Realiteti</string>
+<string name="nav_Interactive">Interaktiv</string>
+<string-array name="nav_epg_subtype_children_cn">
+<item>@string/nav_Childrens</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string-array name="nav_epg_subtype_education">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string name="nav_Popular_culture">kulturë popullore/arte tradicionale</string>
+<string name="nav_CHILDREN">FËMIJË</string>
+<string name="nav_Erotic">Erotik</string>
+<string name="nav_epg_Jun">Qershor</string>
+<string name="nav_Thursday">E enjte</string>
+<string-array name="nav_epg_subtype_sports_cn">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sport</item>
+</string-array>
+<string name="nav_epg_Jul">Korrik</string>
+<string name="nav_NEWS_AND_FACTUAL">LAJME DHE TEMA FAKTUALE</string>
+<string name="nav_Unpublished">pabotuar</string>
+<string name="nav_Stereo">Stereo</string>
+<string name="nav_Team_Sports">sporte në ekip (përveç futbollit)</string>
+<string name="nav_epg_subtype_sa_erotic">@string/nav_Erotic</string>
+<string name="nav_Further_Education">arsim i mëtejshëm</string>
+<string name="epg_retrieving_show">Po merren të dhënat...</string>
+<string name="nav_epg_January">Janar</string>
+<string name="nav_REALITY_SHOW">SHFAQJE_REALITETI</string>
+<string name="nav_Surround_2CH">Cilësime rrethuese 2CH</string>
+<string name="str_pick_minute">Min</string>
+<string name="nav_Policy">Politikë</string>
+<string name="menu_arrays_Block_PG_and_above">Blloko PG dhe sipër</string>
+<string name="nav_Romance">histori dashurie</string>
+<string name="nav_CURRENT_AFFAIRS">ÇËSHTJE AKTUALE</string>
+<string name="nav_Arts_magazines">revista artistike</string>
+<string-array name="nav_epg_subtype_education_cn">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string name="epg_bottom_prev_day">Dita e mëparshme</string>
+<string name="nav_epg_August">Gusht</string>
+<string name="app_name">EPG</string>
+<string name="nav_Dual__Mono">Dual_Mono</string>
+<string name="nav_Sunday">E diel</string>
+<string name="nav_ENTERTAINMENT">ZBAVITJE</string>
+<string name="nav_Cooking">Gatim</string>
+<string name="nav_Musical">muzikë/operë</string>
+<string name="nav_NICAM_MONO">Nicam Mono</string>
+<string name="epg_bottom_ENTER">FUTJE</string>
+<string-array name="nav_epg_subtype_leisure_cn">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string name="nav_Advertisement">reklamë/blerje</string>
+<string name="epg_bottom_0">0</string>
+<string name="nav_Soap_opera">Telenovelë</string>
+<string name="str_pick_hour">Orë</string>
+<string name="nav_epg_Sep">Shtator</string>
+<string-array name="nav_epg_filter_type_AUS">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_CURRENT_AFFAIRS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_INFOTAINMENT</item>
+<item>@string/nav_SPECIAL</item>
+<item>@string/nav_COMEDY</item>
+<item>@string/nav_DRAMA</item>
+<item>@string/nav_DOCUMENTARY</item>
+</string-array>
+<string name="nav_Water_Sport">sporte ujore</string>
+<string name="nav_Sports">sporte (të përgjithshme)</string>
+<string name="nav_Surround">Cilësime rrethuese</string>
+<string-array name="nav_epg_subtype_sa_information">
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Fashion</item>
+<item>@string/nav_Country</item>
+<item>@string/nav_Health</item>
+<item>@string/nav_Travel</item>
+</string-array>
+<string name="nav_Literature">letërsi</string>
+<string name="nav_Game_show">Shfaqje lojërash</string>
+<string-array name="nav_epg_subtype_music_cn">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string name="nav_Handicraft">artizanat</string>
+<string name="nav_Social">çështje sociale/politike/ekonomike (të përgjithshme)</string>
+<string name="epg_bottom_type_filter">Filtri i llojit</string>
+<string name="nav_epg_subtype_sa_children">@string/nav_Children</string>
+<string name="nav_epg_Sun">E diel</string>
+<string name="nav_Movie">Film</string>
+<string name="nav_Comical">Komedi</string>
+<string name="array_level_dvb_lock">Fikur 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</string>
+<string name="nav_LEISURE">Kohë e lirë dhe hobi</string>
+<string name="nav_Arts">arte/kulturë (përveç muzikës)</string>
+<string name="nav_Serious_Music">muzikë serioze/muzikë klasike</string>
+<string name="nav_OTHER">TË TJERA</string>
+<string name="nav_MOVIE">Filma/Dramë</string>
+<string name="str_pick_title">Regjistër</string>
+<string name="nav_Television_sales">Shitje përmes televizionit</string>
+<string name="nav_epg_June">Qershor</string>
+<string name="nav_epg_Saturday">E shtunë</string>
+<string name="nav_Football">futboll</string>
+<string name="nav_Martial_Sports">sporte luftarake</string>
+<string name="str_pick_day">Ditë</string>
+<string name="nav_NICAM_DUAL2">Nicam Dual2</string>
+<string name="nav_NICAM_DUAL1">Nicam Dual1</string>
+<string name="nav_Detective">detektivë/melodramë</string>
+<string name="nav_Friday">E premte</string>
+<string name="nav_epg_Apr">Prill</string>
+<string name="nav_Children">programe për fëmijë/të rinj</string>
+<string name="nav_epg_December">Dhjetor</string>
+<string name="nav_COMEDY">KOMEDI</string>
+<string name="nav_Variety_Show">Shfaqje varieteti</string>
+<string name="nav_ARTS">Arte/kulturë (përveç muzikës)</string>
+<string name="nav_epg_no_title">(Pa titull)</string>
+<string name="epg_password">Fjalëkalimi</string>
+<string name="nav_epg_February">Shkurt</string>
+<string name="nav_DUAL2">Dual2</string>
+<string name="nav_Serious">filma seriozë/klasikë/fetarë/historikë/dramatikë</string>
+<string name="nav_DUAL1">Dual1</string>
+<string name="nav_Jazz">xhaz</string>
+<string-array name="nav_epg_subtype_leisure">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string name="nav_epg_Jan">Janar</string>
+<string name="nav_MONO">Mono</string>
+<string name="nav_epg_March">Mars</string>
+<string-array name="nav_epg_subtype_arts">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string name="nav_Gardening">kopshtari</string>
+<string name="nav_Wednesday">E mërkurë</string>
+<string name="nav_DEBATE_INTERVIEW">DISKUTIME_INTERVISTA</string>
+<string name="nav_NEWS">Lajme/çështje aktuale</string>
+<string-array name="nav_epg_subtype_special_cn">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+</string-array>
+<string name="nav_Country">Vendi</string>
+<string name="nav_epg_Tue">E martë</string>
+<string name="nav_Leisure_Hobbies">kohë e lirë dhe hobi (të përgjithshme)</string>
+<string name="nav_SOCIAL">çështje sociale/politike/ekonomike</string>
+<string name="nav_epg_Dec">Dhjetor</string>
+<string name="str_bottom_reminding">Kujtesë</string>
+<string name="nav_FM_STEREO">FM Stereo</string>
+<string name="nav_epg_Tuesday">E martë</string>
+<string name="nav_epg_Thur">E enjte</string>
+<string name="nav_epg_Sunday">E diel</string>
+<string-array name="nav_epg_subtype_children">
+<item>@string/nav_Children</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to_16</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string name="nav_Languages">gjuhët</string>
+<string-array name="nav_epg_subtype_sports">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sports</item>
+</string-array>
+<string name="menu_arrays_No_Block">Pa bllokim</string>
+<string name="nav_Dual_Mono">Dual Mono</string>
+<string name="nav_epg_subtype_sa_sports">@string/nav_Sports</string>
+<string name="str_pick_confirm">Shtypni OK për të konfirmuar</string>
+<string name="nav_epg_Sat">E shtunë</string>
+<string name="nav_epg_July">Korrik</string>
+<string name="nav_Making_of">Zhvillim personal</string>
+<string name="nav_epg_no_program_data">(Nuk ka të dhëna programi)</string>
+<string name="nav_Informational">programe informative/arsimore/shkollore</string>
+<string name="nav_SPORTS">Sporte</string>
+<string-array name="nav_epg_filter_type">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string name="nav_Childrens">Femijë</string>
+<string name="str_pick_insert_usb">Disku nuk është i gatshëm!Ju lutemi të futni pajisjen USB!</string>
+<string name="nav_Social_sciences">shkenca sociale/shpirtërore</string>
+<string-array name="nav_epg_subtype_special">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+<item>@string/nav_plano_stereoscopic</item>
+<item>@string/nav_local_or_regional</item>
+</string-array>
+<string name="nav_epg_Friday">E premte</string>
+<string name="nav_epg_Monday">E hënë</string>
+<string name="nav_Feminine">Femëror</string>
+<string name="nav_DOCUMENTARY">DOKUMENTAR</string>
+<string name="nav_Broadcasting">Transmetim/shtyp</string>
+<string name="nav_7_1CH">7.1CH</string>
+<string name="epg_password_message">Fjalëkalimi është i gabuar</string>
+<string-array name="nav_epg_subtype_movie_cn">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_social">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string name="nav_epg_subtype_sa_comical">@string/nav_Comical</string>
+<string name="nav_Fitness_and_Health">fitnes dhe shëndet</string>
+<string-array name="nav_epg_subtype_music">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious_Music</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string name="str_pick_fail">Dështim!</string>
+<string name="menu_arrays_Block_AV_and_above">Blloko AV dhe sipër</string>
+<string name="nav_COMICAL">KOMEDI</string>
+<string-array name="nav_epg_subtype_sa_other">
+<item>@string/nav_Adult_cartoon</item>
+<item>@string/nav_Interactive</item>
+<item>@string/nav_Policy</item>
+<item>@string/nav_Religion</item>
+</string-array>
+<string name="nav_Series">Seri</string>
+<string-array name="array_level_th_lock">
+<item>Fikur P</item>
+<item>C</item>
+<item>G</item>
+<item>PG13</item>
+<item>PG18</item>
+<item>X</item>
+</string-array>
+<string name="nav_MINI_SERIES">MINI_SERI</string>
+<string name="nav_Equestrian">hipizëm</string>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>@string/nav_Discussion</item>
+<item>@string/nav_Interview</item>
+</string-array>
+<string name="nav_epg_unclassified">Paklasifikuar</string>
+<string name="menu_arrays_Block_G_and_above">Blloko G dhe sipër</string>
+<string name="nav_Economics">ekonomi/këshillë sociale</string>
+<string name="nav_Miniseries">Mini-seri</string>
+<string name="nav_Ballet">balet</string>
+<string name="menu_arrays_Block_R_and_above">Blloko R dhe sipër</string>
+<string name="nav_Fashion">modë</string>
+<string name="nav_epg_Wednesday">E mërkurë</string>
+<string name="nav_Travel">Udhëtime</string>
+<string name="nav_Live_Broadcast">transmetim i drejtpërdrejtë</string>
+<string name="nav_epg_may">Maj</string>
+<string name="nav_Game_Show">shfaqje lojërash/kuiz/konkurs</string>
+<string name="nav_Educative">Arsimor</string>
+<string name="nav_plano_stereoscopic">rrafsh-stereoskopik</string>
+<string-array name="nav_epg_subtype_arts_cn">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string name="epg_rating_unclassified">Paklasifikuar</string>
+<string name="nav_epg_Feb">Shkurt</string>
+<string name="nav_Special_Events">ngjarje speciale (Lojërat Olimpike, Kupa Botërore etj.)</string>
+<string name="nav_SERIES">SERI</string>
+<string name="nav_4CH">4CH</string>
+<string name="nav_epg_subtype_sa_mini_series">@string/nav_Miniseries</string>
+<string name="nav_EDUCATION">Arsim/Shkencë/Tema faktuale (të përgjithshme)</string>
+<string name="nav_Saturday">E shtunë</string>
+<string name="nav_epg_genre_type">Lloj: </string>
+<string name="nav_Entertainment_for_10_to">Zbavitje për fëmijë 10 deri në... vjeç</string>
+<string name="nav_Science_Fiction">fantashkencë/fantazi/tmerr</string>
+<string name="nav_Folk">folk/muzikë tradicionale</string>
+<string name="nav_UNKNOW">PANJOHUR</string>
+<string name="nav_Performing_Arts">arte skenike</string>
+<string name="nav_INFOTAINMENT">ZBAVITJE INFORMATIVE</string>
+<string name="nav_epg_May">Maj</string>
+<string name="nav_Current_Affairs">lajmet/çështje aktuale (të përgjithshme)</string>
+<string name="str_pick_month">E hënë</string>
+<string name="nav_Athletics">atletikë</string>
+<string name="menu_arrays_Block_All">Blloko të gjitha</string>
+<string-array name="nav_epg_subtype_news">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string name="nav_epg_Mar">Mars</string>
+<string name="nav_Music">muzikë/balet/vallëzim (në përgjithësi)</string>
+<string name="nav_Adult_Movie">film/dramë për të rritur</string>
+<string name="nav_epg_Wed">E mërkurë</string>
+<string name="epg_bottom_next_day">Dita pasuese</string>
+<string name="nav_Original_language">gjuha origjinale</string>
+<string name="str_bottom_recording">Regjistruar</string>
+<string name="nav_STEREO">Stereo</string>
+<string name="nav_Adventure">aventurë/vestern/luftë</string>
+<string name="nav_Raffle">Lotari</string>
+<string name="nav_Medicine">mjekësi/fiziologji/psikologji</string>
+<string name="str_bottom_record">Regjistër</string>
+<string name="nav_SPORT">SPORT</string>
+<string name="nav_RA_TE_SA_PR">RA_TE_SA_PR</string>
+<string name="nav_EROTIC">EROTIK</string>
+<string name="nav_Report">Raporto</string>
+<string name="nav_Religion">fe</string>
+<string name="nav_Sports_Magazines">revista sportive</string>
+<string name="nav_Rock">rock/pop</string>
+<string name="nav_Entertainment_for_10_to_16">programe zbavitëse për fëmijë 10 deri në 16 vjeç</string>
+<string name="nav_Motor_Sport">gara sportive</string>
+<string name="nav_Monday">E hënë</string>
+<string name="nav_3CH">3CH</string>
+<string name="str_bottom_reminder">Mbetu</string>
+<string name="nav_Technology">teknologji/shkencat e  natyrës</string>
+<string name="nav_Martial_Sport">Sporte luftarake</string>
+<string name="nav_epg_subtype_sa_soap_opera">@string/nav_Soap_opera</string>
+<string name="nav_epg_subtype_sa_movie">@string/nav_Movie</string>
+<string-array name="nav_epg_filter_sa_type">
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_SOAP_OPERA</item>
+<item>@string/nav_MINI_SERIES</item>
+<item>@string/nav_SERIES</item>
+<item>@string/nav_VARIETY</item>
+<item>@string/nav_REALITY_SHOW</item>
+<item>@string/nav_INFORMATION</item>
+<item>@string/nav_COMICAL</item>
+<item>@string/nav_CHILDREN</item>
+<item>@string/nav_EROTIC</item>
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_RA_TE_SA_PR</item>
+<item>@string/nav_DEBATE_INTERVIEW</item>
+<item>@string/nav_OTHER</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string name="nav_New_Media">media të reja</string>
+<string name="nav_MUSIC">Muzike/Balet/Valëzim</string>
+<string name="nav_Talk_Show">talk show</string>
+<string name="nav_SAP">SAP</string>
+<string name="epg_bottom_prev_page">Faqja më lart</string>
+<string name="nav_INFORMATION">INFORMACION</string>
+<string name="nav_Prizing">Fitimi i çmimeve</string>
+<string name="nav_epg_Oct">Tetor</string>
+<string name="nav_Winter_Sport">sporte dimërore</string>
+<string name="nav_epg_Fri">E premte</string>
+<string name="nav_SOAP_OPERA">TELENOVELA</string>
+<string name="nav_LIFESTYLE">STILI I JETESËS</string>
+<string name="nav_Drama">filma/dramë (e përgjithshme)</string>
+<string name="nav_Foreign_Countries">vende të huaja/ekspedita</string>
+<string-array name="array_level_au_lock">
+<item>@string/menu_arrays_No_Block</item>
+<item>@string/menu_arrays_Block_R_and_above</item>
+<item>@string/menu_arrays_Block_AV_and_above</item>
+<item>@string/menu_arrays_Block_MA_and_above</item>
+<item>@string/menu_arrays_Block_M_and_above</item>
+<item>@string/menu_arrays_Block_PG_and_above</item>
+<item>@string/menu_arrays_Block_G_and_above</item>
+<item>@string/menu_arrays_Block_All</item>
+</string-array>
+<string name="nav_Remarkable_people">njerëz të famshëm</string>
+<string name="nav_epg_Mon">E hënë</string>
+<string name="nav_FM_MONO">FM Mono</string>
+<string name="nav_News_Magazine">revistë lajmesh</string>
+<string name="nav_Adult_cartoon">Filma vizatimorë për të rritur</string>
+<string name="nav_Black_and_White">bardhë e zi</string>
+<string name="channel_list_name">Emri i kanalit</string>
+<string name="nav_CHILDRENS">Programe për fëmijë/të rinj</string>
+<string name="nav_local_or_regional">lokale apo rajonale</string>
+<string name="epg_bottom_view_detail">Shiko Detajet</string>
+<string name="nav_Entertainment_for_6_to_14">programe zbavitëse për fëmijë 6 deri në 14 vjeç</string>
+<string name="nav_epg_September">Shtator</string>
+<string name="nav_Biography">Biografi</string>
+<string name="epg_info_program_type">Nuk ka</string>
+<string-array name="nav_epg_subtype_sa_news">
+<item>@string/nav_News</item>
+<item>@string/nav_Report</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Biography</item>
+</string-array>
+<string name="nav_DRAMA">DRAMË</string>
+<string name="nav_Interview">Intervista</string>
+<string name="nav_Film">filma/kinema</string>
+<string name="nav_Auditorium">Auditor</string>
+<string-array name="nav_epg_filter_type_cn">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string name="nav_Soap">telenovela/melodramë/folklor</string>
+<string name="nav_Experimental">film/video eksperimentale</string>
+<string name="nav_epg_November">Nëntor</string>
+</resources>

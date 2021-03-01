@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string-array name="nav_epg_filter_type_UK">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS_AND_FACTUAL</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORT</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LIFESTYLE</item>
+<item>@string/nav_DRAMA</item>
+</string-array>
+<string name="nav_Show">הצגה/הצגת משחק (כללי)</string>
+<string name="nav_Surround__2CH">Surround_2CH</string>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+<item>@string/nav_Raffle</item>
+<item>@string/nav_Television_sales</item>
+<item>@string/nav_Prizing</item>
+</string-array>
+<string name="nav_Cartoons">מצוירים/ בובות</string>
+<string name="nav_Motoring">מוטורי</string>
+<string name="nav_epg_Nov">נובמבר</string>
+<string name="nav_Education">השכלה/מדעים/נושאים עובדתיים (כללי)</string>
+<string name="nav_Comedy">קומדיה</string>
+<string name="nav_Documentary">תעודה</string>
+<string name="nav_VARIETY">מגוון</string>
+<string name="str_pick_start_time_error">שגיאת זמן התחלה! הזמן עתה לפני הזמן הנוכחי</string>
+<string name="str_pick_success">הצלחה!</string>
+<string name="nav_epg_Thursday">חמישי</string>
+<string name="menu_arrays_Block_MA_and_above">חסימת MA ומעלה</string>
+<string name="nav_Magazines">מגזינים/ דו"חות/ תעודה</string>
+<string-array name="nav_epg_subtype_social_cn">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string name="nav_Tourism">נסיעות/ תירות</string>
+<string name="epg_bottom_next_page">דף למטה</string>
+<string name="nav_SHOW">הצגה/הצגת משחק</string>
+<string name="nav_Mono">מונו</string>
+<string name="nav_epg_October">אוקטובר</string>
+<string-array name="nav_epg_subtype_movie">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string name="nav_epg_Aug">אוגוסט</string>
+<string-array name="nav_epg_subtype_news_cn">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string name="nav_epg_subtype_sa_education">@string/nav_Educative</string>
+<string-array name="nav_epg_subtype_sa_variety">
+<item>@string/nav_Auditorium</item>
+<item>@string/nav_Show</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Making_of</item>
+<item>@string/nav_Feminine</item>
+<item>@string/nav_Game_show</item>
+</string-array>
+<string name="str_pick_past">עבר!</string>
+<string name="menu_arrays_Block_M_and_above">חסימת M ומעלה</string>
+<string name="str_bottom_playing">מנגן</string>
+<string name="nav_Preschool_children">תוכניות ילדי גן</string>
+<string name="str_loading_title">טוען נתונים...</string>
+<string name="nav_epg_April">אפריל</string>
+<string name="nav_SPECIAL">אותיות מיוחדות</string>
+<string name="nav_News">חדשות</string>
+<string name="nav_NICAM_STEREO">סטריאו Nicam</string>
+<string name="nav_Tuesday">שלישי</string>
+<string name="nav_5_1CH">5.1CH</string>
+<string name="nav_Nature">טבע/ חיות/ סביבה</string>
+<string name="nav_Reject">דחייה</string>
+<string name="str_pick_start_time_conflict">התנגשות זמנים!</string>
+<string name="nav_epg_subtype_sa_series">@string/nav_Series</string>
+<string name="nav_Discussion">דיון/ ראיון/ ויכוח</string>
+<string name="nav_Fine_Arts">אומנויות</string>
+<string name="nav_Tennis">טניס/ סקווש</string>
+<string name="str_main_no_data">אין נתוני תוכנית, לא יכול להקליט</string>
+<string name="nav_Weather_Report">חדשות/ תחזית מזג אוויר</string>
+<string name="nav_epg_subtype_sa_reality_show">@string/nav_Reality_show</string>
+<string name="nav_Health">בריאות</string>
+<string name="str_pick_cancel">בוטל!</string>
+<string name="str_pick_end_time_error">שגיאת זמן סיום! זמן הסיום כעת אחרי זמן הסיום</string>
+<string name="nav_epg_unsupport">אין תמיכה</string>
+<string-array name="nav_epg_subtype_show_cn">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string name="nav_Reality_show">תכנית ריאליטי</string>
+<string name="nav_Interactive">אינטראקטיבי</string>
+<string-array name="nav_epg_subtype_children_cn">
+<item>@string/nav_Childrens</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string-array name="nav_epg_subtype_education">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string name="nav_Popular_culture">תרבות עממית/ אומנויות מסורתיות</string>
+<string name="nav_CHILDREN">ילדים</string>
+<string name="nav_Erotic">ארוטי</string>
+<string name="nav_epg_Jun">יוני</string>
+<string name="nav_Thursday">חמישי</string>
+<string-array name="nav_epg_subtype_sports_cn">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sport</item>
+</string-array>
+<string name="nav_epg_Jul">יולי</string>
+<string name="nav_NEWS_AND_FACTUAL">חדשות ועובדות</string>
+<string name="nav_Unpublished">לא מפורסם</string>
+<string name="nav_Stereo">סטריאו</string>
+<string name="nav_Team_Sports">ספורט קבוצתי (פרט לכדורגל)</string>
+<string name="nav_epg_subtype_sa_erotic">@string/nav_Erotic</string>
+<string name="nav_Further_Education">חינוך מתקדם</string>
+<string name="epg_retrieving_show">מאחזר עתה...</string>
+<string name="nav_epg_January">ינואר</string>
+<string name="nav_REALITY_SHOW">תוכנית ריאליטי</string>
+<string name="nav_Surround_2CH">סראונד 2CH</string>
+<string name="str_pick_minute">דקה</string>
+<string name="nav_Policy">מדיניות</string>
+<string name="menu_arrays_Block_PG_and_above">חסימת PG ומעלה</string>
+<string name="nav_Romance">רומנטי</string>
+<string name="nav_CURRENT_AFFAIRS">אקטואליה</string>
+<string name="nav_Arts_magazines">מגזיני אומנות</string>
+<string-array name="nav_epg_subtype_education_cn">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string name="epg_bottom_prev_day">היום הקודם</string>
+<string name="nav_epg_August">אוגוסט</string>
+<string name="app_name">EPG</string>
+<string name="nav_Dual__Mono">מונו כפול</string>
+<string name="nav_Sunday">ראשון</string>
+<string name="nav_ENTERTAINMENT">בידור</string>
+<string name="nav_Cooking">בישול</string>
+<string name="nav_Musical">מחזמר/ אופרה</string>
+<string name="nav_NICAM_MONO">מונו Nicam</string>
+<string name="epg_bottom_ENTER">אנטר</string>
+<string-array name="nav_epg_subtype_leisure_cn">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string name="nav_Advertisement">פרסום/ קניות</string>
+<string name="epg_bottom_0">0</string>
+<string name="nav_Soap_opera">אופרת סבון</string>
+<string name="str_pick_hour">שעה</string>
+<string name="nav_epg_Sep">ספטמבר</string>
+<string-array name="nav_epg_filter_type_AUS">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_CURRENT_AFFAIRS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_INFOTAINMENT</item>
+<item>@string/nav_SPECIAL</item>
+<item>@string/nav_COMEDY</item>
+<item>@string/nav_DRAMA</item>
+<item>@string/nav_DOCUMENTARY</item>
+</string-array>
+<string name="nav_Water_Sport">ספורט מים</string>
+<string name="nav_Sports">ספורט (כללי)</string>
+<string name="nav_Surround">הקפה</string>
+<string-array name="nav_epg_subtype_sa_information">
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Fashion</item>
+<item>@string/nav_Country</item>
+<item>@string/nav_Health</item>
+<item>@string/nav_Travel</item>
+</string-array>
+<string name="nav_Literature">ספרות</string>
+<string name="nav_Game_show">שעשועון</string>
+<string-array name="nav_epg_subtype_music_cn">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string name="nav_Handicraft">מלאכת יד</string>
+<string name="nav_Social">חברה/ פוליטיקה/ כלכלה (כללי)</string>
+<string name="epg_bottom_type_filter">מסנן סוג</string>
+<string name="nav_epg_subtype_sa_children">@string/nav_Children</string>
+<string name="nav_epg_Sun">יום ראשון</string>
+<string name="nav_Movie">סרט</string>
+<string name="nav_Comical">קומי</string>
+<string-array name="array_level_dvb_lock">
+<item>כבוי</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+<item>12</item>
+<item>13</item>
+<item>14</item>
+<item>15</item>
+<item>16</item>
+<item>17</item>
+<item>18</item>
+</string-array>
+<string name="nav_LEISURE">תחביבי פנאי</string>
+<string name="nav_Arts">אומנות/תרבות (ללא מוזיקה)</string>
+<string name="nav_Serious_Music">מוזיקה רצינית/ קלאסית</string>
+<string name="nav_OTHER">אחר</string>
+<string name="nav_MOVIE">סרט/דרמה</string>
+<string name="str_pick_title">הקלט</string>
+<string name="nav_Television_sales">מכירות טלוויזיה</string>
+<string name="nav_epg_June">יוני</string>
+<string name="nav_epg_Saturday">שבת</string>
+<string name="nav_Football">כדורגל</string>
+<string name="nav_Martial_Sports">אומנויות לחימה</string>
+<string name="str_pick_day">יום</string>
+<string name="nav_NICAM_DUAL2">Nicam כפול2</string>
+<string name="nav_NICAM_DUAL1">Nicam כפול1</string>
+<string name="nav_Detective">בלש/ מותחן</string>
+<string name="nav_Friday">ששי</string>
+<string name="nav_epg_Apr">אפריל</string>
+<string name="nav_Children">תוכניות ילדים/ נוער</string>
+<string name="nav_epg_December">דצמבר</string>
+<string name="nav_COMEDY">קומדיה</string>
+<string name="nav_Variety_Show">מופע בידור</string>
+<string name="nav_ARTS">אומנות/תרבות (ללא מוזיקה)</string>
+<string name="nav_epg_no_title">(ללא כותרת)</string>
+<string name="epg_password">סיסמה</string>
+<string name="nav_epg_February">פברואר</string>
+<string name="nav_DUAL2">כפול2</string>
+<string name="nav_Serious">סרט/ דרמה רציני/ קלאסי/ דתי/ היסטורי</string>
+<string name="nav_DUAL1">כפול1</string>
+<string name="nav_Jazz">"ג'אז"</string>
+<string-array name="nav_epg_subtype_leisure">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string name="nav_epg_Jan">יאן</string>
+<string name="nav_MONO">מונו</string>
+<string name="nav_epg_March">מארס</string>
+<string-array name="nav_epg_subtype_arts">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string name="nav_Gardening">גינון</string>
+<string name="nav_Wednesday">רביעי</string>
+<string name="nav_DEBATE_INTERVIEW">דיון ראיון</string>
+<string name="nav_NEWS">חדשות/אירועי השעה</string>
+<string-array name="nav_epg_subtype_special_cn">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+</string-array>
+<string name="nav_Country">ארץ</string>
+<string name="nav_epg_Tue">יום ג</string>
+<string name="nav_Leisure_Hobbies">תחביבי פנאי (כללי)</string>
+<string name="nav_SOCIAL">חברתי/נושאים פוליטיים/כלכלה</string>
+<string name="nav_epg_Dec">דצמבר</string>
+<string name="str_bottom_reminding">תזכורת</string>
+<string name="nav_FM_STEREO">FM סטריאו</string>
+<string name="nav_epg_Tuesday">שלישי</string>
+<string name="nav_epg_Thur">"ה'"</string>
+<string name="nav_epg_Sunday">ראשון</string>
+<string-array name="nav_epg_subtype_children">
+<item>@string/nav_Children</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to_16</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string name="nav_Languages">שפות</string>
+<string-array name="nav_epg_subtype_sports">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sports</item>
+</string-array>
+<string name="menu_arrays_No_Block">ללא חסימה</string>
+<string name="nav_Dual_Mono">מונו כפול</string>
+<string name="nav_epg_subtype_sa_sports">@string/nav_Sports</string>
+<string name="str_pick_confirm">יש ללחוץ OK (אישור) לאישור</string>
+<string name="nav_epg_Sat">שבת</string>
+<string name="nav_epg_July">יולי</string>
+<string name="nav_Making_of">יצירה של</string>
+<string name="nav_epg_no_program_data">(אין נתוניתוכנית)</string>
+<string name="nav_Informational">תוכניות מידע/ חינוכיות/ בית ספר</string>
+<string name="nav_SPORTS">ספורט</string>
+<string-array name="nav_epg_filter_type">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string name="nav_Childrens">ילדים</string>
+<string name="str_pick_insert_usb">הכונן אינו מוכן! יש להכניס כונן USB!</string>
+<string name="nav_Social_sciences">מדעי חברה/ רוח</string>
+<string-array name="nav_epg_subtype_special">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+<item>@string/nav_plano_stereoscopic</item>
+<item>@string/nav_local_or_regional</item>
+</string-array>
+<string name="nav_epg_Friday">ששי</string>
+<string name="nav_epg_Monday">שני</string>
+<string name="nav_Feminine">נשי</string>
+<string name="nav_DOCUMENTARY">תעודה</string>
+<string name="nav_Broadcasting">שידור/ עיתונות</string>
+<string name="nav_7_1CH">7.1CH</string>
+<string name="epg_password_message">הסיסמה שגויה</string>
+<string-array name="nav_epg_subtype_movie_cn">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_social">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string name="nav_epg_subtype_sa_comical">@string/nav_Comical</string>
+<string name="nav_Fitness_and_Health">כושר ובריאות</string>
+<string-array name="nav_epg_subtype_music">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious_Music</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string name="str_pick_fail">כשל!</string>
+<string name="menu_arrays_Block_AV_and_above">חסימת AV ומעלה</string>
+<string name="nav_COMICAL">קומי</string>
+<string-array name="nav_epg_subtype_sa_other">
+<item>@string/nav_Adult_cartoon</item>
+<item>@string/nav_Interactive</item>
+<item>@string/nav_Policy</item>
+<item>@string/nav_Religion</item>
+</string-array>
+<string name="nav_Series">סדרה</string>
+<string-array name="array_level_th_lock">
+<item>כבוי</item>
+<item>P</item>
+<item>C</item>
+<item>G</item>
+<item>PG13</item>
+<item>PG18</item>
+<item>X</item>
+</string-array>
+<string name="nav_MINI_SERIES">מיני סדרה</string>
+<string name="nav_Equestrian">סוסים</string>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>@string/nav_Discussion</item>
+<item>@string/nav_Interview</item>
+</string-array>
+<string name="nav_epg_unclassified">לא מסווג</string>
+<string name="menu_arrays_Block_G_and_above">חסימת G ומעלה</string>
+<string name="nav_Economics">ייעוץ כלכלי/ חברתי</string>
+<string name="nav_Miniseries">מיני סדרה</string>
+<string name="nav_Ballet">בלט</string>
+<string name="menu_arrays_Block_R_and_above">חסימת R ומעלה</string>
+<string name="nav_Fashion">אופנה</string>
+<string name="nav_epg_Wednesday">רביעי</string>
+<string name="nav_Travel">נסיעות</string>
+<string name="nav_Live_Broadcast">שידור חי</string>
+<string name="nav_epg_may">מאי</string>
+<string name="nav_Game_Show">שעשועון/ חידון/ תחרות</string>
+<string name="nav_Educative">חינוכי</string>
+<string name="nav_plano_stereoscopic">סטריאוסקופיה נעה</string>
+<string-array name="nav_epg_subtype_arts_cn">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string name="epg_rating_unclassified">לא מסווג</string>
+<string name="nav_epg_Feb">"פבר'"</string>
+<string name="nav_Special_Events">"אירועים מיוחדים (אולימפיאדה, גביע עולמי וכד')"</string>
+<string name="nav_SERIES">סדרה</string>
+<string name="nav_4CH">4CH</string>
+<string name="nav_epg_subtype_sa_mini_series">@string/nav_Miniseries</string>
+<string name="nav_EDUCATION">השכלה/מדעים/נושאים עובדתיים</string>
+<string name="nav_Saturday">שבת</string>
+<string name="nav_epg_genre_type">סוג: </string>
+<string name="nav_Entertainment_for_10_to">בידור לגיל 10 עד...</string>
+<string name="nav_Science_Fiction">מדע בדיוני/ פנטזיה/ אימה</string>
+<string name="nav_Folk">מוזיקה עממית/ מסורתית</string>
+<string name="nav_UNKNOW">לא ידוע</string>
+<string name="nav_Performing_Arts">אומנויות במה</string>
+<string name="nav_INFOTAINMENT">בידור חינוכי</string>
+<string name="nav_epg_May">מאי</string>
+<string name="nav_Current_Affairs">חדשות/אירועי השעה (כללי)</string>
+<string name="str_pick_month">"Cב'"</string>
+<string name="nav_Athletics">אתלטיקה</string>
+<string name="menu_arrays_Block_All">חסום הכול</string>
+<string-array name="nav_epg_subtype_news">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string name="nav_epg_Mar">מאר/</string>
+<string name="nav_Music">מוזיקה/בלט/מחול (כללי)</string>
+<string name="nav_Adult_Movie">סרט דרמה/ מבוגרים</string>
+<string name="nav_epg_Wed">"ד'"</string>
+<string name="epg_bottom_next_day">היום הבא</string>
+<string name="nav_Original_language">שפה מקורית</string>
+<string name="str_bottom_recording">מוקלט</string>
+<string name="nav_STEREO">סטריאו</string>
+<string name="nav_Adventure">הרפתקאות/ מערבון/ מלחמה</string>
+<string name="nav_Raffle">הגרלה</string>
+<string name="nav_Medicine">רפואה/ פיזיולוגיה/ פסיכולוגיה</string>
+<string name="str_bottom_record">הקלט</string>
+<string name="nav_SPORT">ספורט</string>
+<string name="nav_RA_TE_SA_PR">RA_TE_SA_PR</string>
+<string name="nav_EROTIC">ארוטי</string>
+<string name="nav_Report">דו"ח</string>
+<string name="nav_Religion">דת</string>
+<string name="nav_Sports_Magazines">מגזיני ספורט</string>
+<string name="nav_Rock">פופ/ רוק</string>
+<string name="nav_Entertainment_for_10_to_16">תוכניות בידור לגיל 10 עד 16</string>
+<string name="nav_Motor_Sport">ספורט מוטורי</string>
+<string name="nav_Monday">שני</string>
+<string name="nav_3CH">3CH</string>
+<string name="str_bottom_reminder">הזכר</string>
+<string name="nav_Technology">טכנולוגיות/ מדעי טבע</string>
+<string name="nav_Martial_Sport">אומנויות לחימה</string>
+<string name="nav_epg_subtype_sa_soap_opera">@string/nav_Soap_opera</string>
+<string name="nav_epg_subtype_sa_movie">@string/nav_Movie</string>
+<string-array name="nav_epg_filter_sa_type">
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_SOAP_OPERA</item>
+<item>@string/nav_MINI_SERIES</item>
+<item>@string/nav_SERIES</item>
+<item>@string/nav_VARIETY</item>
+<item>@string/nav_REALITY_SHOW</item>
+<item>@string/nav_INFORMATION</item>
+<item>@string/nav_COMICAL</item>
+<item>@string/nav_CHILDREN</item>
+<item>@string/nav_EROTIC</item>
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_RA_TE_SA_PR</item>
+<item>@string/nav_DEBATE_INTERVIEW</item>
+<item>@string/nav_OTHER</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string name="nav_New_Media">מדיה חדשה</string>
+<string name="nav_MUSIC">מוזיקה/בלט/מחול</string>
+<string name="nav_Talk_Show">תוכנית ראיונות</string>
+<string name="nav_SAP">SAP</string>
+<string name="epg_bottom_prev_page">דף למעלה</string>
+<string name="nav_INFORMATION">מידע</string>
+<string name="nav_Prizing">פרסים</string>
+<string name="nav_epg_Oct">"אוק'"</string>
+<string name="nav_Winter_Sport">ספורט חורף</string>
+<string name="nav_epg_Fri">"ו'"</string>
+<string name="nav_SOAP_OPERA">אופרת סבון</string>
+<string name="nav_LIFESTYLE">סגנון חיים</string>
+<string name="nav_Drama">סרט/דרמה (כללי)</string>
+<string name="nav_Foreign_Countries">ארצות זרות/ חקר ארצות</string>
+<string-array name="array_level_au_lock">
+<item>@string/menu_arrays_No_Block</item>
+<item>@string/menu_arrays_Block_R_and_above</item>
+<item>@string/menu_arrays_Block_AV_and_above</item>
+<item>@string/menu_arrays_Block_MA_and_above</item>
+<item>@string/menu_arrays_Block_M_and_above</item>
+<item>@string/menu_arrays_Block_PG_and_above</item>
+<item>@string/menu_arrays_Block_G_and_above</item>
+<item>@string/menu_arrays_Block_All</item>
+</string-array>
+<string name="nav_Remarkable_people">אנשים יוצאי דופן</string>
+<string name="nav_epg_Mon">"Cב'"</string>
+<string name="nav_FM_MONO">מונו FM</string>
+<string name="nav_News_Magazine">מגזין חדשות</string>
+<string name="nav_Adult_cartoon">הנפשה למבוגרים</string>
+<string name="nav_Black_and_White">שחור לבן</string>
+<string name="channel_list_name">שם ערוץ</string>
+<string name="nav_CHILDRENS">תוכניות ילדים/ נוער</string>
+<string name="nav_local_or_regional">מקומי או אזורי</string>
+<string name="epg_bottom_view_detail">ראה פרטים</string>
+<string name="nav_Entertainment_for_6_to_14">תוכניות בידור לגיל 6 עד 14</string>
+<string name="nav_epg_September">ספטמבר</string>
+<string name="nav_Biography">ביוגרפיה</string>
+<string name="epg_info_program_type">ללא</string>
+<string-array name="nav_epg_subtype_sa_news">
+<item>@string/nav_News</item>
+<item>@string/nav_Report</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Biography</item>
+</string-array>
+<string name="nav_DRAMA">דרמה</string>
+<string name="nav_Interview">ראיונות</string>
+<string name="nav_Film">סרטים/ קולנוע</string>
+<string name="nav_Auditorium">אודיטוריום</string>
+<string-array name="nav_epg_filter_type_cn">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string name="nav_Soap">סבון/ מלודרמה/ פולקלור</string>
+<string name="nav_Experimental">סרט/ וידיאו ניסויי</string>
+    <string name="str_pick_max">התוספת המתבקשת של לוח הזמנים עולה על המקסימום המותר!</string>
+</resources>

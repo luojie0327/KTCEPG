@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_line">#95FFFFFF</color>
+    <color name="default_hl">#76D7D6</color>
+    <color name="black">#000</color>
+
+    <color name="panel_background_active">#000000</color>
+    <color name="panel_background_inactive">#333333</color>
+    <color name="text_color_normal">#d1e1f0</color>
+    <color name="text_color_min">#7FC6FF</color>
+    <color name="text_color_gray">#b2b2b2</color>
+    <color name="text_color_no_focused">#4c4c4c</color>
+
+    <color name="ip_edit_text_normal">#ff000000</color>
+    <color name="ip_edit_text_disable">#ff4c4c4c</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#72FFFFFF</color>
+    <color name="trans">#00000000</color>
+    <color name="first_item_bg">#19FFFFFF</color>
+    <color name="text_color_yellow">#FCAF1A</color>
+    <color name="text_color_green">#52A73E</color>
+    <color name="text_color_blue">#0097CF</color>
+    <color name="text_color_red">#E82C2E</color>
+
+    <color name="date_picker_text_light">#30f3ff</color>
+    <color name="date_picker_text_dark">#7FFFFFFF</color>
+</resources>

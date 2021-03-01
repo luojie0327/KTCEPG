@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="359dp"
+    android:layout_height="@dimen/list_item_h">
+    <TextView
+        android:id="@+id/channel_number"
+        android:layout_width="@dimen/list_channel_item_number_w"
+        android:layout_height="@dimen/list_item_h"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="40dp"
+        android:maxLines="1"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="@dimen/list_channel_item_name_w"
+        android:layout_height="@dimen/list_item_h"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:marqueeRepeatLimit="1"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/channel_number"/>
+    <ImageView
+        android:id="@+id/chanel_right"
+        android:layout_width="@dimen/list_channel_item_right_w"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="47dp"
+        android:background="@mipmap/arrow"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_w"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_line"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/line_w"
+		android:layout_alignParentTop="true"
+		android:background="@color/color_line"
+		/>
+
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/line_w"
+		android:layout_alignParentBottom="true"
+		android:background="@color/color_line"
+		/>
+
+
+	<HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_rl_h"
+            >
+            <!-- for list 0 -->
+            <RelativeLayout 
+                android:id="@+id/epgs_ly0"
+                android:layout_width="@dimen/list_view_w"
+                android:layout_height="match_parent"
+                >
+
+                <TextView 
+                  android:id="@+id/epgs_date_0"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_date_title_h"
+                  android:gravity="center"
+                  android:textSize="25sp"
+                  android:textColor="@android:color/white"
+            	  android:textStyle="bold"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true" />
+                
+                <View
+			       android:layout_width="match_parent"
+			       android:layout_height="@dimen/line_w"
+			       android:layout_below="@+id/epgs_date_0"
+			       android:background="@color/color_line"
+			       />
+                
+                <com.ktc.epg.view.EpgRecyclerView
+                  android:id="@+id/epgs_list_0"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_view_h"
+                  android:layout_below="@+id/epgs_date_0"
+                  android:scrollbars="none"
+                  android:dividerHeight="0dp"
+                  android:listSelector="@drawable/selector_list_item"
+                  android:nextFocusRight="@+id/epgs_list_1"
+                  android:nextFocusDown="@+id/epgs_list_0"/>
+                
+	            <View 
+                  android:layout_width="@dimen/line_w"
+                  android:layout_height="match_parent"
+                  android:layout_alignParentRight="true"
+                  android:background="@color/color_line"
+                  />
+            </RelativeLayout>
+            
+            <!-- for list 1 -->
+            <RelativeLayout 
+                android:id="@+id/epgs_ly1"
+                android:layout_width="@dimen/list_view_w"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/epgs_ly0"
+                >
+                <TextView 
+                  android:id="@+id/epgs_date_1"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_date_title_h"
+                  android:gravity="center"
+                  android:textSize="25sp"
+                  android:textColor="@android:color/white"
+            	  android:textStyle="bold"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true" />
+                
+                <View
+			       android:layout_width="match_parent"
+			       android:layout_height="@dimen/line_w"
+			       android:layout_below="@+id/epgs_date_1"
+			       android:background="@color/color_line"
+			       />
+                
+                <com.ktc.epg.view.EpgRecyclerView
+                  android:id="@+id/epgs_list_1"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_view_h"
+                  android:layout_below="@+id/epgs_date_1"
+                  android:scrollbars="none"
+                  android:dividerHeight="0dp"
+                  android:listSelector="@drawable/selector_list_item"
+                  android:nextFocusLeft="@+id/epgs_list_0"
+                  android:nextFocusRight="@+id/epgs_list_2"
+                  android:nextFocusDown="@+id/epgs_list_1"/>
+                
+	            <View 
+                  android:layout_width="@dimen/line_w"
+                  android:layout_height="match_parent"
+                  android:layout_alignParentRight="true"
+                  android:background="@color/color_line"
+                  />
+            </RelativeLayout>
+            
+            <!-- for list 2 -->
+            <RelativeLayout 
+                android:id="@+id/epgs_ly2"
+                android:layout_width="@dimen/list_view_w"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/epgs_ly1"
+                >
+                <TextView 
+                  android:id="@+id/epgs_date_2"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_date_title_h"
+                  android:gravity="center"
+                  android:textSize="25sp"
+                  android:textColor="@android:color/white"
+            	  android:textStyle="bold"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true" />
+                
+                <View
+			       android:layout_width="match_parent"
+			       android:layout_height="@dimen/line_w"
+			       android:layout_below="@+id/epgs_date_2"
+			       android:background="@color/color_line"
+			       />
+                
+                <com.ktc.epg.view.EpgRecyclerView
+                  android:id="@+id/epgs_list_2"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_view_h"
+                  android:layout_below="@+id/epgs_date_2"
+                  android:scrollbars="none"
+                  android:dividerHeight="0dp"
+                  android:listSelector="@drawable/selector_list_item"
+                  android:nextFocusLeft="@+id/epgs_list_1"
+                  android:nextFocusRight="@+id/epgs_list_3"
+                  android:nextFocusDown="@+id/epgs_list_2"/>
+                
+	            <View 
+                  android:layout_width="@dimen/line_w"
+                  android:layout_height="match_parent"
+                  android:layout_alignParentRight="true"
+                  android:background="@color/color_line"
+                  />
+            </RelativeLayout>
+            
+            <!-- for list 3 -->
+            <RelativeLayout 
+                android:id="@+id/epgs_ly3"
+                android:layout_width="@dimen/list_view_w"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/epgs_ly2"
+                >
+                <TextView 
+                  android:id="@+id/epgs_date_3"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_date_title_h"
+                  android:gravity="center"
+                  android:textSize="25sp"
+                  android:textColor="@android:color/white"
+            	  android:textStyle="bold"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true" />
+                
+                <View
+			       android:layout_width="match_parent"
+			       android:layout_height="@dimen/line_w"
+			       android:layout_below="@+id/epgs_date_3"
+			       android:background="@color/color_line"
+			       />
+                
+                <com.ktc.epg.view.EpgRecyclerView
+                  android:id="@+id/epgs_list_3"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_view_h"
+                  android:layout_below="@+id/epgs_date_3"
+                  android:scrollbars="none"
+                  android:dividerHeight="0dp"
+                  android:listSelector="@drawable/selector_list_item"
+                  android:nextFocusLeft="@+id/epgs_list_2"
+                  android:nextFocusRight="@+id/epgs_list_4"
+                  android:nextFocusDown="@+id/epgs_list_3"/>
+                
+	            <View 
+                  android:layout_width="@dimen/line_w"
+                  android:layout_height="match_parent"
+                  android:layout_alignParentRight="true"
+                  android:background="@color/color_line"
+                  />
+            </RelativeLayout>
+            
+            
+            <!-- for list 4 -->
+            <RelativeLayout 
+                android:id="@+id/epgs_ly4"
+                android:layout_width="@dimen/list_view_w"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/epgs_ly3"
+                >
+                <TextView 
+                  android:id="@+id/epgs_date_4"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_date_title_h"
+                  android:gravity="center"
+                  android:textSize="25sp"
+                  android:textColor="@android:color/white"
+            	  android:textStyle="bold"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true" />
+                
+                <View
+			       android:layout_width="match_parent"
+			       android:layout_height="@dimen/line_w"
+			       android:layout_below="@+id/epgs_date_4"
+			       android:background="@color/color_line"
+			       />
+                
+                <com.ktc.epg.view.EpgRecyclerView
+                  android:id="@+id/epgs_list_4"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_view_h"
+                  android:layout_below="@+id/epgs_date_4"
+                  android:scrollbars="none"
+                  android:dividerHeight="0dp"
+                  android:listSelector="@drawable/selector_list_item"
+                  android:nextFocusLeft="@+id/epgs_list_3"
+                  android:nextFocusRight="@+id/epgs_list_5"
+                  android:nextFocusDown="@+id/epgs_list_4"/>
+                
+	            <View 
+                  android:layout_width="@dimen/line_w"
+                  android:layout_height="match_parent"
+                  android:layout_alignParentRight="true"
+                  android:background="@color/color_line"
+                  />
+            </RelativeLayout>
+            
+            <!-- for list 5 -->
+            <RelativeLayout 
+                android:id="@+id/epgs_ly5"
+                android:layout_width="@dimen/list_view_w"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/epgs_ly4"
+                >
+                <TextView 
+                  android:id="@+id/epgs_date_5"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_date_title_h"
+                  android:gravity="center"
+                  android:textSize="25sp"
+                  android:textColor="@android:color/white"
+            	  android:textStyle="bold"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true" />
+                
+                <View
+			       android:layout_width="match_parent"
+			       android:layout_height="@dimen/line_w"
+			       android:layout_below="@+id/epgs_date_5"
+			       android:background="@color/color_line"
+			       />
+                
+                <com.ktc.epg.view.EpgRecyclerView
+                  android:id="@+id/epgs_list_5"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_view_h"
+                  android:layout_below="@+id/epgs_date_5"
+                  android:scrollbars="none"
+                  android:dividerHeight="0dp"
+                  android:listSelector="@drawable/selector_list_item"
+                  android:nextFocusLeft="@+id/epgs_list_4"
+                  android:nextFocusRight="@+id/epgs_list_6"
+                  android:nextFocusDown="@+id/epgs_list_5"/>
+                
+	            <View 
+                  android:layout_width="@dimen/line_w"
+                  android:layout_height="match_parent"
+                  android:layout_alignParentRight="true"
+                  android:background="@color/color_line"
+                  />
+            </RelativeLayout>
+            
+            <!-- for list 6 -->
+            <RelativeLayout 
+                android:id="@+id/epgs_ly6"
+                android:layout_width="@dimen/list_view_w"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/epgs_ly5"
+                >
+                <TextView 
+                  android:id="@+id/epgs_date_6"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_date_title_h"
+                  android:gravity="center"
+                  android:textSize="25sp"
+                  android:textColor="@android:color/white"
+            	  android:textStyle="bold"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true" />
+                <View
+			       android:layout_width="match_parent"
+			       android:layout_height="@dimen/line_w"
+			       android:layout_below="@+id/epgs_date_6"
+			       android:background="@color/color_line"
+			       />
+                <com.ktc.epg.view.EpgRecyclerView
+                  android:id="@+id/epgs_list_6"
+                  android:layout_width="@dimen/list_view_w"
+                  android:layout_height="@dimen/list_view_h"
+                  android:layout_below="@+id/epgs_date_6"
+                  android:scrollbars="none"
+                  android:dividerHeight="0dp"
+                  android:listSelector="@drawable/selector_list_item"
+                  android:nextFocusLeft="@+id/epgs_list_5"
+					android:nextFocusRight="@+id/epgs_list_7"
+                  android:nextFocusDown="@+id/epgs_list_6"/>
+				<View
+					android:layout_width="@dimen/line_w"
+					android:layout_height="match_parent"
+					android:layout_alignParentRight="true"
+					android:background="@color/color_line"
+					/>
+
+            </RelativeLayout>
+			<!-- for list 7-->
+			<RelativeLayout
+				android:id="@+id/epgs_ly7"
+				android:layout_width="@dimen/list_view_w"
+				android:layout_height="match_parent"
+				android:layout_toRightOf="@+id/epgs_ly6"
+				>
+				<TextView
+					android:id="@+id/epgs_date_7"
+					android:layout_width="@dimen/list_view_w"
+					android:layout_height="@dimen/list_date_title_h"
+					android:gravity="center"
+					android:textSize="25sp"
+					android:textColor="@android:color/white"
+					android:textStyle="bold"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentStart="true" />
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/line_w"
+					android:layout_below="@+id/epgs_date_7"
+					android:background="@color/color_line"
+					/>
+				<com.ktc.epg.view.EpgRecyclerView
+					android:id="@+id/epgs_list_7"
+					android:layout_width="@dimen/list_view_w"
+					android:layout_height="@dimen/list_view_h"
+					android:layout_below="@+id/epgs_date_7"
+					android:scrollbars="none"
+					android:dividerHeight="0dp"
+					android:listSelector="@drawable/selector_list_item"
+					android:nextFocusLeft="@+id/epgs_list_6"
+					android:nextFocusRight="@+id/epgs_list_7"
+					android:nextFocusDown="@+id/epgs_list_7"/>
+
+			</RelativeLayout>
+            
+        </RelativeLayout>
+    </HorizontalScrollView>
+    
+    <View 
+     android:layout_width="@dimen/line_w"
+     android:layout_height="match_parent"
+     android:layout_alignParentRight="true"
+     android:background="@color/color_line"
+     />
+</RelativeLayout>

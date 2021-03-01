@@ -1,0 +1,683 @@
+<resources>
+    <string name="app_name">EPG</string>
+    <string name="channel_list_name">Channel Name</string>
+    <string name="str_loading_title">Loading data ...</string>
+    <string name="str_bottom_record">Record</string>
+    <string name="str_bottom_reminder">Remind</string>
+    <string name="str_bottom_playing">Playing</string>
+    <string name="str_bottom_recording">Recorded</string>
+    <string name="str_bottom_reminding">Reminder</string>
+    <string name="str_pick_title">Record</string>
+    <string name="str_pick_month">Mon</string>
+    <string name="str_pick_day">Day</string>
+    <string name="str_pick_hour">Hour</string>
+    <string name="str_pick_minute">Min</string>
+    <string name="str_pick_confirm">Press OK to confirm</string>
+    <string name="str_pick_cancel">Canceled!</string>
+    <string name="str_pick_success">Success!</string>
+    <string name="str_pick_max">Requested add of schedule exceeds maximum allowed!</string>
+    <string name="str_pick_past">Past!</string>
+    <string name="str_pick_fail">Fail !</string>
+    <string name="str_pick_insert_usb">Disk Not Ready!Please insert USB device!</string>
+    <string name="str_main_no_data">No Program data,can not record</string>
+
+    <string name="str_pick_start_time_error">Start time error ! The time now is before current time</string>
+    <string name="str_pick_start_time_conflict">Time Conflict !</string>
+    <string name="str_pick_end_time_error">End time error ! The time now is after end time</string>
+
+    <!-- for epg -->
+    <string name="epg_bottom_prev_day">Previous Day</string>
+    <string name="epg_bottom_next_day">Next Day</string>
+    <string name="epg_bottom_view_detail">View Detail</string>
+    <string name="epg_bottom_type_filter">Type Filter</string>
+    <string name="epg_bottom_prev_page">Page Up</string>
+    <string name="epg_bottom_next_page">Page Down</string>
+    <string name="epg_bottom_ENTER">ENTER</string>
+    <string name="epg_bottom_0">0</string>
+    <string name="epg_rating_unclassified">Unclassified</string>
+
+    <string name="epg_info_program_type">None</string>
+    <string name="epg_password">Password</string>
+    <string name="epg_password_message">Password is wrong</string>
+    <string name="epg_retrieving_show">Retrieving Data...</string>
+
+    <string name="nav_epg_January">January</string>
+    <string name="nav_epg_February">February</string>
+    <string name="nav_epg_March">March</string>
+    <string name="nav_epg_April">April</string>
+    <string name="nav_epg_May">May</string>
+    <string name="nav_epg_June">June</string>
+    <string name="nav_epg_July">July</string>
+    <string name="nav_epg_August">August</string>
+    <string name="nav_epg_September">September</string>
+    <string name="nav_epg_October">October</string>
+    <string name="nav_epg_November">November</string>
+    <string name="nav_epg_December">December</string>
+
+    <string name="nav_epg_Jan">Jan</string>
+    <string name="nav_epg_Feb">Feb</string>
+    <string name="nav_epg_Mar">Mar</string>
+    <string name="nav_epg_Apr">Apr</string>
+    <string name="nav_epg_may">May</string>
+    <string name="nav_epg_Jun">Jun</string>
+    <string name="nav_epg_Jul">Jul</string>
+    <string name="nav_epg_Aug">Aug</string>
+    <string name="nav_epg_Sep">Sep</string>
+    <string name="nav_epg_Oct">Oct</string>
+    <string name="nav_epg_Nov">Nov</string>
+    <string name="nav_epg_Dec">Dec</string>
+
+    <string name="nav_epg_Sunday">Sunday</string>
+    <string name="nav_epg_Monday">Monday</string>
+    <string name="nav_epg_Tuesday">Tuesday</string>
+    <string name="nav_epg_Wednesday">Wednesday</string>
+    <string name="nav_epg_Thursday">Thursday</string>
+    <string name="nav_epg_Friday">Friday</string>
+    <string name="nav_epg_Saturday">Saturday</string>
+
+    <string name="nav_epg_Sun">Sun</string>
+    <string name="nav_epg_Mon">Mon</string>
+    <string name="nav_epg_Tue">Tue</string>
+    <string name="nav_epg_Wed">Wed</string>
+    <string name="nav_epg_Thur">Thur</string>
+    <string name="nav_epg_Fri">Fri</string>
+    <string name="nav_epg_Sat">Sat</string>
+
+    <string name="nav_MOVIE">Movie/Drama</string>
+    <string name="nav_NEWS">News/Current affairs</string>
+    <string name="nav_SHOW">Show/Game show</string>
+    <string name="nav_SPORTS">Sports</string>
+    <string name="nav_Sports">sports (general)</string>
+    <string name="nav_CHILDRENS">Children\'s/Youth programmes</string>
+    <string name="nav_MUSIC">Music/Ballet/Dance</string>
+    <string name="nav_ARTS">Arts/Culture (without music)</string>
+    <string name="nav_SOCIAL">Social/Political issues/Economics</string>
+    <string name="nav_EDUCATION">Education/Science/Factual topics</string>
+    <string name="nav_LEISURE">Leisure hobbies</string>
+    <string name="nav_SPECIAL">Special characteristics</string>
+    <string name="nav_CHILDREN">CHILDREN</string>
+    <string name="nav_EROTIC">EROTIC</string>
+    <string name="nav_RA_TE_SA_PR">RA_TE_SA_PR</string>
+    <string name="nav_DEBATE_INTERVIEW">DEBATE_INTERVIEW</string>
+    <string name="nav_OTHER">OTHER</string>
+    <string name="nav_ENTERTAINMENT">ENTERTAINMENT</string>
+    <string name="nav_CURRENT_AFFAIRS">CURRENT AFFAIRS</string>
+    <string name="nav_INFOTAINMENT">INFOTAINMENT</string>
+    <string name="nav_COMEDY">COMEDY</string>
+    <string name="nav_DRAMA">DRAMA</string>
+    <string name="nav_DOCUMENTARY">DOCUMENTARY</string>
+    <string name="nav_NEWS_AND_FACTUAL">NEWS AND FACTUAL</string>
+    <string name="nav_SPORT">SPORT</string>
+    <string name="nav_LIFESTYLE">LIFESTYLE</string>
+    <string name="nav_SOAP_OPERA">SOAP_OPERA</string>
+    <string name="nav_MINI_SERIES">MINI_SERIES</string>
+    <string name="nav_SERIES">SERIES</string>
+    <string name="nav_VARIETY">VARIETY</string>
+    <string name="nav_REALITY_SHOW">REALITY_SHOW</string>
+    <string name="nav_INFORMATION">INFORMATION</string>
+    <string name="nav_COMICAL">COMICAL</string>
+    <string name="nav_Drama">movie/drama (general)</string>
+    <string name="nav_Detective">detective/thriller</string>
+    <string name="nav_Adventure">adventure/westem/war</string>
+    <string name="nav_Science_Fiction">science fiction/fantasy/horror</string>
+    <string name="nav_Comedy">comedy</string>
+    <string name="nav_Soap">soap/melodrama/folkloric</string>
+    <string name="nav_Romance">romance</string>
+    <string name="nav_Serious">serious/classical/religious/historical movie/drama</string>
+    <string name="nav_Serious_Music">serious music/classical music</string>
+    <string name="nav_Adult_Movie">adult movie/drama</string>
+    <string name="nav_Current_Affairs">news/current affairs (general)</string>
+    <string name="nav_Weather_Report">news/weather report</string>
+    <string name="nav_News_Magazine">news magazine</string>
+    <string name="nav_Documentary">documentary</string>
+    <string name="nav_Discussion">discussion/interview/debate</string>
+    <string name="nav_News">News</string>
+    <string name="nav_Report">Report</string>
+    <string name="nav_Biography">Biography</string>
+    <string name="nav_Show">show/game show (general)</string>
+    <string name="nav_Game_Show">game show/quiz/contest</string>
+    <string name="nav_Variety_Show">variety show</string>
+    <string name="nav_Talk_Show">talk show</string>
+    <string name="nav_Special_Events">special events (Olympic Games,World Cup,etc.)</string>
+    <string name="nav_Sports_Magazines">sports magazines</string>
+    <string name="nav_Football">football/soccer</string>
+    <string name="nav_Tennis">tennis/squash</string>
+    <string name="nav_Team_Sports">team sports (excluding football)</string>
+    <string name="nav_Athletics">athletics</string>
+    <string name="nav_Motor_Sport">motor sport</string>
+    <string name="nav_Water_Sport">water sport</string>
+    <string name="nav_Winter_Sport">winter sports</string>
+    <string name="nav_Equestrian">equestrian</string>
+    <string name="nav_Martial_Sports">martial sports</string>
+    <string name="nav_Children">children\'s/youth programmes</string>
+    <string name="nav_Preschool_children">pre-school children\'s programmes</string>
+    <string name="nav_Entertainment_for_6_to_14">entertainment programmes for 6 to 14</string>
+    <string name="nav_Entertainment_for_10_to_16">entertainment programmes for 10 to 16</string>
+    <string name="nav_Informational">informational/educational/school programmes</string>
+    <string name="nav_Cartoons">cartoons/puppets</string>
+    <string name="nav_Music">music/ballet/dance (general)</string>
+    <string name="nav_Rock">rock/pop</string>
+    <string name="nav_Folk">folk/traditional music</string>
+    <string name="nav_Jazz">jazz</string>
+    <string name="nav_Musical">musical/opera</string>
+    <string name="nav_Ballet">ballet</string>
+    <string name="nav_Arts">arts/culture (without music)</string>
+    <string name="nav_Performing_Arts">performing arts</string>
+    <string name="nav_Fine_Arts">fine arts</string>
+    <string name="nav_Religion">religion</string>
+    <string name="nav_Popular_culture">popular culture/traditional arts</string>
+    <string name="nav_Literature">literature</string>
+    <string name="nav_Film">film/cinema</string>
+    <string name="nav_Experimental">experimental film/video</string>
+    <string name="nav_Broadcasting">broadcasting/press</string>
+    <string name="nav_Live_Broadcast">live broadcast</string>
+    <string name="nav_New_Media">new media</string>
+    <string name="nav_Arts_magazines">arts magazines</string>
+    <string name="nav_Fashion">fashion</string>
+    <string name="nav_Reject">Reject</string>
+    <string name="nav_Social">social/political issues/economics (general)</string>
+    <string name="nav_Magazines">magazines/reports/documentary</string>
+    <string name="nav_Economics">economics/social advisory</string>
+    <string name="nav_Remarkable_people">remarkable people</string>
+    <string name="nav_Education">education/science/factual topics (general)</string>
+    <string name="nav_Nature">nature/animals/environment</string>
+    <string name="nav_Technology">technology/nature sciences</string>
+    <string name="nav_Medicine">medicine/physiology/psychology</string>
+    <string name="nav_Foreign_Countries">foreign countries/expeditions</string>
+    <string name="nav_Social_sciences">social/spiritual sciences</string>
+    <string name="nav_Further_Education">further education</string>
+    <string name="nav_Languages">languages</string>
+    <string name="nav_Educative">Educative</string>
+    <string name="nav_Soap_opera">Soap Opera</string>
+    <string name="nav_Miniseries">Mini-series</string>
+    <string name="nav_Series">Series</string>
+    <string name="nav_Auditorium">Auditorium</string>
+    <string name="nav_Making_of">Making of</string>
+    <string name="nav_Feminine">Feminine</string>
+    <string name="nav_Game_show">Game Show</string>
+    <string name="nav_Reality_show">Reality Show</string>
+    <string name="nav_Cooking">Cooking</string>
+    <string name="nav_Country">Country</string>
+    <string name="nav_Health">Health</string>
+    <string name="nav_Travel">Travel</string>
+    <string name="nav_Comical">Comical</string>
+    <string name="nav_Erotic">Erotic</string>
+    <string name="nav_Movie">Movie</string>
+    <string name="nav_Raffle">Raffle</string>
+    <string name="nav_Television_sales">Television Sales</string>
+    <string name="nav_Prizing">Prizing</string>
+    <string name="nav_Interview">Interview</string>
+    <string name="nav_Adult_cartoon">Adult Cartoon</string>
+    <string name="nav_Interactive">Interactive</string>
+    <string name="nav_Policy">Policy</string>
+    <string name="nav_Leisure_Hobbies">leisure hobbies (general)</string>
+    <string name="nav_Tourism">tourism/travel</string>
+    <string name="nav_Handicraft">handicraft</string>
+    <string name="nav_Motoring">motoring</string>
+    <string name="nav_Fitness_and_Health">fitness and health</string>
+    <string name="nav_Advertisement">advertisement/shopping</string>
+    <string name="nav_Gardening">gardening</string>
+    <string name="nav_Original_language">original language</string>
+    <string name="nav_Black_and_White">black and white</string>
+    <string name="nav_Unpublished">unpublished</string>
+    <string name="nav_plano_stereoscopic">plano-stereoscopic</string>
+    <string name="nav_local_or_regional">local or regional</string>
+    <string name="nav_Martial_Sport">Martial Sport</string>
+    <string name="nav_Entertainment_for_10_to">Entertainment for 10 to ...</string>
+    <string name="nav_UNKNOW">UNKNOW</string >
+    <string name="nav_MONO">Mono</string>
+    <string name="nav_STEREO">Stereo</string>
+    <string name="nav_SAP">SAP</string>
+    <string name="nav_DUAL1">Dual1</string>
+    <string name="nav_DUAL2">Dual2</string>
+    <string name="nav_NICAM_MONO">Nicam Mono</string>
+    <string name="nav_NICAM_STEREO">Nicam Stereo</string>
+    <string name="nav_NICAM_DUAL1">Nicam Dual1</string>
+    <string name="nav_NICAM_DUAL2">Nicam Dual2</string>
+    <string name="nav_FM_MONO">FM Mono</string>
+    <string name="nav_FM_STEREO">FM Stereo</string>
+    <string name="nav_Mono">Mono</string>
+    <string name="nav_Dual_Mono">Dual Mono</string>
+    <string name="nav_Stereo">Stereo</string>
+    <string name="nav_Surround_2CH">Surround 2CH</string>
+    <string name="nav_Surround">Surround</string>
+    <string name="nav_3CH">3CH</string>
+    <string name="nav_4CH">4CH</string>
+    <string name="nav_5_1CH">5.1CH</string>
+    <string name="nav_7_1CH">7.1CH</string>
+    <string name="nav_Dual__Mono">Dual_Mono</string>
+    <string name="nav_Surround__2CH">Surround_2CH</string>
+    <string name="nav_Sunday">Sunday</string>
+    <string name="nav_Monday">Monday</string>
+    <string name="nav_Tuesday">Tuesday</string>
+    <string name="nav_Wednesday">Wednesday</string>
+    <string name="nav_Thursday">Thursday</string>
+    <string name="nav_Friday">Friday</string>
+    <string name="nav_Saturday">Saturday</string>
+    <string name="nav_Childrens">Children\'S</string>
+    <string name="nav_epg_no_title">(No title)</string>
+    <string name="nav_epg_unclassified">Unclassified</string>
+    <string name="nav_epg_unsupport">NOT SUPPORT</string>
+    <string name="nav_epg_genre_type">Genre : </string>
+    <string name="nav_epg_no_program_data">No Program Data.</string>
+
+    <string name="menu_arrays_No_Block">No Block</string>
+    <string name="menu_arrays_Block_R_and_above">Block R and Above</string>
+    <string name="menu_arrays_Block_AV_and_above">Block AV and Above</string>
+    <string name="menu_arrays_Block_MA_and_above">Block MA and Above</string>
+    <string name="menu_arrays_Block_M_and_above">Block M and Above</string>
+    <string name="menu_arrays_Block_PG_and_above">Block PG and Above</string>
+    <string name="menu_arrays_Block_G_and_above">Block G and Above</string>
+    <string name="menu_arrays_Block_All">Block All</string>
+
+
+
+    <string-array name="nav_epg_filter_type">
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_NEWS</item>
+        <item>@string/nav_SHOW</item>
+        <item>@string/nav_SPORTS</item>
+        <item>@string/nav_CHILDRENS</item>
+        <item>@string/nav_MUSIC</item>
+        <item>@string/nav_ARTS</item>
+        <item>@string/nav_SOCIAL</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_LEISURE</item>
+        <item>@string/nav_SPECIAL</item>
+    </string-array>
+
+    <string-array name="nav_epg_filter_type_AUS">
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_NEWS</item>
+        <item>@string/nav_ENTERTAINMENT</item>
+        <item>@string/nav_SPORTS</item>
+        <item>@string/nav_CHILDRENS</item>
+        <item>@string/nav_MUSIC</item>
+        <item>@string/nav_ARTS</item>
+        <item>@string/nav_CURRENT_AFFAIRS</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_INFOTAINMENT</item>
+        <item>@string/nav_SPECIAL</item>
+        <item>@string/nav_COMEDY</item>
+        <item>@string/nav_DRAMA</item>
+        <item>@string/nav_DOCUMENTARY</item>
+    </string-array>
+
+    <string-array name="nav_epg_filter_type_UK">
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_NEWS_AND_FACTUAL</item>
+        <item>@string/nav_ENTERTAINMENT</item>
+        <item>@string/nav_SPORT</item>
+        <item>@string/nav_CHILDRENS</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_LIFESTYLE</item>
+        <item>@string/nav_DRAMA</item>
+    </string-array>
+
+    <string-array name="nav_epg_filter_sa_type">
+        <item>@string/nav_NEWS</item>
+        <item>@string/nav_SPORTS</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_SOAP_OPERA</item>
+        <item>@string/nav_MINI_SERIES</item>
+        <item>@string/nav_SERIES</item>
+        <item>@string/nav_VARIETY</item>
+        <item>@string/nav_REALITY_SHOW</item>
+        <item>@string/nav_INFORMATION</item>
+        <item>@string/nav_COMICAL</item>
+        <item>@string/nav_CHILDREN</item>
+        <item>@string/nav_EROTIC</item>
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_RA_TE_SA_PR</item>
+        <item>@string/nav_DEBATE_INTERVIEW</item>
+        <item>@string/nav_OTHER</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_movie">
+        <item>@string/nav_Drama</item>
+        <item>@string/nav_Detective</item>
+        <item>@string/nav_Adventure</item>
+        <item>@string/nav_Science_Fiction</item>
+        <item>@string/nav_Comedy</item>
+        <item>@string/nav_Soap</item>
+        <item>@string/nav_Romance</item>
+        <item>@string/nav_Serious</item>
+        <item>@string/nav_Adult_Movie</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_news">
+        <item>@string/nav_Current_Affairs</item>
+        <item>@string/nav_Weather_Report</item>
+        <item>@string/nav_News_Magazine</item>
+        <item>@string/nav_Documentary</item>
+        <item>@string/nav_Discussion</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_news">
+        <item>@string/nav_News</item>
+        <item>@string/nav_Report</item>
+        <item>@string/nav_Documentary</item>
+        <item>@string/nav_Biography</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show">
+        <item>@string/nav_Show</item>
+        <item>@string/nav_Game_Show</item>
+        <item>@string/nav_Variety_Show</item>
+        <item>@string/nav_Talk_Show</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_sports">
+        <item>@string/nav_Sports</item>
+        <item>@string/nav_Special_Events</item>
+        <item>@string/nav_Sports_Magazines</item>
+        <item>@string/nav_Football</item>
+        <item>@string/nav_Tennis</item>
+        <item>@string/nav_Team_Sports</item>
+        <item>@string/nav_Athletics</item>
+        <item>@string/nav_Motor_Sport</item>
+        <item>@string/nav_Water_Sport</item>
+        <item>@string/nav_Winter_Sport</item>
+        <item>@string/nav_Equestrian</item>
+        <item>@string/nav_Martial_Sports</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_sports">
+        <item>@string/nav_Sports</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_children">
+        <item>@string/nav_Children</item>
+        <item>@string/nav_Preschool_children</item>
+        <item>@string/nav_Entertainment_for_6_to_14</item>
+        <item>@string/nav_Entertainment_for_10_to_16</item>
+        <item>@string/nav_Informational</item>
+        <item>@string/nav_Cartoons</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_music">
+        <item>@string/nav_Music</item>
+        <item>@string/nav_Rock</item>
+        <item>@string/nav_Serious_Music</item>
+        <item>@string/nav_Folk</item>
+        <item>@string/nav_Jazz</item>
+        <item>@string/nav_Musical</item>
+        <item>@string/nav_Ballet</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_arts">
+        <item>@string/nav_Arts</item>
+        <item>@string/nav_Performing_Arts</item>
+        <item>@string/nav_Fine_Arts</item>
+        <item>@string/nav_Religion</item>
+        <item>@string/nav_Popular_culture</item>
+        <item>@string/nav_Literature</item>
+        <item>@string/nav_Film</item>
+        <item>@string/nav_Experimental</item>
+        <item>@string/nav_Broadcasting</item>
+        <item>@string/nav_New_Media</item>
+        <item>@string/nav_Arts_magazines</item>
+        <item>@string/nav_Fashion</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_social">
+        <item>@string/nav_Social</item>
+        <item>@string/nav_Magazines</item>
+        <item>@string/nav_Economics</item>
+        <item>@string/nav_Remarkable_people</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_education">
+        <item>@string/nav_Education</item>
+        <item>@string/nav_Nature</item>
+        <item>@string/nav_Technology</item>
+        <item>@string/nav_Medicine</item>
+        <item>@string/nav_Foreign_Countries</item>
+        <item>@string/nav_Social_sciences</item>
+        <item>@string/nav_Further_Education</item>
+        <item>@string/nav_Languages</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_education">
+        <item>@string/nav_Educative</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_soap_opera">
+        <item>@string/nav_Soap_opera</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_sa_mini_series">
+        <item>@string/nav_Miniseries</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_sa_series">
+        <item>@string/nav_Series</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_variety">
+        <item>@string/nav_Auditorium</item>
+        <item>@string/nav_Show</item>
+        <item>@string/nav_Musical</item>
+        <item>@string/nav_Making_of</item>
+        <item>@string/nav_Feminine</item>
+        <item>@string/nav_Game_show</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_reality_show">
+        <item>@string/nav_Reality_show</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_information">
+        <item>@string/nav_Cooking</item>
+        <item>@string/nav_Fashion</item>
+        <item>@string/nav_Country</item>
+        <item>@string/nav_Health</item>
+        <item>@string/nav_Travel</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_comical">
+        <item>@string/nav_Comical</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_children">
+        <item>@string/nav_Children</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_erotic">
+        <item>@string/nav_Erotic</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_movie">
+        <item>@string/nav_Movie</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+        <item>@string/nav_Raffle</item>
+        <item>@string/nav_Television_sales</item>
+        <item>@string/nav_Prizing</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+        <item>@string/nav_Discussion</item>
+        <item>@string/nav_Interview</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_other">
+        <item>@string/nav_Adult_cartoon</item>
+        <item>@string/nav_Interactive</item>
+        <item>@string/nav_Policy</item>
+        <item>@string/nav_Religion</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_leisure">
+        <item>@string/nav_Leisure_Hobbies</item>
+        <item>@string/nav_Tourism</item>
+        <item>@string/nav_Handicraft</item>
+        <item>@string/nav_Motoring</item>
+        <item>@string/nav_Fitness_and_Health</item>
+        <item>@string/nav_Cooking</item>
+        <item>@string/nav_Advertisement</item>
+        <item>@string/nav_Gardening</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_special">
+        <item>@string/nav_Original_language</item>
+        <item>@string/nav_Black_and_White</item>
+        <item>@string/nav_Unpublished</item>
+        <item>@string/nav_Live_Broadcast</item>
+        <item>@string/nav_plano_stereoscopic</item>
+        <item>@string/nav_local_or_regional</item>
+    </string-array>
+
+    <string-array name="nav_epg_filter_type_cn">
+        <item>@string/nav_MOVIE</item>
+        <item>@string/nav_NEWS</item>
+        <item>@string/nav_SHOW</item>
+        <item>@string/nav_SPORTS</item>
+        <item>@string/nav_CHILDRENS</item>
+        <item>@string/nav_MUSIC</item>
+        <item>@string/nav_ARTS</item>
+        <item>@string/nav_SOCIAL</item>
+        <item>@string/nav_EDUCATION</item>
+        <item>@string/nav_LEISURE</item>
+        <item>@string/nav_SPECIAL</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_movie_cn">
+        <item>@string/nav_Drama</item>
+        <item>@string/nav_Detective</item>
+        <item>@string/nav_Adventure</item>
+        <item>@string/nav_Science_Fiction</item>
+        <item>@string/nav_Comedy</item>
+        <item>@string/nav_Soap</item>
+        <item>@string/nav_Romance</item>
+        <item>@string/nav_Serious</item>
+        <item>@string/nav_Adult_Movie</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_news_cn">
+        <item>@string/nav_Current_Affairs</item>
+        <item>@string/nav_Weather_Report</item>
+        <item>@string/nav_News_Magazine</item>
+        <item>@string/nav_Documentary</item>
+        <item>@string/nav_Discussion</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show_cn">
+        <item>@string/nav_Show</item>
+        <item>@string/nav_Game_Show</item>
+        <item>@string/nav_Variety_Show</item>
+        <item>@string/nav_Talk_Show</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_sports_cn">
+        <item>@string/nav_Sports</item>
+        <item>@string/nav_Special_Events</item>
+        <item>@string/nav_Sports_Magazines</item>
+        <item>@string/nav_Football</item>
+        <item>@string/nav_Tennis</item>
+        <item>@string/nav_Team_Sports</item>
+        <item>@string/nav_Athletics</item>
+        <item>@string/nav_Motor_Sport</item>
+        <item>@string/nav_Water_Sport</item>
+        <item>@string/nav_Winter_Sport</item>
+        <item>@string/nav_Equestrian</item>
+        <item>@string/nav_Martial_Sport</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_children_cn">
+        <item>@string/nav_Childrens</item>
+        <item>@string/nav_Preschool_children</item>
+        <item>@string/nav_Entertainment_for_6_to_14</item>
+        <item>@string/nav_Entertainment_for_10_to</item>
+        <item>@string/nav_Informational</item>
+        <item>@string/nav_Cartoons</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_music_cn">
+        <item>@string/nav_Music</item>
+        <item>@string/nav_Rock</item>
+        <item>@string/nav_Serious</item>
+        <item>@string/nav_Folk</item>
+        <item>@string/nav_Jazz</item>
+        <item>@string/nav_Musical</item>
+        <item>@string/nav_Ballet</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_arts_cn">
+        <item>@string/nav_Arts</item>
+        <item>@string/nav_Performing_Arts</item>
+        <item>@string/nav_Fine_Arts</item>
+        <item>@string/nav_Religion</item>
+        <item>@string/nav_Popular_culture</item>
+        <item>@string/nav_Literature</item>
+        <item>@string/nav_Film</item>
+        <item>@string/nav_Experimental</item>
+        <item>@string/nav_Broadcasting</item>
+        <item>@string/nav_New_Media</item>
+        <item>@string/nav_Arts_magazines</item>
+        <item>@string/nav_Fashion</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_social_cn">
+        <item>@string/nav_Social</item>
+        <item>@string/nav_Magazines</item>
+        <item>@string/nav_Economics</item>
+        <item>@string/nav_Remarkable_people</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_education_cn">
+        <item>@string/nav_Education</item>
+        <item>@string/nav_Nature</item>
+        <item>@string/nav_Technology</item>
+        <item>@string/nav_Medicine</item>
+        <item>@string/nav_Foreign_Countries</item>
+        <item>@string/nav_Social_sciences</item>
+        <item>@string/nav_Further_Education</item>
+        <item>@string/nav_Languages</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_leisure_cn">
+        <item>@string/nav_Leisure_Hobbies</item>
+        <item>@string/nav_Tourism</item>
+        <item>@string/nav_Handicraft</item>
+        <item>@string/nav_Motoring</item>
+        <item>@string/nav_Fitness_and_Health</item>
+        <item>@string/nav_Cooking</item>
+        <item>@string/nav_Advertisement</item>
+        <item>@string/nav_Gardening</item>
+    </string-array>
+
+    <string-array name="nav_epg_subtype_special_cn">
+        <item>@string/nav_Original_language</item>
+        <item>@string/nav_Black_and_White</item>
+        <item>@string/nav_Unpublished</item>
+        <item>@string/nav_Live_Broadcast</item>
+    </string-array>
+
+
+    <string-array name="array_level_dvb_lock">
+        <item>Off</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="array_level_th_lock">
+        <item>Off</item>
+        <item>P</item>
+        <item>C</item>
+        <item>G</item>
+        <item>PG13</item>
+        <item>PG18</item>
+        <item>X</item>
+    </string-array>
+
+    <string-array name="array_level_au_lock">
+        <item>@string/menu_arrays_No_Block</item>
+        <item>@string/menu_arrays_Block_R_and_above</item>
+        <item>@string/menu_arrays_Block_AV_and_above</item>
+        <item>@string/menu_arrays_Block_MA_and_above</item>
+        <item>@string/menu_arrays_Block_M_and_above</item>
+        <item>@string/menu_arrays_Block_PG_and_above</item>
+        <item>@string/menu_arrays_Block_G_and_above</item>
+        <item>@string/menu_arrays_Block_All</item>
+    </string-array>
+
+</resources>

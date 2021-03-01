@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string name="app_name">EPG</string>
+<string name="channel_list_name">არხის დასახელება</string>
+<string name="str_loading_title">მონაცემები იტვირთვება....</string>
+<string name="str_bottom_record">ჩაწრა</string>
+<string name="str_bottom_reminder">შეხსენება</string>
+<string name="str_bottom_playing">თამაში</string>
+<string name="str_bottom_recording">ჩაწერილი </string>
+<string name="str_bottom_reminding">შემახსენებელი</string>
+<string name="str_pick_title">ჩაწრა</string>
+<string name="str_pick_month">ორშ</string>
+<string name="str_pick_day">დღე</string>
+<string name="str_pick_hour">საათი</string>
+<string name="str_pick_minute">წთ</string>
+<string name="str_pick_confirm">დადასტურებისათვის დააჭირეთ OK-ს</string>
+<string name="str_pick_cancel">გაუქმებულია!</string>
+<string name="str_pick_success">წარმატება!</string>
+<string name="str_pick_max">მოთხოვნილი განრიგის დამატება აჭარბებს მაქსიმალურ დასაშვებ სიდიდეს!</string>
+<string name="str_pick_past">წინა!</string>
+<string name="str_pick_fail">ვერ მოხერხდა!</string>
+<string name="str_pick_insert_usb">დისკი მზად არ არის! გთხოვთ მოათავსოთ USB მოწყობილობა!</string>
+<string name="str_main_no_data">პროგრამული მონაცემები არ მოიძებნა, ვერ ხერხდება ჩაწერა</string>
+<string name="str_pick_start_time_error">დაწყების დროის შეცდომა! ახლანდელი დრო მიმდინარე დრომდეა </string>
+<string name="str_pick_start_time_conflict">დროის კონფლიქტი!</string>
+<string name="str_pick_end_time_error">დასრულების დროის შეცდომა! ახლანდელი დრო დასასრულის დროის შემდგომაა</string>
+<string name="epg_bottom_prev_day">წინა დღე</string>
+<string name="epg_bottom_next_day">შემდეგი დღე</string>
+<string name="epg_bottom_view_detail">იხილეთ დეტალურად</string>
+<string name="epg_bottom_type_filter">აკრიფეთ ფილტრი </string>
+<string name="epg_bottom_prev_page">გვერდი ზემოთ </string>
+<string name="epg_bottom_next_page">გვერდი ქვემოთ</string>
+<string name="epg_bottom_ENTER">შესვლა</string>
+<string name="epg_bottom_0">0</string>
+<string name="epg_rating_unclassified">არაკლასიფიცირებული</string>
+<string name="epg_info_program_type">არცერთი</string>
+<string name="epg_password">პაროლი  </string>
+<string name="epg_password_message">პაროლი არ არის სწორი </string>
+<string name="epg_retrieving_show">მონაცემთა მოპოვება...</string>
+<string name="nav_epg_January">იანვარი </string>
+<string name="nav_epg_February">თებერვალი</string>
+<string name="nav_epg_March">მარტი</string>
+<string name="nav_epg_April">აპრილი </string>
+<string name="nav_epg_May">მაი.</string>
+<string name="nav_epg_June">ივნისი</string>
+<string name="nav_epg_July">ივლისი</string>
+<string name="nav_epg_August">აგვისტო</string>
+<string name="nav_epg_September">სექტემბერი </string>
+<string name="nav_epg_October">ოქტომბერი </string>
+<string name="nav_epg_November">ნოემბერი </string>
+<string name="nav_epg_December">დეკემბერი </string>
+<string name="nav_epg_Jan">იანვარი</string>
+<string name="nav_epg_Feb">თებერვალი</string>
+<string name="nav_epg_Mar">მარტი</string>
+<string name="nav_epg_Apr">აპრ</string>
+<string name="nav_epg_may">მაი.</string>
+<string name="nav_epg_Jun">ივნისი</string>
+<string name="nav_epg_Jul">ივლისი</string>
+<string name="nav_epg_Aug">აგვისტო</string>
+<string name="nav_epg_Sep">სექტემბერი</string>
+<string name="nav_epg_Oct">ოქტომბერი</string>
+<string name="nav_epg_Nov">ნოემბერი</string>
+<string name="nav_epg_Dec">დეკემბერი</string>
+<string name="nav_epg_Sunday">კვირა</string>
+<string name="nav_epg_Monday">ორშაბათი</string>
+<string name="nav_epg_Tuesday">სამშაბათი</string>
+<string name="nav_epg_Wednesday">ოთხშაბათი</string>
+<string name="nav_epg_Thursday">ხუთშაბათი</string>
+<string name="nav_epg_Friday">პარასკევი</string>
+<string name="nav_epg_Saturday">შაბათი</string>
+<string name="nav_epg_Sun">კვირა</string>
+<string name="nav_epg_Mon">ორშ</string>
+<string name="nav_epg_Tue">სამ</string>
+<string name="nav_epg_Wed">ოთხ</string>
+<string name="nav_epg_Thur">ხუთშაბათი </string>
+<string name="nav_epg_Fri">პარ</string>
+<string name="nav_epg_Sat">შაბ</string>
+<string name="nav_MOVIE">კინო/დრამა</string>
+<string name="nav_NEWS">ახალი ამბები/მიმდინარე მოვლენები</string>
+<string name="nav_SHOW">შოუ/თამაშების შოუ</string>
+<string name="nav_SPORTS">სპორტი</string>
+<string name="nav_Sports">სპორტი (ზოგადი)</string>
+<string name="nav_CHILDRENS">ბავშვების/ახალგაზრდების პროგრამები</string>
+<string name="nav_MUSIC">მუსიკა/ბალეტი/ცეკვა</string>
+<string name="nav_ARTS">ხელოვნება/კულტურა (მუსიკის გარეშე)</string>
+<string name="nav_SOCIAL">სოციალური/პოლიტიკური/ეკონომიკური თემები</string>
+<string name="nav_EDUCATION">განათლება/მეცნიერება/ფაქტების განხილვა</string>
+<string name="nav_LEISURE">დასვენება და ჰობი</string>
+<string name="nav_SPECIAL">განსაკუთრებული მახასიათებლები</string>
+<string name="nav_CHILDREN">ბავშვები </string>
+<string name="nav_EROTIC">ეროტიული </string>
+<string name="nav_RA_TE_SA_PR">RA_TE_SA_PR</string>
+<string name="nav_DEBATE_INTERVIEW">დებატი_ინტერვიუ</string>
+<string name="nav_OTHER">სხვა</string>
+<string name="nav_ENTERTAINMENT">გართობა</string>
+<string name="nav_CURRENT_AFFAIRS">მიმდინარე მოქმედებანი</string>
+<string name="nav_INFOTAINMENT">ინფორმაციული გართობა</string>
+<string name="nav_COMEDY">კომედია</string>
+<string name="nav_DRAMA">დრამა</string>
+<string name="nav_DOCUMENTARY">დოკუმენტური</string>
+<string name="nav_NEWS_AND_FACTUAL">ახალი ამბები და ფაქტები</string>
+<string name="nav_SPORT">სპორტი</string>
+<string name="nav_LIFESTYLE">ცხოვრების სტილი</string>
+<string name="nav_SOAP_OPERA">საპნის_ოპერა</string>
+<string name="nav_MINI_SERIES">მინი_სერიალები</string>
+<string name="nav_SERIES">სერიები</string>
+<string name="nav_VARIETY">სხვადასხვა</string>
+<string name="nav_REALITY_SHOW">რეალითი_შოუ</string>
+<string name="nav_INFORMATION">ინფორმაცია</string>
+<string name="nav_COMICAL">სასაცილო </string>
+<string name="nav_Drama">ფილმი/დრამა (ზოგადი)</string>
+<string name="nav_Detective">დეტექტივი/თრილერი</string>
+<string name="nav_Adventure">სათავგადასავლო/ვესტერნი/საბრძოლო</string>
+<string name="nav_Science_Fiction">სამეცნიერო ფანტასტიკა/ფანტასტიკა/საშინელებათა</string>
+<string name="nav_Comedy">კომედია</string>
+<string name="nav_Soap">საპნის ოპერა/მელოდრამა/ფოლკლორი</string>
+<string name="nav_Romance">რომანსი</string>
+<string name="nav_Serious">სერიოზული/კლასიკური/რელიგიური/ისტორიული ფილმი/დრამა</string>
+<string name="nav_Serious_Music">სერიოზული მუსიკა/კლასიკური მუსიკა</string>
+<string name="nav_Adult_Movie">მოზრდილების ფილმი/დრამა</string>
+<string name="nav_Current_Affairs">ახალი ამბები/მიმდინარე მოვლენები (ზოგადი)</string>
+<string name="nav_Weather_Report">სიახლეები/ამინდის რეპორტაჟი</string>
+<string name="nav_News_Magazine">ახალი ამბების ჟურნალი </string>
+<string name="nav_Documentary">დოკუმენტური</string>
+<string name="nav_Discussion">დისკუსია/ინტერვიუ/დებატები</string>
+<string name="nav_News">ახალი ამბები </string>
+<string name="nav_Report">რეპორტი </string>
+<string name="nav_Biography">ბიოგრაფიული </string>
+<string name="nav_Show">შოუ/გეიმშოუ (ზოგადი)</string>
+<string name="nav_Game_Show">გეიმშოუ/ქვიზი/კონკურსი</string>
+<string name="nav_Variety_Show">სხვადასხვა შოუ </string>
+<string name="nav_Talk_Show">ტოქშოუ</string>
+<string name="nav_Special_Events">განსაკუთრებული მოვლენები (ოლიმპიური თამაშები, მსოფლიო თასი და ა.შ.)</string>
+<string name="nav_Sports_Magazines">სპორტული ჟურნალები </string>
+<string name="nav_Football">ფეხბურთი/ამერიკული ფეხბურთი</string>
+<string name="nav_Tennis">ტენისი/სქვოში</string>
+<string name="nav_Team_Sports">გუნდური სპორტი (გარდა ფეხბურთისა)</string>
+<string name="nav_Athletics">ათლეტიკა </string>
+<string name="nav_Motor_Sport">მოტო სპორტი </string>
+<string name="nav_Water_Sport">წყლის სპორტი </string>
+<string name="nav_Winter_Sport">ზამთრის სპორტი</string>
+<string name="nav_Equestrian">საცხენოსნო</string>
+<string name="nav_Martial_Sports">საბრძოლო სპორტი </string>
+<string name="nav_Children">ბავშვების/ახალგაზრდების პროგრამები</string>
+<string name="nav_Preschool_children">წინასასკოლო საბავშვო პროგრამები</string>
+<string name="nav_Entertainment_for_6_to_14">გასართობი პროგრამები 6-დან 14 წლამდე კატეგორიაში</string>
+<string name="nav_Entertainment_for_10_to_16">გასართობი პროგრამები 10-დან 16 წლამდე კატეგორიაში</string>
+<string name="nav_Informational">საინფორმაციო/საგანმანათლებლო/სასკოლო პროგრამები</string>
+<string name="nav_Cartoons">ნახატი ფილმები/თოჯინები</string>
+<string name="nav_Music">მუსიკა/ბალეტი/ცეკვა (ზოგადი)</string>
+<string name="nav_Rock">როკი/პოპი</string>
+<string name="nav_Folk">ფოლკლორი/ტრადიციული მუსიკა</string>
+<string name="nav_Jazz">ჯაზი </string>
+<string name="nav_Musical">მუსიკალური/ოპერა</string>
+<string name="nav_Ballet">ბალეტი </string>
+<string name="nav_Arts">ხელოვნება/კულტურა (მუსიკის გარეშე)</string>
+<string name="nav_Performing_Arts">შესრულებითი ხელოვნებები </string>
+<string name="nav_Fine_Arts">ხელოვნება </string>
+<string name="nav_Religion">რელიგია </string>
+<string name="nav_Popular_culture">პოპულარული კულტურა/ტრადიციული ხელოვნება</string>
+<string name="nav_Literature">ლიტერატურა </string>
+<string name="nav_Film">ფილმი/კინოთეატრი</string>
+<string name="nav_Experimental">ექსპერიმენტული ფილმი/ვიდეო</string>
+<string name="nav_Broadcasting">მაუწყებლობა/პრესა</string>
+<string name="nav_Live_Broadcast">პირდაპირი მაუწყებლობა </string>
+<string name="nav_New_Media">ახალი მედია </string>
+<string name="nav_Arts_magazines">ხელოვნების ჟურნალები </string>
+<string name="nav_Fashion">მოდა </string>
+<string name="nav_Reject">უარყოფა </string>
+<string name="nav_Social">სოციალური/პოლიტიკური თემები/ეკონომიკა (ზოგადი)</string>
+<string name="nav_Magazines">ჟურნალები/რეპორტები/დოკუმენტური</string>
+<string name="nav_Economics">ეკონომიკა/სოციალური კონსულტაცია</string>
+<string name="nav_Remarkable_people">გამოჩენილი ხალხი </string>
+<string name="nav_Education">განათლება/მეცნიერება/ფაქტობრივი თემები (ზოგადი)</string>
+<string name="nav_Nature">ბუნება/ცხოველები/გარემო</string>
+<string name="nav_Technology">ტექნოლოგია/საბუნებისმეტყველო მეცნიერებები</string>
+<string name="nav_Medicine">მედიცინა/ფიზიოლოგია/ფსიქოლოგია</string>
+<string name="nav_Foreign_Countries">უცხო ქვეყნები/ექსპედიციები</string>
+<string name="nav_Social_sciences">სოციალური/სპირიტუალური მეცნიერებები</string>
+<string name="nav_Further_Education">შემდგომი განათლება </string>
+<string name="nav_Languages">ენები </string>
+<string name="nav_Educative">საგანმანათლებლო</string>
+<string name="nav_Soap_opera">ტელესერიალი</string>
+<string name="nav_Miniseries">მინი-სერიები </string>
+<string name="nav_Series">სერიები</string>
+<string name="nav_Auditorium">აუდიტორია </string>
+<string name="nav_Making_of">გაკეთება</string>
+<string name="nav_Feminine">ფემინური</string>
+<string name="nav_Game_show">სათამაშო შოუ </string>
+<string name="nav_Reality_show">რეალითი შოუ </string>
+<string name="nav_Cooking">კულინარია </string>
+<string name="nav_Country">ქვეყანა</string>
+<string name="nav_Health">ჯანმრთელობა </string>
+<string name="nav_Travel">მოგზაურობა </string>
+<string name="nav_Comical">სასაცილო </string>
+<string name="nav_Erotic">ეროტიული </string>
+<string name="nav_Movie">კინო</string>
+<string name="nav_Raffle">ლატარიის გათამაშება</string>
+<string name="nav_Television_sales">სატელევიზიო გაყიდვები </string>
+<string name="nav_Prizing">შეფასება</string>
+<string name="nav_Interview">ინტერვიუ</string>
+<string name="nav_Adult_cartoon">ზრდასრულთა მულტფილმები </string>
+<string name="nav_Interactive">ინტერაქტიული </string>
+<string name="nav_Policy">პოლიტიკა </string>
+<string name="nav_Leisure_Hobbies">გასართობი ჰობები (ზოგადი)</string>
+<string name="nav_Tourism">ტურიზმი/მოგზაურობა</string>
+<string name="nav_Handicraft">ხელობა </string>
+<string name="nav_Motoring">საავტომობილი საქმე</string>
+<string name="nav_Fitness_and_Health">ჯანმრთელობა და ფიტნესი </string>
+<string name="nav_Advertisement">რეკლამა/შოპინგი</string>
+<string name="nav_Gardening">მებაღეობა </string>
+<string name="nav_Original_language">ორიგინალი ენა</string>
+<string name="nav_Black_and_White">შავი და თეთრი </string>
+<string name="nav_Unpublished">გამოუქვეყნებელი</string>
+<string name="nav_plano_stereoscopic">პლანო-სტერეოსკოპიული</string>
+<string name="nav_local_or_regional">ლოკალური ან რეგიონალური</string>
+<string name="nav_Martial_Sport">საბრძოლო სპორტი </string>
+<string name="nav_Entertainment_for_10_to">გსართობი 10-დან....</string>
+<string name="nav_UNKNOW">უცნობი</string>
+<string name="nav_MONO">მონო</string>
+<string name="nav_STEREO">სტერეო</string>
+<string name="nav_SAP">SAP</string>
+<string name="nav_DUAL1">ორმაგი1</string>
+<string name="nav_DUAL2">ორმაგი2</string>
+<string name="nav_NICAM_MONO">NICAM MONO</string>
+<string name="nav_NICAM_STEREO">NICAM STEREO</string>
+<string name="nav_NICAM_DUAL1">NICAM ორმაგი1</string>
+<string name="nav_NICAM_DUAL2">NICAM ორმაგი2</string>
+<string name="nav_FM_MONO">FM მონო </string>
+<string name="nav_FM_STEREO">FM სტერეო </string>
+<string name="nav_Mono">მონო</string>
+<string name="nav_Dual_Mono">ორმაგი ერთმაგი</string>
+<string name="nav_Stereo">სტერეო</string>
+<string name="nav_Surround_2CH">გარშემორტყმული 2CH</string>
+<string name="nav_Surround">მოცულობითი ჟღერადობა</string>
+<string name="nav_3CH">3CH</string>
+<string name="nav_4CH">4CH</string>
+<string name="nav_5_1CH">5.1CH</string>
+<string name="nav_7_1CH">7.1CH</string>
+<string name="nav_Dual__Mono">ორმაგი_ერთმაგი</string>
+<string name="nav_Surround__2CH">გარსშემოცული_2CH</string>
+<string name="nav_Sunday">კვირა</string>
+<string name="nav_Monday">ორშაბათი</string>
+<string name="nav_Tuesday">სამშაბათი</string>
+<string name="nav_Wednesday">ოთხშაბათი</string>
+<string name="nav_Thursday">ხუთშაბათი</string>
+<string name="nav_Friday">პარასკევი</string>
+<string name="nav_Saturday">შაბათი</string>
+<string name="nav_Childrens">საბავშვო </string>
+<string name="nav_epg_no_title">(არ არის სათაური )</string>
+<string name="nav_epg_unclassified">არაკლასიფიცირებული</string>
+<string name="nav_epg_unsupport">არ აქვს მხარდაჭერა</string>
+<string name="nav_epg_genre_type">ჟანრი : </string>
+<string name="nav_epg_no_program_data">პროგრამული მონაცემები არ მოიძებნა</string>
+<string name="menu_arrays_No_Block">არ არის დაბლოკილი</string>
+<string name="menu_arrays_Block_R_and_above">დაბლოკე R და ზემოთ</string>
+<string name="menu_arrays_Block_AV_and_above">დაბლოკე AV და ზემოთ</string>
+<string name="menu_arrays_Block_MA_and_above">დაბლოკე MA და ზემოთ</string>
+<string name="menu_arrays_Block_M_and_above">დაბლოკე M და ზემოთ</string>
+<string name="menu_arrays_Block_PG_and_above">დაბლოკე PG და ზემოთ</string>
+<string name="menu_arrays_Block_G_and_above">დაბლოკე G და ზემოთ</string>
+<string name="menu_arrays_Block_All">დაბლოკე ყველა</string>
+<string-array name="nav_epg_filter_type">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string-array name="nav_epg_filter_type_AUS">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_CURRENT_AFFAIRS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_INFOTAINMENT</item>
+<item>@string/nav_SPECIAL</item>
+<item>@string/nav_COMEDY</item>
+<item>@string/nav_DRAMA</item>
+<item>@string/nav_DOCUMENTARY</item>
+</string-array>
+<string-array name="nav_epg_filter_type_UK">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS_AND_FACTUAL</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORT</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LIFESTYLE</item>
+<item>@string/nav_DRAMA</item>
+</string-array>
+<string-array name="nav_epg_filter_sa_type">
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_SOAP_OPERA</item>
+<item>@string/nav_MINI_SERIES</item>
+<item>@string/nav_SERIES</item>
+<item>@string/nav_VARIETY</item>
+<item>@string/nav_REALITY_SHOW</item>
+<item>@string/nav_INFORMATION</item>
+<item>@string/nav_COMICAL</item>
+<item>@string/nav_CHILDREN</item>
+<item>@string/nav_EROTIC</item>
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_RA_TE_SA_PR</item>
+<item>@string/nav_DEBATE_INTERVIEW</item>
+<item>@string/nav_OTHER</item>
+</string-array>
+<string-array name="nav_epg_subtype_movie">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_news">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_news">
+<item>@string/nav_News</item>
+<item>@string/nav_Report</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Biography</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sports">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sports</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_sports">
+<item>@string/nav_Sports</item>
+</string-array>
+<string-array name="nav_epg_subtype_children">
+<item>@string/nav_Children</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to_16</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string-array name="nav_epg_subtype_music">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious_Music</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string-array name="nav_epg_subtype_arts">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string-array name="nav_epg_subtype_social">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string-array name="nav_epg_subtype_education">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_education">
+<item>@string/nav_Educative</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_soap_opera">
+<item>@string/nav_Soap_opera</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_mini_series">
+<item>@string/nav_Miniseries</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_series">
+<item>@string/nav_Series</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_variety">
+<item>@string/nav_Auditorium</item>
+<item>@string/nav_Show</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Making_of</item>
+<item>@string/nav_Feminine</item>
+<item>@string/nav_Game_show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_reality_show">
+<item>@string/nav_Reality_show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_information">
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Fashion</item>
+<item>@string/nav_Country</item>
+<item>@string/nav_Health</item>
+<item>@string/nav_Travel</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_comical">
+<item>@string/nav_Comical</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_children">
+<item>@string/nav_Children</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_erotic">
+<item>@string/nav_Erotic</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_movie">
+<item>@string/nav_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+<item>@string/nav_Raffle</item>
+<item>@string/nav_Television_sales</item>
+<item>@string/nav_Prizing</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>@string/nav_Discussion</item>
+<item>@string/nav_Interview</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_other">
+<item>@string/nav_Adult_cartoon</item>
+<item>@string/nav_Interactive</item>
+<item>@string/nav_Policy</item>
+<item>@string/nav_Religion</item>
+</string-array>
+<string-array name="nav_epg_subtype_leisure">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string-array name="nav_epg_subtype_special">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+<item>@string/nav_plano_stereoscopic</item>
+<item>@string/nav_local_or_regional</item>
+</string-array>
+<string-array name="nav_epg_filter_type_cn">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string-array name="nav_epg_subtype_movie_cn">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_news_cn">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string-array name="nav_epg_subtype_show_cn">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sports_cn">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sport</item>
+</string-array>
+<string-array name="nav_epg_subtype_children_cn">
+<item>@string/nav_Childrens</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string-array name="nav_epg_subtype_music_cn">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string-array name="nav_epg_subtype_arts_cn">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string-array name="nav_epg_subtype_social_cn">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string-array name="nav_epg_subtype_education_cn">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string-array name="nav_epg_subtype_leisure_cn">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string-array name="nav_epg_subtype_special_cn">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+</string-array>
+<string-array name="array_level_dvb_lock">
+<item>გამორთული</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+<item>12</item>
+<item>13</item>
+<item>14</item>
+<item>15</item>
+<item>16</item>
+<item>17</item>
+<item>18</item>
+</string-array>
+<string-array name="array_level_th_lock">
+<item>გათიშვა</item>
+<item>P</item>
+<item>C</item>
+<item>G</item>
+<item>PG13</item>
+<item>PG18</item>
+<item>X</item>
+</string-array>
+<string-array name="array_level_au_lock">
+<item>@string/menu_arrays_No_Block</item>
+<item>@string/menu_arrays_Block_R_and_above</item>
+<item>@string/menu_arrays_Block_AV_and_above</item>
+<item>@string/menu_arrays_Block_MA_and_above</item>
+<item>@string/menu_arrays_Block_M_and_above</item>
+<item>@string/menu_arrays_Block_PG_and_above</item>
+<item>@string/menu_arrays_Block_G_and_above</item>
+<item>@string/menu_arrays_Block_All</item>
+</string-array>
+</resources>

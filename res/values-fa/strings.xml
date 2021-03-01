@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string-array name="nav_epg_filter_type_UK">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS_AND_FACTUAL</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORT</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LIFESTYLE</item>
+<item>@string/nav_DRAMA</item>
+</string-array>
+<string name="nav_Show">نمایش/مسابقه تلویزیونی (عمومی)</string>
+<string name="nav_Surround__2CH">فراگیر_2 کانال</string>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+<item>@string/nav_Raffle</item>
+<item>@string/nav_Television_sales</item>
+<item>@string/nav_Prizing</item>
+</string-array>
+<string name="nav_Cartoons">کارتون/عروسک نمایش</string>
+<string name="nav_Motoring">اتومبیل رانی</string>
+<string name="nav_epg_Nov">نوامبر</string>
+<string name="nav_Education">موضوعات آموزشی/ علمی/ واقعی (عمومی)</string>
+<string name="nav_Comedy">کمدی</string>
+<string name="nav_Documentary">مستند</string>
+<string name="nav_VARIETY">تنوع</string>
+<string name="str_pick_start_time_error">خطای زمان شروع! زمان اکنون قبل از زمان فعلی است</string>
+<string name="str_pick_success">موفق!</string>
+<string name="nav_epg_Thursday">پنج شنبه</string>
+<string name="menu_arrays_Block_MA_and_above">مسدود کردن MA و بالاتر</string>
+<string name="nav_Magazines">مجلات/ گزارشات/برنامه مستند</string>
+<string-array name="nav_epg_subtype_social_cn">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string name="nav_Tourism">گردشگری/مسافرت</string>
+<string name="epg_bottom_next_page">پایین صفحه</string>
+<string name="nav_SHOW">نمایش/نمایش بازی</string>
+<string name="nav_Mono">تک</string>
+<string name="nav_epg_October">اکتبر</string>
+<string-array name="nav_epg_subtype_movie">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string name="nav_epg_Aug">آگوست</string>
+<string-array name="nav_epg_subtype_news_cn">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string name="nav_epg_subtype_sa_education">@string/nav_Educative</string>
+<string-array name="nav_epg_subtype_sa_variety">
+<item>@string/nav_Auditorium</item>
+<item>@string/nav_Show</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Making_of</item>
+<item>@string/nav_Feminine</item>
+<item>@string/nav_Game_show</item>
+</string-array>
+<string name="str_pick_past">گذشته!</string>
+<string name="menu_arrays_Block_M_and_above">مسدود کردن M و بالاتر</string>
+<string name="str_bottom_playing">در حال پخش</string>
+<string name="nav_Preschool_children">برنامه های کودکان پیش دبستانی</string>
+<string name="str_loading_title">در حال بارگذاری داده ها ...</string>
+<string name="nav_epg_April">آوریل</string>
+<string name="nav_SPECIAL">مشخصات خاص</string>
+<string name="nav_News">اخبار</string>
+<string name="nav_NICAM_STEREO">Nicam استریو</string>
+<string name="nav_Tuesday">سه شنبه</string>
+<string name="nav_5_1CH">5.1 کانال</string>
+<string name="nav_Nature">طبیعت/حیوانات/محیط زیست</string>
+<string name="nav_Reject">رد کردن</string>
+<string name="str_pick_start_time_conflict">تداخل زمانی!</string>
+<string name="nav_epg_subtype_sa_series">@string/nav_Series</string>
+<string name="nav_Discussion">بحث/مصاحبه/گفتگو</string>
+<string name="nav_Fine_Arts">هنرهای زیبا</string>
+<string name="nav_Tennis">تنیس/اسکواش</string>
+<string name="str_main_no_data">فاقد داده های برنامه، نمی تواند ضبط کند</string>
+<string name="nav_Weather_Report">گزارش خبری/هواشناسی</string>
+<string name="nav_epg_subtype_sa_reality_show">@string/nav_Reality_show</string>
+<string name="nav_Health">سلامت</string>
+<string name="str_pick_cancel">لغو شد!</string>
+<string name="str_pick_end_time_error">خطای زمان پایان! زمان اکنون بعد از زمان پایان است</string>
+<string name="nav_epg_unsupport">پشتیبانی نمی شود</string>
+<string-array name="nav_epg_subtype_show_cn">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string name="nav_Reality_show">نمایش واقع بینانه</string>
+<string name="nav_Interactive">تعاملی</string>
+<string-array name="nav_epg_subtype_children_cn">
+<item>@string/nav_Childrens</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string-array name="nav_epg_subtype_education">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string name="nav_Popular_culture">فرهنگ/هنرهای سنتی عامه پسند</string>
+<string name="nav_CHILDREN">کودکان</string>
+<string name="nav_Erotic">عاشقانه</string>
+<string name="nav_epg_Jun">ژوئن</string>
+<string name="nav_Thursday">پنج شنبه</string>
+<string-array name="nav_epg_subtype_sports_cn">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sport</item>
+</string-array>
+<string name="nav_epg_Jul">ژوئیه</string>
+<string name="nav_NEWS_AND_FACTUAL">اخبار و واقعیت</string>
+<string name="nav_Unpublished">منتشر نشده</string>
+<string name="nav_Stereo">استریو</string>
+<string name="nav_Team_Sports">ورزش های تیمی (به غیر از فوتبال)</string>
+<string name="nav_epg_subtype_sa_erotic">@string/nav_Erotic</string>
+<string name="nav_Further_Education">تحصیلات پس از دبیرستان</string>
+<string name="epg_retrieving_show">در حال بازیابی داده ها...</string>
+<string name="nav_epg_January">ژانویه</string>
+<string name="nav_REALITY_SHOW">واقع بینانه_نمایش</string>
+<string name="nav_Surround_2CH">2 کانال فراگیر</string>
+<string name="str_pick_minute">حداقل</string>
+<string name="nav_Policy">خط مشی</string>
+<string name="menu_arrays_Block_PG_and_above">مسدود کردن PG و بالاتر</string>
+<string name="nav_Romance">عاشقانه</string>
+<string name="nav_CURRENT_AFFAIRS">امور جاری</string>
+<string name="nav_Arts_magazines">مجلات هنری</string>
+<string-array name="nav_epg_subtype_education_cn">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string name="epg_bottom_prev_day">روز قبل</string>
+<string name="nav_epg_August">آگوست</string>
+<string name="app_name">EPG</string>
+<string name="nav_Dual__Mono">دوگانه_تکی</string>
+<string name="nav_Sunday">یکشنبه</string>
+<string name="nav_ENTERTAINMENT">سرگرمی</string>
+<string name="nav_Cooking">آشپزی</string>
+<string name="nav_Musical">موسیقی/اپرا</string>
+<string name="nav_NICAM_MONO">Nicam تکی</string>
+<string name="epg_bottom_ENTER">وارد کردن</string>
+<string-array name="nav_epg_subtype_leisure_cn">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string name="nav_Advertisement">تبلیغات/خرید</string>
+<string name="epg_bottom_0">0</string>
+<string name="nav_Soap_opera">سپ اپرا</string>
+<string name="str_pick_hour">ساعت</string>
+<string name="nav_epg_Sep">سپتامبر</string>
+<string-array name="nav_epg_filter_type_AUS">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_CURRENT_AFFAIRS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_INFOTAINMENT</item>
+<item>@string/nav_SPECIAL</item>
+<item>@string/nav_COMEDY</item>
+<item>@string/nav_DRAMA</item>
+<item>@string/nav_DOCUMENTARY</item>
+</string-array>
+<string name="nav_Water_Sport">ورزش آبی</string>
+<string name="nav_Sports">ورزش (عمومی)</string>
+<string name="nav_Surround">فراگیر</string>
+<string-array name="nav_epg_subtype_sa_information">
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Fashion</item>
+<item>@string/nav_Country</item>
+<item>@string/nav_Health</item>
+<item>@string/nav_Travel</item>
+</string-array>
+<string name="nav_Literature">ادبیات</string>
+<string name="nav_Game_show">مسابقه تلویزیونی</string>
+<string-array name="nav_epg_subtype_music_cn">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string name="nav_Handicraft">هنر دستی</string>
+<string name="nav_Social">مسائل اجتماعی/ سیاسی/ علم اقتصاد (عمومی)</string>
+<string name="epg_bottom_type_filter">فیلتر تایپ کردن</string>
+<string name="nav_epg_subtype_sa_children">@string/nav_Children</string>
+<string name="nav_epg_Sun">یکشنبه</string>
+<string name="nav_Movie">سینما</string>
+<string name="nav_Comical">طنز</string>
+<string-array name="array_level_dvb_lock">
+<item>خاموش</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+<item>12</item>
+<item>13</item>
+<item>14</item>
+<item>15</item>
+<item>16</item>
+<item>17</item>
+<item>18</item>
+</string-array>
+<string name="nav_LEISURE">سرگرمی های اوقات فراغت</string>
+<string name="nav_Arts">هنر/فرهنگ (فاقد موسیقی)</string>
+<string name="nav_Serious_Music">موسیقی جدی/موسیقی کلاسیک</string>
+<string name="nav_OTHER">سایر</string>
+<string name="nav_MOVIE">سینما/تئاتر</string>
+<string name="str_pick_title">ضبط کردن</string>
+<string name="nav_Television_sales">فروش تلویزیونی</string>
+<string name="nav_epg_June">ژوئن</string>
+<string name="nav_epg_Saturday">شنبه</string>
+<string name="nav_Football">فوتبال/فوتبال</string>
+<string name="nav_Martial_Sports">ورزش های رزمی</string>
+<string name="str_pick_day">روز</string>
+<string name="nav_NICAM_DUAL2">Nicam دوگانه 2</string>
+<string name="nav_NICAM_DUAL1">Nicam دوگانه 1</string>
+<string name="nav_Detective">کاراگاهی/دلهره آور</string>
+<string name="nav_Friday">جمعه</string>
+<string name="nav_epg_Apr">آوریل</string>
+<string name="nav_Children">برنامه‌های کودکان/جوانان</string>
+<string name="nav_epg_December">دسامبر</string>
+<string name="nav_COMEDY">کمدی</string>
+<string name="nav_Variety_Show">نمایش متنوع</string>
+<string name="nav_ARTS">هنر/فرهنگ (فاقد موسیقی)</string>
+<string name="nav_epg_no_title">(فاقد عنوان)</string>
+<string name="epg_password">رمز عبور</string>
+<string name="nav_epg_February">فوریه</string>
+<string name="nav_DUAL2">دوگانه 2</string>
+<string name="nav_Serious">فیلم جدی/کلاسیک/مذهبی/تاریخی/نمایشنامه</string>
+<string name="nav_DUAL1">دوگانه 1</string>
+<string name="nav_Jazz">جاز</string>
+<string-array name="nav_epg_subtype_leisure">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string name="nav_epg_Jan">ژانویه</string>
+<string name="nav_MONO">تک</string>
+<string name="nav_epg_March">مارس</string>
+<string-array name="nav_epg_subtype_arts">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string name="nav_Gardening">باغبانی</string>
+<string name="nav_Wednesday">چهار شنبه</string>
+<string name="nav_DEBATE_INTERVIEW">بحث_گفتگو</string>
+<string name="nav_NEWS">اخبار/امور جاری</string>
+<string-array name="nav_epg_subtype_special_cn">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+</string-array>
+<string name="nav_Country">کشور</string>
+<string name="nav_epg_Tue">سه شنبه</string>
+<string name="nav_Leisure_Hobbies">سرگرمی های اوقات فراغت (عمومی)</string>
+<string name="nav_SOCIAL">مسائل اجتماعی/سیاسی /اقتصاد</string>
+<string name="nav_epg_Dec">دسامبر</string>
+<string name="str_bottom_reminding">یادآوری کننده</string>
+<string name="nav_FM_STEREO">اف ام استریو</string>
+<string name="nav_epg_Tuesday">سه شنبه</string>
+<string name="nav_epg_Thur">پنج شنبه</string>
+<string name="nav_epg_Sunday">یکشنبه</string>
+<string-array name="nav_epg_subtype_children">
+<item>@string/nav_Children</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to_16</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string name="nav_Languages">زبان ها</string>
+<string-array name="nav_epg_subtype_sports">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sports</item>
+</string-array>
+<string name="menu_arrays_No_Block">عدم مسدودی</string>
+<string name="nav_Dual_Mono">دوتایی تکی</string>
+<string name="nav_epg_subtype_sa_sports">@string/nav_Sports</string>
+<string name="str_pick_confirm">برای تأیید OK را فشار دهید</string>
+<string name="nav_epg_Sat">شنبه</string>
+<string name="nav_epg_July">جولای</string>
+<string name="nav_Making_of">ساخت</string>
+<string name="nav_epg_no_program_data">(فاقد داده های برنامه.)</string>
+<string name="nav_Informational">برنامه های اطلاع رسانی/آموزشی/ مدرسه</string>
+<string name="nav_SPORTS">ورزشی</string>
+<string-array name="nav_epg_filter_type">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string name="nav_Childrens">مربوط به کودکان</string>
+<string name="str_pick_insert_usb">دیسک آماده نیست! لطفاً دستگاه یواس بی را وارد کنید!</string>
+<string name="nav_Social_sciences">علوم اجتماعی/معنوی</string>
+<string-array name="nav_epg_subtype_special">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+<item>@string/nav_plano_stereoscopic</item>
+<item>@string/nav_local_or_regional</item>
+</string-array>
+<string name="nav_epg_Friday">جمعه</string>
+<string name="nav_epg_Monday">دوشنبه</string>
+<string name="nav_Feminine">زنانه</string>
+<string name="nav_DOCUMENTARY">مستند</string>
+<string name="nav_Broadcasting">پخش/مطبوعات</string>
+<string name="nav_7_1CH">7.1 کانال</string>
+<string name="epg_password_message">گذرواژه نادرست است</string>
+<string-array name="nav_epg_subtype_movie_cn">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_social">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string name="nav_epg_subtype_sa_comical">@string/nav_Comical</string>
+<string name="nav_Fitness_and_Health">تناسب اندام و سلامتی</string>
+<string-array name="nav_epg_subtype_music">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious_Music</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string name="str_pick_fail">خطا!</string>
+<string name="menu_arrays_Block_AV_and_above">مسدود کردن AV و بالاتر</string>
+<string name="nav_COMICAL">طنز</string>
+<string-array name="nav_epg_subtype_sa_other">
+<item>@string/nav_Adult_cartoon</item>
+<item>@string/nav_Interactive</item>
+<item>@string/nav_Policy</item>
+<item>@string/nav_Religion</item>
+</string-array>
+<string name="nav_Series">سریال</string>
+<string-array name="array_level_th_lock">
+<item>خاموش</item>
+<item>P</item>
+<item>C</item>
+<item>G</item>
+<item>PG13</item>
+<item>PG18</item>
+<item>X</item>
+</string-array>
+<string name="nav_MINI_SERIES">مینی_سریال</string>
+<string name="nav_Equestrian">اسب سواری</string>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>@string/nav_Discussion</item>
+<item>@string/nav_Interview</item>
+</string-array>
+<string name="nav_epg_unclassified">دسته‌بندی نشده</string>
+<string name="menu_arrays_Block_G_and_above">مسدود کردن G و بالاتر</string>
+<string name="nav_Economics">اقتصاد/اجتماعی مشورتی</string>
+<string name="nav_Miniseries">مینی-سریال</string>
+<string name="nav_Ballet">رقص باله</string>
+<string name="menu_arrays_Block_R_and_above">مسدود کردن R و بالاتر</string>
+<string name="nav_Fashion">مد</string>
+<string name="nav_epg_Wednesday">چهار شنبه</string>
+<string name="nav_Travel">سفر</string>
+<string name="nav_Live_Broadcast">پخش زنده</string>
+<string name="nav_epg_may">ماه مه</string>
+<string name="nav_Game_Show">مسابقه تلویزیونی/آزمون/مسابقه</string>
+<string name="nav_Educative">آموزشی</string>
+<string name="nav_plano_stereoscopic">پلانو-استریوسکوپی</string>
+<string-array name="nav_epg_subtype_arts_cn">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string name="epg_rating_unclassified">دسته‌بندی نشده</string>
+<string name="nav_epg_Feb">فوریه</string>
+<string name="nav_Special_Events">رخدادهای خاص (بازی های المپیک، جام جهانی و غیره)</string>
+<string name="nav_SERIES">سریال</string>
+<string name="nav_4CH">4 کانال</string>
+<string name="nav_epg_subtype_sa_mini_series">@string/nav_Miniseries</string>
+<string name="nav_EDUCATION">آموزشی/علمی/موضوعات واقعی</string>
+<string name="nav_Saturday">شنبه</string>
+<string name="nav_epg_genre_type">نوع: </string>
+<string name="nav_Entertainment_for_10_to">سرگرمی برای 10 تا ...</string>
+<string name="nav_Science_Fiction">علمی تخیلی/خیالی/وحشت</string>
+<string name="nav_Folk">موسیقی عامیانه/سنتی</string>
+<string name="nav_UNKNOW">ناشناس</string>
+<string name="nav_Performing_Arts">هنرهای نمایشی</string>
+<string name="nav_INFOTAINMENT">سرگرمی اطلاع رسانی</string>
+<string name="nav_epg_May">ماه مه</string>
+<string name="nav_Current_Affairs">امور خبری/جاری (عمومی)</string>
+<string name="str_pick_month">دوشنبه</string>
+<string name="nav_Athletics">ورزشی</string>
+<string name="menu_arrays_Block_All">مسدود کردن همه</string>
+<string-array name="nav_epg_subtype_news">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string name="nav_epg_Mar">مارس</string>
+<string name="nav_Music">موسیقی/رقص باله/رقص (عمومی)</string>
+<string name="nav_Adult_Movie">فیلم بزرگسالان/نمایشنامه</string>
+<string name="nav_epg_Wed">چهارشنبه</string>
+<string name="epg_bottom_next_day">روز بعد</string>
+<string name="nav_Original_language">زبان اصلی</string>
+<string name="str_bottom_recording">ضبط شده</string>
+<string name="nav_STEREO">استریو</string>
+<string name="nav_Adventure">ماجراجویی/وسترن/جنگی</string>
+<string name="nav_Raffle">قرعه کشی</string>
+<string name="nav_Medicine">پزشکی/فیزیولوژی/روانشناسی</string>
+<string name="str_bottom_record">ضبط کردن</string>
+<string name="nav_SPORT">ورزش</string>
+<string name="nav_RA_TE_SA_PR">RA_TE_SA_PR</string>
+<string name="nav_EROTIC">عاشقانه</string>
+<string name="nav_Report">گزارش</string>
+<string name="nav_Religion">مذهب</string>
+<string name="nav_Sports_Magazines">مجلات ورزشی</string>
+<string name="nav_Rock">راک/پاپ</string>
+<string name="nav_Entertainment_for_10_to_16">برنامه های سرگرمی برای 10 تا 16 سال</string>
+<string name="nav_Motor_Sport">ورزش موتوری</string>
+<string name="nav_Monday">دوشنبه</string>
+<string name="nav_3CH">3 کانال</string>
+<string name="str_bottom_reminder">یادآوری</string>
+<string name="nav_Technology">علوم فناوری/طبیعی</string>
+<string name="nav_Martial_Sport">ورزش رزمی</string>
+<string name="nav_epg_subtype_sa_soap_opera">@string/nav_Soap_opera</string>
+<string name="nav_epg_subtype_sa_movie">@string/nav_Movie</string>
+<string-array name="nav_epg_filter_sa_type">
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_SOAP_OPERA</item>
+<item>@string/nav_MINI_SERIES</item>
+<item>@string/nav_SERIES</item>
+<item>@string/nav_VARIETY</item>
+<item>@string/nav_REALITY_SHOW</item>
+<item>@string/nav_INFORMATION</item>
+<item>@string/nav_COMICAL</item>
+<item>@string/nav_CHILDREN</item>
+<item>@string/nav_EROTIC</item>
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_RA_TE_SA_PR</item>
+<item>@string/nav_DEBATE_INTERVIEW</item>
+<item>@string/nav_OTHER</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string name="nav_New_Media">رسانه های نوین</string>
+<string name="nav_MUSIC">موسیقی/بالت/رقص</string>
+<string name="nav_Talk_Show">تاک شو</string>
+<string name="nav_SAP">SAP</string>
+<string name="epg_bottom_prev_page">بالای صفحه</string>
+<string name="nav_INFORMATION">اطلاعات</string>
+<string name="nav_Prizing">جایزه دهی</string>
+<string name="nav_epg_Oct">اکتبر</string>
+<string name="nav_Winter_Sport">ورزش های زمستانی</string>
+<string name="nav_epg_Fri">جمعه</string>
+<string name="nav_SOAP_OPERA">سپ_اپرا</string>
+<string name="nav_LIFESTYLE">سبک زندگی</string>
+<string name="nav_Drama">فیلم/نمایشنامه (عمومی)</string>
+<string name="nav_Foreign_Countries">کشورها/سفرهای خارجی</string>
+<string-array name="array_level_au_lock">
+<item>@string/menu_arrays_No_Block</item>
+<item>@string/menu_arrays_Block_R_and_above</item>
+<item>@string/menu_arrays_Block_AV_and_above</item>
+<item>@string/menu_arrays_Block_MA_and_above</item>
+<item>@string/menu_arrays_Block_M_and_above</item>
+<item>@string/menu_arrays_Block_PG_and_above</item>
+<item>@string/menu_arrays_Block_G_and_above</item>
+<item>@string/menu_arrays_Block_All</item>
+</string-array>
+<string name="nav_Remarkable_people">افراد برجسته</string>
+<string name="nav_epg_Mon">دوشنبه</string>
+<string name="nav_FM_MONO">اف ام تکی</string>
+<string name="nav_News_Magazine">مجله خبری</string>
+<string name="nav_Adult_cartoon">کارتون بزرگسالان</string>
+<string name="nav_Black_and_White">سیاه و سفید</string>
+<string name="channel_list_name">نام کانال</string>
+<string name="nav_CHILDRENS">برنامه‌های کودکان/جوانان</string>
+<string name="nav_local_or_regional">محلی یا منطقه ای</string>
+<string name="epg_bottom_view_detail">مشاهده جزئیات</string>
+<string name="nav_Entertainment_for_6_to_14">برنامه های سرگرمی برای 6 تا 14 سال</string>
+<string name="nav_epg_September">سپتامبر</string>
+<string name="nav_Biography">زندگی نامه</string>
+<string name="epg_info_program_type">هیچکدام</string>
+<string-array name="nav_epg_subtype_sa_news">
+<item>@string/nav_News</item>
+<item>@string/nav_Report</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Biography</item>
+</string-array>
+<string name="nav_DRAMA">نمایشنامه</string>
+<string name="nav_Interview">مصاحبه</string>
+<string name="nav_Film">فیلم/سینما</string>
+<string name="nav_Auditorium">سالن کنفرانس</string>
+<string-array name="nav_epg_filter_type_cn">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string name="nav_Soap">سپ/نمایش عاشقانه/فولکلور</string>
+<string name="nav_Experimental">فیلم تجربی/ویدیو</string>
+    <string name="str_pick_max">برنامه اضافه شده درخواستی بیش از حداکثر مجاز است!</string>
+</resources>

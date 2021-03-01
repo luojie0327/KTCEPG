@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string-array name="nav_epg_filter_type_UK">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS_AND_FACTUAL</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORT</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LIFESTYLE</item>
+<item>@string/nav_DRAMA</item>
+</string-array>
+<string name="nav_Show">prikaži/prikaži igro (splošno)</string>
+<string name="nav_Surround__2CH">Prostorski zvok_2CH</string>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+<item>@string/nav_Raffle</item>
+<item>@string/nav_Television_sales</item>
+<item>@string/nav_Prizing</item>
+</string-array>
+<string name="nav_Cartoons">risanke/lutke</string>
+<string name="nav_Motoring">avto-moto</string>
+<string name="nav_epg_Nov">Nov.</string>
+<string name="nav_Education">izobraževanje/znanost/splošne teme (splošno)</string>
+<string name="nav_Comedy">komedija</string>
+<string name="nav_Documentary">dokumentarne oddaje</string>
+<string name="nav_VARIETY">RAZNOLIKOST</string>
+<string name="str_pick_start_time_error">Napaka začetnega časa! Čas je pred trenutnim časom</string>
+<string name="str_pick_success">Uspešno opravljeno!</string>
+<string name="nav_epg_Thursday">Četrtek</string>
+<string name="menu_arrays_Block_MA_and_above">Blokiraj MA in višje</string>
+<string name="nav_Magazines">magazini/reportaže/dokumentarne oddaje</string>
+<string-array name="nav_epg_subtype_social_cn">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string name="nav_Tourism">turizem/potovanja</string>
+<string name="epg_bottom_next_page">Stran navzdol</string>
+<string name="nav_SHOW">Oddaja/zabavni šov</string>
+<string name="nav_Mono">Mono</string>
+<string name="nav_epg_October">Oktober</string>
+<string-array name="nav_epg_subtype_movie">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string name="nav_epg_Aug">Avg.</string>
+<string-array name="nav_epg_subtype_news_cn">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_variety">
+<item>@string/nav_Auditorium</item>
+<item>@string/nav_Show</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Making_of</item>
+<item>@string/nav_Feminine</item>
+<item>@string/nav_Game_show</item>
+</string-array>
+<string name="str_pick_past">Že minilo!</string>
+<string name="menu_arrays_Block_M_and_above">Blokiraj M in višje</string>
+<string name="str_bottom_playing">Predvajanje v teku</string>
+<string name="nav_Preschool_children">program za predšolske otroke</string>
+<string name="str_loading_title">Prenos podatkov poteka ...</string>
+<string name="nav_epg_April">April</string>
+<string name="nav_SPECIAL">Posebne značilnosti</string>
+<string name="nav_News">Novice</string>
+<string name="nav_NICAM_STEREO">Nicam Stereo</string>
+<string name="nav_Tuesday">Torek</string>
+<string name="nav_5_1CH">5.1CH</string>
+<string name="nav_Nature">narava/živali/okolje</string>
+<string name="nav_Reject">Zavrni</string>
+<string name="str_pick_start_time_conflict">Konflikt časov!</string>
+<string name="nav_Discussion">razprava/intervju/razprava</string>
+<string name="nav_Fine_Arts">likovna umetnost</string>
+<string name="nav_Tennis">tenis/skvoš</string>
+<string name="str_main_no_data">Ni podatkov o programu; snemanje ni mogoče</string>
+<string name="nav_Weather_Report">novice/vreme</string>
+<string name="nav_Health">Zdravje</string>
+<string name="str_pick_cancel">Preklicano!</string>
+<string name="str_pick_end_time_error">Napaka končnega časa! Sedanji čas je za časom končanja</string>
+<string name="nav_epg_unsupport">NI PODPRTO</string>
+<string-array name="nav_epg_subtype_show_cn">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string name="nav_Reality_show">Resničnostni šov</string>
+<string name="nav_Interactive">Interaktivno</string>
+<string-array name="nav_epg_subtype_children_cn">
+<item>@string/nav_Childrens</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string-array name="nav_epg_subtype_education">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string name="nav_Popular_culture">popularna kultura/tradicionalna umetnost</string>
+<string name="nav_CHILDREN">Otroški program</string>
+<string name="nav_Erotic">Erotika</string>
+<string name="nav_epg_Jun">Jun.</string>
+<string name="nav_Thursday">Četrtek</string>
+<string-array name="nav_epg_subtype_sports_cn">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sport</item>
+</string-array>
+<string name="nav_epg_Jul">Jul.</string>
+<string name="nav_NEWS_AND_FACTUAL">NOVICE IN INFORMATIVNI PROGRAM</string>
+<string name="nav_Unpublished">neobjavljeno</string>
+<string name="nav_Stereo">Stereo</string>
+<string name="nav_Team_Sports">ekipni športi (brez nogometa)</string>
+<string name="nav_Further_Education">nadaljnje izobraževanje</string>
+<string name="epg_retrieving_show">Pridobivanje podatkov ...</string>
+<string name="nav_epg_January">Januar</string>
+<string name="nav_REALITY_SHOW">RESNIČNOSTNI_ŠOV</string>
+<string name="nav_Surround_2CH">Prostorski zvok 2CH</string>
+<string name="str_pick_minute">Min</string>
+<string name="nav_Policy">Politika</string>
+<string name="menu_arrays_Block_PG_and_above">Blokiraj PG in višje</string>
+<string name="nav_Romance">romantika</string>
+<string name="nav_CURRENT_AFFAIRS">AKTUALNI DOGODKI</string>
+<string name="nav_Arts_magazines">umetnostni magazin</string>
+<string-array name="nav_epg_subtype_education_cn">
+<item>@string/nav_Education</item>
+<item>@string/nav_Nature</item>
+<item>@string/nav_Technology</item>
+<item>@string/nav_Medicine</item>
+<item>@string/nav_Foreign_Countries</item>
+<item>@string/nav_Social_sciences</item>
+<item>@string/nav_Further_Education</item>
+<item>@string/nav_Languages</item>
+</string-array>
+<string name="epg_bottom_prev_day">Predhodni dan</string>
+<string name="nav_epg_August">Avgust</string>
+<string name="app_name">EPG</string>
+<string name="nav_Dual__Mono">Dual_Mono</string>
+<string name="nav_Sunday">Nedelja</string>
+<string name="nav_ENTERTAINMENT">ZABAVA</string>
+<string name="nav_Cooking">Kuhanje</string>
+<string name="nav_Musical">muzikal/opera</string>
+<string name="nav_NICAM_MONO">Nicam Mono</string>
+<string name="epg_bottom_ENTER">VNOS</string>
+<string-array name="nav_epg_subtype_leisure_cn">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string name="nav_Advertisement">oglasi/nakupovanje</string>
+<string name="epg_bottom_0">0</string>
+<string name="nav_Soap_opera">Soap opera</string>
+<string name="str_pick_hour">Ura</string>
+<string name="nav_epg_Sep">Sep.</string>
+<string-array name="nav_epg_filter_type_AUS">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_ENTERTAINMENT</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_CURRENT_AFFAIRS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_INFOTAINMENT</item>
+<item>@string/nav_SPECIAL</item>
+<item>@string/nav_COMEDY</item>
+<item>@string/nav_DRAMA</item>
+<item>@string/nav_DOCUMENTARY</item>
+</string-array>
+<string name="nav_Water_Sport">vodni športi</string>
+<string name="nav_Sports">športi (splošno)</string>
+<string name="nav_Surround">Prostorski zvok</string>
+<string-array name="nav_epg_subtype_sa_information">
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Fashion</item>
+<item>@string/nav_Country</item>
+<item>@string/nav_Health</item>
+<item>@string/nav_Travel</item>
+</string-array>
+<string name="nav_Literature">literatura</string>
+<string name="nav_Game_show">Zabavni šov</string>
+<string-array name="nav_epg_subtype_music_cn">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string name="nav_Handicraft">ročna dela</string>
+<string name="nav_Social">družba/politične teme/gospodarstvo (splošno)</string>
+<string name="epg_bottom_type_filter">Filter vrste</string>
+<string name="nav_epg_Sun">Ned.</string>
+<string name="nav_Movie">Film</string>
+<string name="nav_Comical">Komedija</string>
+<string-array name="array_level_dvb_lock">
+<item>Izkl.</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+<item>12</item>
+<item>13</item>
+<item>14</item>
+<item>15</item>
+<item>16</item>
+<item>17</item>
+<item>18</item>
+</string-array>
+<string name="nav_LEISURE">Prostočasne dejavnosti</string>
+<string name="nav_Arts">umetnost/kultura (brez glasbe)</string>
+<string name="nav_Serious_Music">resna glasba/klasična glasba</string>
+<string name="nav_OTHER">DRUGO</string>
+<string name="nav_MOVIE">Film/Drama</string>
+<string name="str_pick_title">Snemanje</string>
+<string name="nav_Television_sales">TV prodaja</string>
+<string name="nav_epg_June">Junij</string>
+<string name="nav_epg_Saturday">Sobota</string>
+<string name="nav_Football">nogomet/ameriški nogomet</string>
+<string name="nav_Martial_Sports">borilni športi</string>
+<string name="str_pick_day">Dan</string>
+<string name="nav_NICAM_DUAL2">Nicam Dual2</string>
+<string name="nav_NICAM_DUAL1">Nicam Dual1</string>
+<string name="nav_Detective">detektivka/triler</string>
+<string name="nav_Friday">Petek</string>
+<string name="nav_epg_Apr">Apr.</string>
+<string name="nav_Children">program za otroke/mladino</string>
+<string name="nav_epg_December">December</string>
+<string name="nav_COMEDY">KOMEDIJA</string>
+<string name="nav_Variety_Show">zabavna oddaja</string>
+<string name="nav_ARTS">Umetnost/kultura (brez glasbe)</string>
+<string name="nav_epg_no_title">(Ni naslova)</string>
+<string name="epg_password">Geslo</string>
+<string name="nav_epg_February">Februar</string>
+<string name="nav_DUAL2">Dvojni2</string>
+<string name="nav_Serious">resni/klasični/verski/zgodovinski film/drama</string>
+<string name="nav_DUAL1">Dvojni1</string>
+<string name="nav_Jazz">jazz</string>
+<string-array name="nav_epg_subtype_leisure">
+<item>@string/nav_Leisure_Hobbies</item>
+<item>@string/nav_Tourism</item>
+<item>@string/nav_Handicraft</item>
+<item>@string/nav_Motoring</item>
+<item>@string/nav_Fitness_and_Health</item>
+<item>@string/nav_Cooking</item>
+<item>@string/nav_Advertisement</item>
+<item>@string/nav_Gardening</item>
+</string-array>
+<string name="nav_epg_Jan">Jan.</string>
+<string name="nav_MONO">Mono</string>
+<string name="nav_epg_March">Marec</string>
+<string-array name="nav_epg_subtype_arts">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string name="nav_Gardening">vrtnarstvo</string>
+<string name="nav_Wednesday">Sreda</string>
+<string name="nav_DEBATE_INTERVIEW">RAZPRAVA_INTERVJU</string>
+<string name="nav_NEWS">Novice/informativna oddaja</string>
+<string-array name="nav_epg_subtype_special_cn">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+</string-array>
+<string name="nav_Country">Država</string>
+<string name="nav_epg_Tue">Tor</string>
+<string name="nav_Leisure_Hobbies">prosti čas (splošno)</string>
+<string name="nav_SOCIAL">Družba/politika/gospodarstvo</string>
+<string name="nav_epg_Dec">Dec.</string>
+<string name="str_bottom_reminding">Opomnik</string>
+<string name="nav_FM_STEREO">FM  Stereo</string>
+<string name="nav_epg_Tuesday">Torek</string>
+<string name="nav_epg_Thur">Čet</string>
+<string name="nav_epg_Sunday">Nedelja</string>
+<string-array name="nav_epg_subtype_children">
+<item>@string/nav_Children</item>
+<item>@string/nav_Preschool_children</item>
+<item>@string/nav_Entertainment_for_6_to_14</item>
+<item>@string/nav_Entertainment_for_10_to_16</item>
+<item>@string/nav_Informational</item>
+<item>@string/nav_Cartoons</item>
+</string-array>
+<string name="nav_Languages">jeziki</string>
+<string-array name="nav_epg_subtype_sports">
+<item>@string/nav_Sports</item>
+<item>@string/nav_Special_Events</item>
+<item>@string/nav_Sports_Magazines</item>
+<item>@string/nav_Football</item>
+<item>@string/nav_Tennis</item>
+<item>@string/nav_Team_Sports</item>
+<item>@string/nav_Athletics</item>
+<item>@string/nav_Motor_Sport</item>
+<item>@string/nav_Water_Sport</item>
+<item>@string/nav_Winter_Sport</item>
+<item>@string/nav_Equestrian</item>
+<item>@string/nav_Martial_Sports</item>
+</string-array>
+<string name="menu_arrays_No_Block">Ni Blokade</string>
+<string name="nav_Dual_Mono">Dual Mono</string>
+<string-array name="nav_epg_subtype_sa_sports">
+	<item>@string/nav_Sports</item>
+</string-array>
+<string name="str_pick_confirm">Za potrditev pritisnite tipko OK</string>
+<string name="str_pick_max">Zahtevano dodajanje razporedov presega največje dovoljeno število!</string>
+<string name="nav_epg_Sat">Sob</string>
+<string name="nav_epg_July">Julij</string>
+<string name="nav_Making_of">Izdelava</string>
+<string name="nav_epg_no_program_data">Ni podatkov o programu.</string>
+<string name="nav_Informational">informativni/izobraževalni/šolski programi</string>
+<string name="nav_SPORTS">Šport</string>
+<string-array name="nav_epg_filter_type">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string name="nav_Childrens">Otroški program</string>
+<string name="str_pick_insert_usb">Disk ni pripravljen! Prosimo vstavite napravo USB!</string>
+<string name="nav_Social_sciences">družbene/duhovne vede</string>
+<string-array name="nav_epg_subtype_special">
+<item>@string/nav_Original_language</item>
+<item>@string/nav_Black_and_White</item>
+<item>@string/nav_Unpublished</item>
+<item>@string/nav_Live_Broadcast</item>
+<item>@string/nav_plano_stereoscopic</item>
+<item>@string/nav_local_or_regional</item>
+</string-array>
+<string name="nav_epg_Friday">Petek</string>
+<string name="nav_epg_Monday">Ponedeljek</string>
+<string name="nav_Feminine">Program za ženske</string>
+<string name="nav_DOCUMENTARY">DOKUMENTARNE ODDAJE</string>
+<string name="nav_Broadcasting">oddajanje/tisk</string>
+<string name="nav_7_1CH">7.1CH</string>
+<string name="epg_password_message">Napačno geslo</string>
+<string-array name="nav_epg_subtype_movie_cn">
+<item>@string/nav_Drama</item>
+<item>@string/nav_Detective</item>
+<item>@string/nav_Adventure</item>
+<item>@string/nav_Science_Fiction</item>
+<item>@string/nav_Comedy</item>
+<item>@string/nav_Soap</item>
+<item>@string/nav_Romance</item>
+<item>@string/nav_Serious</item>
+<item>@string/nav_Adult_Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_social">
+<item>@string/nav_Social</item>
+<item>@string/nav_Magazines</item>
+<item>@string/nav_Economics</item>
+<item>@string/nav_Remarkable_people</item>
+</string-array>
+<string name="nav_Fitness_and_Health">vadba in zdravje</string>
+<string-array name="nav_epg_subtype_music">
+<item>@string/nav_Music</item>
+<item>@string/nav_Rock</item>
+<item>@string/nav_Serious_Music</item>
+<item>@string/nav_Folk</item>
+<item>@string/nav_Jazz</item>
+<item>@string/nav_Musical</item>
+<item>@string/nav_Ballet</item>
+</string-array>
+<string name="str_pick_fail">Neuspešno!</string>
+<string name="menu_arrays_Block_AV_and_above">Blokiraj AV in višje</string>
+<string name="nav_COMICAL">KOMEDIJA</string>
+<string-array name="nav_epg_subtype_sa_other">
+<item>@string/nav_Adult_cartoon</item>
+<item>@string/nav_Interactive</item>
+<item>@string/nav_Policy</item>
+<item>@string/nav_Religion</item>
+</string-array>
+<string name="nav_Series">Serije</string>
+<string-array name="array_level_th_lock">
+<item>Izkl.</item>
+<item>P</item>
+<item>C</item>
+<item>G</item>
+<item>PG13</item>
+<item>PG18</item>
+<item>X</item>
+</string-array>
+<string name="nav_MINI_SERIES">MINI_SERIJA</string>
+<string name="nav_Equestrian">konjeništvo</string>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>@string/nav_Discussion</item>
+<item>@string/nav_Interview</item>
+</string-array>
+<string name="nav_epg_unclassified">Nerazvrščeno</string>
+<string name="menu_arrays_Block_G_and_above">Blokiraj G in višje</string>
+<string name="nav_Economics">gospodarstvo/družbeni nasveti</string>
+<string name="nav_Miniseries">Mini serije</string>
+<string name="nav_Ballet">balet</string>
+<string name="menu_arrays_Block_R_and_above">Blokiraj R in višje</string>
+<string name="nav_Fashion">moda</string>
+<string name="nav_epg_Wednesday">Sreda</string>
+<string name="nav_Travel">Potovanja</string>
+<string name="nav_Live_Broadcast">neposredni prenos</string>
+<string name="nav_epg_may">Maj</string>
+<string name="nav_Game_Show">zabavni šov/kviz/tekmovanje</string>
+<string name="nav_Educative">Izobraževanje</string>
+<string name="nav_plano_stereoscopic">plano-stereoskopsko</string>
+<string-array name="nav_epg_subtype_arts_cn">
+<item>@string/nav_Arts</item>
+<item>@string/nav_Performing_Arts</item>
+<item>@string/nav_Fine_Arts</item>
+<item>@string/nav_Religion</item>
+<item>@string/nav_Popular_culture</item>
+<item>@string/nav_Literature</item>
+<item>@string/nav_Film</item>
+<item>@string/nav_Experimental</item>
+<item>@string/nav_Broadcasting</item>
+<item>@string/nav_New_Media</item>
+<item>@string/nav_Arts_magazines</item>
+<item>@string/nav_Fashion</item>
+</string-array>
+<string name="epg_rating_unclassified">Nerazvrščeno</string>
+<string name="nav_epg_Feb">Feb.</string>
+<string name="nav_Special_Events">posebni dogodki (olimpijske igre, svetovni pokal itd.)</string>
+<string name="nav_SERIES">SERIJE</string>
+<string name="nav_4CH">4CH</string>
+<string name="nav_EDUCATION">Izobraževanje/znanost/informativne teme</string>
+<string name="nav_Saturday">Sobota</string>
+<string name="nav_epg_genre_type">Žanr: </string>
+<string name="nav_Entertainment_for_10_to">Zabava od 10 do ...</string>
+<string name="nav_Science_Fiction">znanstvena fantastika/fantastika/grozljivke</string>
+<string name="nav_Folk">ljudska/tradicionalna glasba</string>
+<string name="nav_UNKNOW">NI ZNANO</string>
+<string name="nav_Performing_Arts">uprizoritvene umetnosti</string>
+<string name="nav_INFOTAINMENT">INFORMIRANJE IN ZABAVA</string>
+<string name="nav_epg_May">Maj</string>
+<string name="nav_Current_Affairs">novice/aktualni dogodki (splošno)</string>
+<string name="str_pick_month">Pon</string>
+<string name="nav_Athletics">atletika</string>
+<string name="menu_arrays_Block_All">Blokiraj Vse</string>
+<string-array name="nav_epg_subtype_news">
+<item>@string/nav_Current_Affairs</item>
+<item>@string/nav_Weather_Report</item>
+<item>@string/nav_News_Magazine</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Discussion</item>
+</string-array>
+<string name="nav_epg_Mar">Mar.</string>
+<string name="nav_Music">glasba/balet/plesi (splošno)</string>
+<string name="nav_Adult_Movie">filmi za odrasle/drama</string>
+<string name="nav_epg_Wed">Sre</string>
+<string name="epg_bottom_next_day">Nasl. dan</string>
+<string name="nav_Original_language">izvorni jezik</string>
+<string name="str_bottom_recording">Posneto</string>
+<string name="nav_STEREO">Stereo</string>
+<string name="nav_Adventure">pustolovščina/vestern/vojna</string>
+<string name="nav_Raffle">Žrebanje</string>
+<string name="nav_Medicine">medicina/fiziologija/psihologija</string>
+<string name="str_bottom_record">Snemanje</string>
+<string name="nav_SPORT">ŠPORT</string>
+<string name="nav_RA_TE_SA_PR">RA_TE_SA_PR</string>
+<string name="nav_EROTIC">EROTIKA</string>
+<string name="nav_Report">Poročilo</string>
+<string name="nav_Religion">religija</string>
+<string name="nav_Sports_Magazines">športni magazin</string>
+<string name="nav_Rock">rock/pop</string>
+<string name="nav_Entertainment_for_10_to_16">zabavni programi za 10 do 16 let</string>
+<string name="nav_Motor_Sport">moto šport</string>
+<string name="nav_Monday">Ponedeljek</string>
+<string name="nav_3CH">3CH</string>
+<string name="str_bottom_reminder">Opomni</string>
+<string name="nav_Technology">tehnologija/narava</string>
+<string name="nav_Martial_Sport">Borilni športi</string>
+<string-array name="nav_epg_filter_sa_type">
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_SOAP_OPERA</item>
+<item>@string/nav_MINI_SERIES</item>
+<item>@string/nav_SERIES</item>
+<item>@string/nav_VARIETY</item>
+<item>@string/nav_REALITY_SHOW</item>
+<item>@string/nav_INFORMATION</item>
+<item>@string/nav_COMICAL</item>
+<item>@string/nav_CHILDREN</item>
+<item>@string/nav_EROTIC</item>
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_RA_TE_SA_PR</item>
+<item>@string/nav_DEBATE_INTERVIEW</item>
+<item>@string/nav_OTHER</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+<item>@string/nav_Show</item>
+<item>@string/nav_Game_Show</item>
+<item>@string/nav_Variety_Show</item>
+<item>@string/nav_Talk_Show</item>
+</string-array>
+<string name="nav_New_Media">novi medij </string>
+<string name="nav_MUSIC">Glasba/balet/ples</string>
+<string name="nav_Talk_Show">pogovorne oddaje</string>
+<string name="nav_SAP">SAP</string>
+<string name="epg_bottom_prev_page">Stran navzgor</string>
+<string name="nav_INFORMATION">INFORMACIJE</string>
+<string name="nav_Prizing">Nagrade</string>
+<string name="nav_epg_Oct">Okt.</string>
+<string name="nav_Winter_Sport">zimski športi</string>
+<string name="nav_epg_Fri">Pet</string>
+<string name="nav_SOAP_OPERA">TV_NADALJEVANKA</string>
+<string name="nav_LIFESTYLE">ŽIVLJENJSKI SLOG</string>
+<string name="nav_Drama">film/drama (splošno)</string>
+<string name="nav_Foreign_Countries">tuje dežele/odprave</string>
+<string-array name="array_level_au_lock">
+<item>@string/menu_arrays_No_Block</item>
+<item>@string/menu_arrays_Block_R_and_above</item>
+<item>@string/menu_arrays_Block_AV_and_above</item>
+<item>@string/menu_arrays_Block_MA_and_above</item>
+<item>@string/menu_arrays_Block_M_and_above</item>
+<item>@string/menu_arrays_Block_PG_and_above</item>
+<item>@string/menu_arrays_Block_G_and_above</item>
+<item>@string/menu_arrays_Block_All</item>
+</string-array>
+<string name="nav_Remarkable_people">znameniti ljudje</string>
+<string name="nav_epg_Mon">Pon</string>
+<string name="nav_FM_MONO">FM Mono</string>
+<string name="nav_News_Magazine">novice</string>
+<string name="nav_Adult_cartoon">Risanke za odrasle</string>
+<string name="nav_Black_and_White">črno belo</string>
+<string name="channel_list_name">Ime kanala</string>
+<string name="nav_CHILDRENS">program za otroke/mladino</string>
+<string name="nav_local_or_regional">lokalno ali regionalno</string>
+<string name="epg_bottom_view_detail">Prikaz podrobnosti</string>
+<string name="nav_Entertainment_for_6_to_14">zabavni programi za 6 do 14 let</string>
+<string name="nav_epg_September">September</string>
+<string name="nav_Biography">Biografija</string>
+<string name="epg_info_program_type">Brez</string>
+<string-array name="nav_epg_subtype_sa_news">
+<item>@string/nav_News</item>
+<item>@string/nav_Report</item>
+<item>@string/nav_Documentary</item>
+<item>@string/nav_Biography</item>
+</string-array>
+<string name="nav_DRAMA">DRAMA</string>
+<string name="nav_Interview">Intervju</string>
+<string name="nav_Film">film/kinoteka</string>
+<string name="nav_Auditorium">Avditorij</string>
+<string-array name="nav_epg_filter_type_cn">
+<item>@string/nav_MOVIE</item>
+<item>@string/nav_NEWS</item>
+<item>@string/nav_SHOW</item>
+<item>@string/nav_SPORTS</item>
+<item>@string/nav_CHILDRENS</item>
+<item>@string/nav_MUSIC</item>
+<item>@string/nav_ARTS</item>
+<item>@string/nav_SOCIAL</item>
+<item>@string/nav_EDUCATION</item>
+<item>@string/nav_LEISURE</item>
+<item>@string/nav_SPECIAL</item>
+</string-array>
+<string name="nav_Soap">TV nadaljevanka/melodrama/folklora</string>
+<string name="nav_Experimental">eksperimentalni film/video</string>
+</resources>
